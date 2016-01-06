@@ -3,12 +3,12 @@
   <instance class="PJM">
     <rowset name="PjmDefn" size="2808" count="1">
       <row>
-        <szLastUpdDttm>2015-12-18-00.30.08.106852</szLastUpdDttm>
+        <szLastUpdDttm>2016-01-06-08.25.25.671207</szLastUpdDttm>
         <szLastUpdOprId>VP1</szLastUpdOprId>
         <szObjectOwnerID></szObjectOwnerID>
         <nUseCount>1</nUseCount>
         <bUseUpdate>1</bUseUpdate>
-        <lVersion>36</lVersion>
+        <lVersion>41</lVersion>
         <lSwapVersion>0</lSwapVersion>
         <nSwapNum>0</nSwapNum>
         <szProjectName>CIBER_PTPPB_PAGELET</szProjectName>
@@ -16,8 +16,8 @@
         <szProjectDescr></szProjectDescr>
         <szSrcDBName>PSPADMO</szSrcDBName>
         <szSrcOprId>VP1</szSrcOprId>
-        <szSessionId>a8654785-b41f-11e5-b159-d1bb06205adb</szSessionId>
-        <szRunDtTm>2016-01-05-21.46.18.549405</szRunDtTm>
+        <szSessionId>f430fafb-b478-11e5-b188-a2b7d05db617</szSessionId>
+        <szRunDtTm>2016-01-06-08.25.31.670692</szRunDtTm>
         <szTgtServerName></szTgtServerName>
         <szTgtDBName></szTgtDBName>
         <szTgtOprId></szTgtOprId>
@@ -34,9 +34,9 @@
         <szReleaseDttm></szReleaseDttm>
         <nDescrLongLen>0</nDescrLongLen>
         <hDescrLong>HANDLE</hDescrLong>
-        <nProjectCount>15</nProjectCount>
+        <nProjectCount>14</nProjectCount>
         <lpPit> POINTER
-          <rowset name="PjmPit" size="12840" count="15">
+          <rowset name="PjmPit" size="11984" count="14">
             <row>
               <eObjectType>57</eObjectType>
               <szObjectValue_0>CIBER_PTPPB_PAGELET</szObjectValue_0>
@@ -70,7 +70,7 @@
               <eTargetStatus>0</eTargetStatus>
               <eUpgradeAction>0</eUpgradeAction>
               <bTakeAction>1</bTakeAction>
-              <bCopyDone>1</bCopyDone>
+              <bCopyDone>0</bCopyDone>
               <eRowStatus>3</eRowStatus>
             </row>
             <row>
@@ -88,7 +88,7 @@
               <eTargetStatus>0</eTargetStatus>
               <eUpgradeAction>0</eUpgradeAction>
               <bTakeAction>1</bTakeAction>
-              <bCopyDone>1</bCopyDone>
+              <bCopyDone>0</bCopyDone>
               <eRowStatus>3</eRowStatus>
             </row>
             <row>
@@ -106,7 +106,7 @@
               <eTargetStatus>0</eTargetStatus>
               <eUpgradeAction>0</eUpgradeAction>
               <bTakeAction>1</bTakeAction>
-              <bCopyDone>1</bCopyDone>
+              <bCopyDone>0</bCopyDone>
               <eRowStatus>3</eRowStatus>
             </row>
             <row>
@@ -142,7 +142,7 @@
               <eTargetStatus>0</eTargetStatus>
               <eUpgradeAction>0</eUpgradeAction>
               <bTakeAction>1</bTakeAction>
-              <bCopyDone>1</bCopyDone>
+              <bCopyDone>0</bCopyDone>
               <eRowStatus>3</eRowStatus>
             </row>
             <row>
@@ -160,7 +160,7 @@
               <eTargetStatus>0</eTargetStatus>
               <eUpgradeAction>0</eUpgradeAction>
               <bTakeAction>1</bTakeAction>
-              <bCopyDone>1</bCopyDone>
+              <bCopyDone>0</bCopyDone>
               <eRowStatus>3</eRowStatus>
             </row>
             <row>
@@ -196,7 +196,7 @@
               <eTargetStatus>0</eTargetStatus>
               <eUpgradeAction>0</eUpgradeAction>
               <bTakeAction>1</bTakeAction>
-              <bCopyDone>1</bCopyDone>
+              <bCopyDone>0</bCopyDone>
               <eRowStatus>3</eRowStatus>
             </row>
             <row>
@@ -214,7 +214,7 @@
               <eTargetStatus>0</eTargetStatus>
               <eUpgradeAction>0</eUpgradeAction>
               <bTakeAction>1</bTakeAction>
-              <bCopyDone>1</bCopyDone>
+              <bCopyDone>0</bCopyDone>
               <eRowStatus>3</eRowStatus>
             </row>
             <row>
@@ -250,7 +250,7 @@
               <eTargetStatus>0</eTargetStatus>
               <eUpgradeAction>0</eUpgradeAction>
               <bTakeAction>1</bTakeAction>
-              <bCopyDone>1</bCopyDone>
+              <bCopyDone>0</bCopyDone>
               <eRowStatus>3</eRowStatus>
             </row>
             <row>
@@ -258,24 +258,6 @@
               <szObjectValue_0>CIBER_PTPPB_PAGELET</szObjectValue_0>
               <szObjectValue_1>XMLDataSource</szObjectValue_1>
               <szObjectValue_2>MultiXMLDataSource</szObjectValue_2>
-              <szObjectValue_3></szObjectValue_3>
-              <eObjectID_0>104</eObjectID_0>
-              <eObjectID_1>105</eObjectID_1>
-              <eObjectID_2>107</eObjectID_2>
-              <eObjectID_3>0</eObjectID_3>
-              <bExecute>0</bExecute>
-              <eSourceStatus>0</eSourceStatus>
-              <eTargetStatus>0</eTargetStatus>
-              <eUpgradeAction>0</eUpgradeAction>
-              <bTakeAction>1</bTakeAction>
-              <bCopyDone>1</bCopyDone>
-              <eRowStatus>3</eRowStatus>
-            </row>
-            <row>
-              <eObjectType>58</eObjectType>
-              <szObjectValue_0>CIBER_PTPPB_PAGELET</szObjectValue_0>
-              <szObjectValue_1>XMLDataSource</szObjectValue_1>
-              <szObjectValue_2>PSScriptURLXML</szObjectValue_2>
               <szObjectValue_3></szObjectValue_3>
               <eObjectID_0>104</eObjectID_0>
               <eObjectID_1>105</eObjectID_1>
