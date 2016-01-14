@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/interact.js/1.2.4/interact.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.14.3/ui-bootstrap-tpls.min.js"></script>
+    <script src="//mattlewis.me/angular-bootstrap-calendar/dist/js/angular-bootstrap-calendar-tpls.min.js"></script>
+    <!--<script src="example.js"></script>-->
+	<script>
+		angular.module('mwl.calendar.docs', ['mwl.calendar', 'ngAnimate', 'ui.bootstrap']);
+		angular
+		  .module('mwl.calendar.docs')
+		  .controller('ClickableEventsCtrl', function(moment, alert) {
+
+			var vm = this;
+
+			vm.events = [
+			  {
+				title: 'Click me',
+				type: 'warning',
+				startsAt: moment().startOf('month').toDate()
+			  },
+			  {
+				title: 'Or click me',
+				description: 'Bite me',
+				type: 'info',
+				startsAt: moment().startOf('month').toDate()
+			  }
+			];
+
+			vm.calendarView = 'month';
+			vm.viewDate = moment().startOf('month').toDate()
+			vm.isCellOpen = false;
+
+			vm.eventClicked = function(event) {
+			  alert.show('Clicked', event);
+			};
+
+		  });	
+	</script>
+<!--    <script src="helpers.js"></script>-->
+	<script>
+	angular
+	  .module('mwl.calendar.docs')
+	  .factory('alert', function($uibModal) {
+
+		function show(action, event) {
+		  return $uibModal.open({
+			//templateUrl: 'modalContent.html',
+			template: '<div class="modal-header"><h3 class="modal-title">Event action occurred!</h3></div><div class="modal-body"><p>Date:<pre>{{ vm.event.startsAt }}</pre></p><p>Title:<pre>{{ vm.event.description | json }}</pre></p></div><div class="modal-footer"><button class="btn btn-primary" ng-click="$close()">OK</button></div>',
+			controller: function() {
+			  var vm = this;
+			  vm.action = action;
+			  vm.event = event;
+			},
+			controllerAs: 'vm'
+		  });
+		}
+
+		return {
+		  show: show
+		};
+
+	  });
+	</script>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//mattlewis.me/angular-bootstrap-calendar/dist/css/angular-bootstrap-calendar.min.css" rel="stylesheet">
+  </head>
+  <body>
+
+<div ng-app="mwl.calendar.docs" ng-controller="ClickableEventsCtrl as vm">
+  <!--<ng-include src="'calendarControls.html'"></ng-include>-->
+	<h2 class="text-center">{{ vm.calendarTitle }}</h2>
+      <br>
+      <div class="row">
+
+        <div class="col-md-6 text-center">
+          <div class="btn-group">
+
+            <button
+              class="btn btn-primary"
+              mwl-date-modifier
+              date="vm.viewDate"
+              decrement="vm.calendarView">
+              Previous
+            </button>
+            <button
+              class="btn btn-default"
+              mwl-date-modifier
+              date="vm.viewDate"
+              set-to-today>
+              Today
+            </button>
+            <button
+              class="btn btn-primary"
+              mwl-date-modifier
+              date="vm.viewDate"
+              increment="vm.calendarView">
+              Next
+            </button>
+          </div>
+        </div>
+
+        <br class="visible-xs visible-sm">
+
+        <div class="col-md-6 text-center">
+          <div class="btn-group">
+            <label class="btn btn-primary" ng-model="vm.calendarView" uib-btn-radio="'year'">Year</label>
+            <label class="btn btn-primary" ng-model="vm.calendarView" uib-btn-radio="'month'">Month</label>
+            <label class="btn btn-primary" ng-model="vm.calendarView" uib-btn-radio="'week'">Week</label>
+            <label class="btn btn-primary" ng-model="vm.calendarView" uib-btn-radio="'day'">Day</label>
+          </div>
+        </div>
+
+      </div>
+      <br>
+    
+  <mwl-calendar
+    events="vm.events"
+    view="vm.calendarView"
+    view-date="vm.viewDate"
+	view-title="vm.calendarTitle"
+    on-event-click="vm.eventClicked(calendarEvent);">
+  </mwl-calendar>
+</div>
+
+  </body>    
+</html>
