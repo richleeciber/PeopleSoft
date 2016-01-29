@@ -1,0 +1,220 @@
+<!doctype html>
+<html>
+  <head>
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/interact.js/1.2.4/interact.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.14.3/ui-bootstrap-tpls.min.js"></script>
+    <script src="angular-bootstrap-calendar-tpls.js"></script>
+	<!--<script src="//mattlewis.me/angular-bootstrap-calendar/dist/js/angular-bootstrap-calendar-tpls.js"></script>-->
+	<script>	
+	
+	angular.module('mwl.calendar.docs', ['mwl.calendar', 'ngAnimate', 'ui.bootstrap']);
+		angular
+		  .module('mwl.calendar.docs')
+		  .controller('ClickableEventsCtrl', function(moment, alert) {
+
+			var vm = this;
+
+			vm.events = [
+			  {
+				title: 'Click me',
+				type: 'warning',
+				startsAt: moment().startOf('month').toDate()
+			  },
+			  {
+				title: 'Or click me',
+				description: 'Bite me',
+				type: 'info',
+				startsAt: moment().startOf('month').toDate()
+			  },
+			  {
+				title: 'An event',
+				type: 'warning',
+				startsAt: moment().startOf('week').subtract(2, 'days').add(8, 'hours').toDate(),
+				endsAt: moment().startOf('week').add(1, 'week').add(9, 'hours').toDate(),
+				draggable: true,
+				resizable: true
+			  }, {
+				title: '<i class="glyphicon glyphicon-asterisk"></i> <span class="text-primary">Another event</span>, with a <i>html</i> title',
+				type: 'info',
+				startsAt: moment().subtract(1, 'day').toDate(),
+				endsAt: moment().add(5, 'days').toDate(),
+				draggable: true,
+				resizable: true
+			  }, {
+				title: 'This is a really long event title that occurs on every year',
+				type: 'important',
+				startsAt: moment().startOf('day').add(7, 'hours').toDate(),
+				endsAt: moment().startOf('day').add(19, 'hours').toDate(),
+				recursOn: 'year',
+				draggable: true,
+				resizable: true
+			  }, {
+				title: 'Manual add date',
+				type: 'important',
+				startsAt: '2016-01-24T12:00:00.000',
+				endsAt: '2016-01-24T16:00:00.000',
+			  },
+			  {
+              title: 'Consolidated Calendar Test Event',
+              type: 'important',
+			  startsAt: moment('2016-01-14-12.00.00.000000', 'YYYY-MM-DD-HH.mm'),
+              endsAt: moment('2016-01-14-13.00.00.000000', 'YYYY-MM-DD-HH.mm')
+			  },                
+            {
+              title: 'Test Event 2',
+              type: 'important',
+              startsAt: '2016-01-19T16:00:00.000',
+              endsAt: '2016-01-19T17:00:00.000'
+            }
+			];
+
+			vm.calendarView = 'month';
+			vm.viewDate = moment().startOf('month').toDate();
+			vm.isCellOpen = false;
+
+			vm.eventClicked = function(event) {
+			  alert.show('Clicked', event);
+			};
+
+		  });	
+
+	angular
+	  .module('mwl.calendar.docs')
+	  .factory('alert', function($uibModal) {
+
+		function show(action, event) {
+		  return $uibModal.open({
+			//templateUrl: 'modalContent.html',
+			template: '<div class="modal-header"><h3 class="modal-title">{{ vm.event.title }}</h3></div><div class="modal-body"><p>Date:<pre>{{ vm.event.startsAt | json }}</pre></p><p>Title:<pre>{{ vm.event.title }}</pre></p></div><div class="modal-footer"><button class="btn btn-primary" ng-click="$close()">OK</button></div>',
+			controller: function() {
+			  var vm = this;
+			  vm.action = action;
+			  vm.event = event;
+			},
+			controllerAs: 'vm'
+		  });
+		}
+
+		return {
+		  show: show
+		};
+
+	  });
+	</script>
+	
+	<!--	debug
+	<script>
+	angular.module('mwl.calendar.docs')
+		.config(function(calendarConfig) {
+		console.log(calendarConfig); //view all available config
+	});
+	</script>
+-->	
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="angular-bootstrap-calendar.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+	<div class="container-fluid">
+		<div class="row" ng-app="mwl.calendar.docs" ng-controller="ClickableEventsCtrl as vm">
+			<div class="col-md-4">
+				<div class="panel panel-default">
+					<div class="panel-body">  
+						<div class="text-center"><br></br>
+						<div class="btn-group">
+						<button
+						class="btn btn-primary"
+						mwl-date-modifier=""
+						date="vm.viewDate"
+						decrement="vm.calendarView">
+						Previous
+						</button>
+						<button
+						class="btn btn-default"
+						mwl-date-modifier
+						date="vm.viewDate"
+						set-to-today="">
+						Today
+						</button>
+						<button
+						class="btn btn-primary"
+						mwl-date-modifier
+						date="vm.viewDate"
+						increment="vm.calendarView">
+						Next
+						</button>
+						</div>
+						</div>  
+  
+						<div class="text-center"><br></br>
+						<div class="btn-group">
+						<label class="btn btn-primary" ng-model="vm.calendarView" uib-btn-radio="'month'">Month</label>
+						<label class="btn btn-primary" ng-model="vm.calendarView" uib-btn-radio="'week'">Week</label>
+						<label class="btn btn-primary" ng-model="vm.calendarView" uib-btn-radio="'day'">Day</label>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-8">
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<mwl-calendar
+						events="vm.events"
+						view="vm.calendarView"
+						view-date="vm.viewDate"
+						view-title="vm.calendarTitle"
+						day-view-start="08:00"
+						day-view-end="18:00"
+						day-view-split="30"
+						on-event-click="vm.eventClicked(calendarEvent);">
+					  </mwl-calendar>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  
+  
+
+<script>		
+
+	var app = angular.module('mwl.calendar.docs');
+	app.controller('ClickableEventsCtrl', function(moment, alert, calendarConfig){
+		var vm = this;
+
+		vm.events = [
+					  {
+              title:  'Consolidated Calendar Test Event',
+              type: 'important',
+			  startsAt: moment('2016-01-14-12.00.00.000000', 'YYYY-MM-DD-HH.mm').toDate(),
+              endsAt: moment('2016-01-14-13.00.00.000000', 'YYYY-MM-DD-HH.mm').toDate()
+			  }                
+
+		];
+		//vm.events[0] = angular.fromJson(vm.events[0]);
+		vm.calendarView = 'month';
+		vm.viewDate = moment().startOf('month').toDate();
+
+		vm.eventClicked = function(event) {
+			alert.show('Clicked', event);
+			};
+
+//		calendarConfig.templates.calendarMonthCell = 'customMonthCell.html';
+
+		}
+			
+	);
+
+	
+</script>
+  </body>    
+  
+  
+  </html>

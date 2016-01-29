@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js'><xsl:comment>This is a comment!</xsl:comment></script>
+	<script>
+	$(document).ready(function(){
+		document.getElementById('ciber').innerHTML = ('<mwl-calendar events="vm.events" view="vm.calendarView" view-date="vm.viewDate" view-title="vm.calendarTitle" day-view-start="08:00" day-view-end="18:00" day-view-split="30" on-event-click="vm.eventClicked(calendarEvent);"></mwl-calendar>');
+	});
+	</script>
+
+	<div id="myCalendar" ng-controller="MyController as vm">
+      <div class="row">
+
+        <div class="col-md-12">
+		  <h3 class="text-center col-md-8">{{ vm.calendarTitle }}</h3>
+          <div class="btn-group col-md-4">
+
+            <button
+			  ng-click="updateEvts()"
+              class="btn btn-primary"
+              mwl-date-modifier=""
+              date="vm.viewDate"
+              decrement="vm.calendarView">
+              Previous
+            </button>
+            <button
+			  ng-click="updateEvts()"
+              class="btn btn-default"
+              mwl-date-modifier=""
+              date="vm.viewDate"
+              set-to-today=""
+			  todayobj="vm.calendarView">
+              Today
+            </button>
+            <button
+			  ng-click="updateEvts()"
+              class="btn btn-primary"
+              mwl-date-modifier=""
+              date="vm.viewDate"
+              increment="vm.calendarView">
+              Next
+            </button>
+          </div>
+
+          <div class="btn-group col-md-4">
+			<label class="btn btn-primary" ng-model="vm.calendarView" uib-btn-radio="'month'">Month</label>
+            <label class="btn btn-primary" ng-model="vm.calendarView" uib-btn-radio="'week'">Week</label>
+            <label class="btn btn-primary" ng-model="vm.calendarView" uib-btn-radio="'day'">Day</label>
+          </div>
+	      <div class="col-md-8" id='ciber'>Lazy Dog</div>
+
+        </div>
+		</div>
+	</div>
+
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js'><xsl:comment>This is a comment!</xsl:comment></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/interact.js/1.2.4/interact.min.js'><xsl:comment>This is a comment!</xsl:comment></script>
+	<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.js'><xsl:comment>This is a comment!</xsl:comment></script>
+	<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.js'><xsl:comment>This is a comment!</xsl:comment></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.14.3/ui-bootstrap-tpls.min.js'><xsl:comment>This is a comment!</xsl:comment></script>
+	<script src='angular-bootstrap-calendar-tpls.js'><xsl:comment>This is a comment!</xsl:comment></script>
+	
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="angular-bootstrap-calendar.css" rel="stylesheet"/>
+
+	<script type="text/javascript">
+
+
+	angular.module('mwl.calendar.docs', ['mwl.calendar', 'ngAnimate', 'ui.bootstrap']);
+		angular
+		  .module('mwl.calendar.docs')
+		  .controller('MyController', function($scope, $http, moment, alert) {
+		  
+			var vm = this;
+			
+			$scope.previousMonth = moment().month(); // initialize previous month variable				
+			$scope.updateEvts = function(){
+				//console.log('prev='+$scope.previousMonth);
+				var url_parm = moment(vm.viewDate).format('YYYYMMDD');
+				if ($scope.previousMonth != moment(vm.viewDate).month()){
+					$http.get('event.txt?CBRDT='+url_parm).success(function(data) {
+						vm.events = data;
+					});					
+				}				
+				$scope.previousMonth = moment(vm.viewDate).month();
+				//console.log('next='+$scope.previousMonth);
+			}
+
+					$http.get('event.txt').success(function(data) {
+						vm.events = data;
+					});					
+
+			
+			vm.events = [
+			  {
+				title: 'Click me',
+				type: 'warning',
+				startsAt: moment().startOf('month').toDate()
+			  },
+			  {
+				title: 'Or click me',
+				description: 'Bite me',
+				type: 'info',
+				startsAt: moment().startOf('month').toDate()
+			  },
+			  {
+				title: 'An event',
+				type: 'warning',
+				startsAt: moment().startOf('week').subtract(2, 'days').add(8, 'hours').toDate(),
+				endsAt: moment().startOf('week').add(1, 'week').add(9, 'hours').toDate(),
+				draggable: true,
+				resizable: true
+			  }, {
+				title: '<i class="glyphicon glyphicon-asterisk"></i> <span class="text-primary">Another event</span>, with a <i>html</i> title',
+				type: 'info',
+				startsAt: moment().subtract(1, 'day').toDate(),
+				endsAt: moment().add(5, 'days').toDate(),
+				draggable: true,
+				resizable: true
+			  }, {
+				title: 'This is a really long event title that occurs on every year',
+				type: 'important',
+				startsAt: moment().startOf('day').add(7, 'hours').toDate(),
+				endsAt: moment().startOf('day').add(19, 'hours').toDate(),
+				recursOn: 'year',
+				draggable: true,
+				resizable: true
+			  }, {
+				title: 'Manual add date',
+				type: 'important',
+				startsAt: '2016-01-24T12:00:00.000',
+				endsAt: '2016-01-24T16:00:00.000',
+			  },
+			  {
+              title: 'Consolidated Calendar Test Event',
+              type: 'important',
+			  startsAt: moment('2016-01-14-12.00.00.000000', 'YYYY-MM-DD-HH.mm'),
+              endsAt: moment('2016-01-14-13.00.00.000000', 'YYYY-MM-DD-HH.mm')
+			  },                
+            {
+              title: 'Test Event 2',
+              type: 'important',
+              startsAt: '2016-01-19T16:00:00.000',
+              endsAt: '2016-01-19T17:00:00.000'
+            }
+			];
+
+			vm.calendarView = 'month';
+			vm.viewDate = moment().startOf('month').toDate();
+			vm.isCellOpen = false;
+
+			vm.eventClicked = function(event) {
+			  alert.show('Clicked', event);
+			};
+
+		  });
+	  
+	angular
+	  .module('mwl.calendar.docs')
+	  .factory('alert', function($uibModal) {
+
+		function show(action, event) {
+		  return $uibModal.open({
+			//templateUrl: 'modalContent.html',
+			template: '<div class="modal-header"><h3 class="modal-title">{{ vm.event.title }}</h3></div><div class="modal-body"><p>Date:<pre>{{ vm.event.startsAt | json }}</pre></p><p>Title:<pre>{{ vm.event.title }}</pre></p></div><div class="modal-footer"><button class="btn btn-primary" ng-click="$close()">OK</button></div>',
+			controller: function() {
+			  var vm = this;
+			  vm.action = action;
+			  vm.event = event;
+			},
+			controllerAs: 'vm'
+		  });
+		}
+
+		return {
+		  show: show
+		};
+
+	  });
+	  
+    angular.element('MyController').ready(function() {
+      angular.bootstrap(myCalendar, ['mwl.calendar.docs']);
+    });
+	  
+
+	  
+	</script>
+  
+  </html>
