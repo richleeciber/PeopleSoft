@@ -1,0 +1,4193 @@
+<?xml version='1.0'?>
+  <!--Warning : Don't edit this file -->
+  <instance class="PJM">
+    <rowset name="PjmDefn" size="2808" count="1">
+      <row>
+        <szLastUpdDttm>2016-02-16-16.55.29.821020</szLastUpdDttm>
+        <szLastUpdOprId>VP1</szLastUpdOprId>
+        <szObjectOwnerID></szObjectOwnerID>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>95</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szProjectName>CIBER_MULTICAL</szProjectName>
+        <szLanguageCd>ENG</szLanguageCd>
+        <szProjectDescr></szProjectDescr>
+        <szSrcDBName>PSPADMO</szSrcDBName>
+        <szSrcOprId>VP1</szSrcOprId>
+        <szSessionId>15086412-d5b0-11e5-8c25-913ad8176d5a</szSessionId>
+        <szRunDtTm>2016-02-17-14.53.14.780069</szRunDtTm>
+        <szTgtServerName></szTgtServerName>
+        <szTgtDBName></szTgtDBName>
+        <szTgtOprId></szTgtOprId>
+        <fReportFilter>16232832</fReportFilter>
+        <eTargetOrientation>0</eTargetOrientation>
+        <eCompareType>1</eCompareType>
+        <fKeepTgt>31</fKeepTgt>
+        <nCommitLimit>50</nCommitLimit>
+        <szCompRelease></szCompRelease>
+        <szCompRelDttm></szCompRelDttm>
+        <bMaintenanceProject>0</bMaintenanceProject>
+        <bUseDbFieldNameAttrib>0</bUseDbFieldNameAttrib>
+        <szReleaseLabel></szReleaseLabel>
+        <szReleaseDttm></szReleaseDttm>
+        <nDescrLongLen>0</nDescrLongLen>
+        <hDescrLong>HANDLE</hDescrLong>
+        <nProjectCount>8</nProjectCount>
+        <lpPit> POINTER
+          <rowset name="PjmPit" size="6848" count="8">
+            <row>
+              <eObjectType>0</eObjectType>
+              <szObjectValue_0>WEBLIB_CIBERCAL</szObjectValue_0>
+              <szObjectValue_1></szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>1</eObjectID_0>
+              <eObjectID_1>0</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>0</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>8</eObjectType>
+              <szObjectValue_0>WEBLIB_CIBERCAL</szObjectValue_0>
+              <szObjectValue_1>ISCRIPT1</szObjectValue_1>
+              <szObjectValue_2>FieldFormula</szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>1</eObjectID_0>
+              <eObjectID_1>2</eObjectID_1>
+              <eObjectID_2>12</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>0</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>51</eObjectType>
+              <szObjectValue_0>ANGULAR_BOOTSTRAP_CALENDAR_CSS</szObjectValue_0>
+              <szObjectValue_1>4</szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>90</eObjectID_0>
+              <eObjectID_1>95</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>0</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>51</eObjectType>
+              <szObjectValue_0>ANGULAR_BOOTSTRAP_CALENDAR_JS</szObjectValue_0>
+              <szObjectValue_1>4</szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>90</eObjectID_0>
+              <eObjectID_1>95</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>0</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>51</eObjectType>
+              <szObjectValue_0>CIBERCAL_HTML</szObjectValue_0>
+              <szObjectValue_1>4</szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>90</eObjectID_0>
+              <eObjectID_1>95</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>0</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>51</eObjectType>
+              <szObjectValue_0>CIBERCAL_MODAL_HTML</szObjectValue_0>
+              <szObjectValue_1>4</szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>90</eObjectID_0>
+              <eObjectID_1>95</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>0</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>57</eObjectType>
+              <szObjectValue_0>CIBER_MULTICALENDAR</szObjectValue_0>
+              <szObjectValue_1>CIBER_MULTICALENDAR</szObjectValue_1>
+              <szObjectValue_2>.</szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>104</eObjectID_0>
+              <eObjectID_1>116</eObjectID_1>
+              <eObjectID_2>117</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>0</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>58</eObjectType>
+              <szObjectValue_0>CIBER_MULTICALENDAR</szObjectValue_0>
+              <szObjectValue_1>MultiCalendar</szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>104</eObjectID_0>
+              <eObjectID_1>107</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>0</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+          </rowset>
+        </lpPit>
+        <nAdsBindingCount>0</nAdsBindingCount>
+        <pPrjAdsBinding>POINTER</pPrjAdsBinding>
+        <bCopyAllSec>1</bCopyAllSec>
+        <bCompAllSec>1</bCompAllSec>
+        <nSecCount>70</nSecCount>
+        <lpSec> POINTER
+          <rowset name="PjmSec" size="1400" count="70">
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>COMMON</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ARA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>BUL</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>CFR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>CRO</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>CZE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>DAN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>DUT</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ENG</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ESP</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>FIN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>FRA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>GER</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>GRK</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>HEB</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>HUN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ITA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>JPN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>KOR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>MAY</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>NOR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>POL</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>POR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ROM</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>RUS</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>SER</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>SLK</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>SLV</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>SVE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>THA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>TUR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>UKE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>VIE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ZHS</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ZHT</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>COMMON</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ARA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>BUL</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>CFR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>CRO</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>CZE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>DAN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>DUT</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ENG</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ESP</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>FIN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>FRA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>GER</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>GRK</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>HEB</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>HUN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ITA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>JPN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>KOR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>MAY</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>NOR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>POL</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>POR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ROM</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>RUS</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>SER</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>SLK</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>SLV</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>SVE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>THA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>TUR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>UKE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>VIE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ZHS</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ZHT</szSectionName>
+            </row>
+          </rowset>
+        </lpSec>
+        <nIncCount>0</nIncCount>
+        <lpInc>POINTER</lpInc>
+        <nDepCount>0</nDepCount>
+        <lpDep>POINTER</lpDep>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="RDM">
+    <rowset name="RecDefn" size="920" count="1">
+      <row>
+        <szLastUpdDttm>2016-01-28-10.14.03.108000</szLastUpdDttm>
+        <szLastUpdOprId>VP1</szLastUpdOprId>
+        <szObjectOwnerID></szObjectOwnerID>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>5</lVersion>
+        <lSwapVersion>5</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szRecName>WEBLIB_CIBERCAL</szRecName>
+        <szLanguageCd>ENG</szLanguageCd>
+        <fFlags>0</fFlags>
+        <fAuxFlagMask>0</fAuxFlagMask>
+        <nFieldCount>1</nFieldCount>
+        <eRecType>2</eRecType>
+        <fRecUse>0</fRecUse>
+        <cOptTrigFlag>N</cOptTrigFlag>
+        <szAuditRecName></szAuditRecName>
+        <szSetCntrlFld></szSetCntrlFld>
+        <szRelLangRecName></szRelLangRecName>
+        <szOptDelRecName></szOptDelRecName>
+        <szParentRecName></szParentRecName>
+        <szQrySecRecName></szQrySecRecName>
+        <szSqlTableName></szSqlTableName>
+        <nBuildSeqNo>1</nBuildSeqNo>
+        <szRecDescr></szRecDescr>
+        <hAltDefn>HANDLE</hAltDefn>
+        <nDescrLongLen>0</nDescrLongLen>
+        <hDescrLong>HANDLE</hDescrLong>
+        <hRft> HANDLE
+          <rowset name="RecField" size="416" count="1">
+            <row>
+              <fStatus>0</fStatus>
+              <atmFieldName>ISCRIPT1</atmFieldName>
+              <eFieldType>0</eFieldType>
+              <nLength>1</nLength>
+              <nDecimalPos>0</nDecimalPos>
+              <eFormat>0</eFormat>
+              <nFormatLength>0</nFormatLength>
+              <eImgFmt>0</eImgFmt>
+              <atmFormatFamily></atmFormatFamily>
+              <atmDispFmtName></atmDispFmtName>
+              <nDefCntryYr>50</nDefCntryYr>
+              <nIMEMode>0</nIMEMode>
+              <nKeyboardLayout>0</nKeyboardLayout>
+              <szObjectOwnerID></szObjectOwnerID>
+              <szLastUpdDttm>2016-01-28-10.14.03.108032</szLastUpdDttm>
+              <szLastUpdOprId>VP1</szLastUpdOprId>
+              <nDescrLongLen>0</nDescrLongLen>
+              <hDescrLong>HANDLE</hDescrLong>
+              <nLabelCount>1</nLabelCount>
+              <hDBFldLabel> HANDLE
+                <rowset name="DBFldLabel" size="32" count="1">
+                  <row>
+                    <atmLabelID>ISCRIPT1</atmLabelID>
+                    <atmLongName>iscript1</atmLongName>
+                    <atmShortName>iscript1</atmShortName>
+                    <bIsDefault>1</bIsDefault>
+                  </row>
+                </rowset>
+              </hDBFldLabel>
+              <nOrgLabelCount>0</nOrgLabelCount>
+              <hOrgDBFldLabel>HANDLE</hOrgDBFldLabel>
+              <nNotUsed>0</nNotUsed>
+              <fAuxFlagMask>0</fAuxFlagMask>
+              <atmDefRecName></atmDefRecName>
+              <atmDefFieldName></atmDefFieldName>
+              <atmCurCtlFieldName></atmCurCtlFieldName>
+              <fUseEdit>8388608</fUseEdit>
+              <fUseEdit2>0</fUseEdit2>
+              <atmEditTable></atmEditTable>
+              <nDefGUICtl>99</nDefGUICtl>
+              <atmSetCntrlFld></atmSetCntrlFld>
+              <atmLabelID></atmLabelID>
+              <nTimeZoneUse>0</nTimeZoneUse>
+              <atmTimeZoneFieldName></atmTimeZoneFieldName>
+              <nCurrencyCtlUse>0</nCurrencyCtlUse>
+              <atmRelTmDtFieldName></atmRelTmDtFieldName>
+              <atmLongName>iscript1</atmLongName>
+              <atmShortName>iscript1</atmShortName>
+              <atmPhysicalRecNameList>WEBLIB_CIBERCAL     </atmPhysicalRecNameList>
+              <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
+              <nContextLabelCount>0</nContextLabelCount>
+            </row>
+          </rowset>
+        </hRft>
+        <nIndexCount>0</nIndexCount>
+        <lpIdt>POINTER</lpIdt>
+        <nDDLCount>0</nDDLCount>
+        <lpRpt>POINTER</lpRpt>
+        <nDelFieldCount>0</nDelFieldCount>
+        <hDelRft>HANDLE</hDelRft>
+        <hOrgDefn>HANDLE</hOrgDefn>
+        <hExpDefn>HANDLE</hExpDefn>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+        <szSystemIDFieldName></szSystemIDFieldName>
+        <szRowLevelTimeStampFieldName></szRowLevelTimeStampFieldName>
+        <nTblSpcCount>0</nTblSpcCount>
+        <lpSpct>POINTER</lpSpct>
+        <nSecRecCount>0</nSecRecCount>
+        <hSecRec>HANDLE</hSecRec>
+        <nMatVwDefnCount>0</nMatVwDefnCount>
+        <hMatVwDefn>HANDLE</hMatVwDefn>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="FIELD">
+    <rowset name="Field" size="936" count="1">
+      <row>
+        <szLastUpdDttm>2015-06-02-16.14.24.094534</szLastUpdDttm>
+        <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+        <szObjectOwnerID>PPT</szObjectOwnerID>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>1</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szFieldName>ISCRIPT1</szFieldName>
+        <szLanguageCd>ENG</szLanguageCd>
+        <eFieldType>0</eFieldType>
+        <nLength>1</nLength>
+        <nDecimalPos>0</nDecimalPos>
+        <eFormat>0</eFormat>
+        <nFormatLength>0</nFormatLength>
+        <eImgFmt>0</eImgFmt>
+        <szFormatFamily></szFormatFamily>
+        <szDispFmtName></szDispFmtName>
+        <nDefCntryYr>50</nDefCntryYr>
+        <nIMEMode>0</nIMEMode>
+        <nKeyboardLayout>0</nKeyboardLayout>
+        <nNotUsed>0</nNotUsed>
+        <fAuxFlagMask>0</fAuxFlagMask>
+        <nDescrLongLen>0</nDescrLongLen>
+        <hDescrLong>HANDLE</hDescrLong>
+        <nLabelCount>1</nLabelCount>
+        <hDBFldLabel> HANDLE
+          <rowset name="DBFldLabel" size="264" count="1">
+            <row>
+              <szLabelID>ISCRIPT1</szLabelID>
+              <szLongName>iscript1</szLongName>
+              <szShortName>iscript1</szShortName>
+              <bIsDefault>1</bIsDefault>
+              <szLastUpdDttm>2015-06-02-16.14.24.094534</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+          </rowset>
+        </hDBFldLabel>
+        <szDefRecName></szDefRecName>
+        <szDefFieldName></szDefFieldName>
+        <szCurCtlFieldName></szCurCtlFieldName>
+        <fUseEdit>0</fUseEdit>
+        <fUseEdit2>0</fUseEdit2>
+        <szEditTable></szEditTable>
+        <nDefGUICtl>0</nDefGUICtl>
+        <szSetCntrlFld></szSetCntrlFld>
+        <szLabelID>ISCRIPT1</szLabelID>
+        <nTimeZoneUse>0</nTimeZoneUse>
+        <szTimeZoneFieldName></szTimeZoneFieldName>
+        <nCurrencyCtlUse>0</nCurrencyCtlUse>
+        <szLongName>iscript1</szLongName>
+        <szShortName>iscript1</szShortName>
+        <fStatus>0</fStatus>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+        <nContextLabelCount>0</nContextLabelCount>
+        <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="PCM">
+    <rowset name="PcmProg" size="2240" count="1">
+      <row>
+        <szLastUpdDttm>2016-02-16-16.54.58.821062</szLastUpdDttm>
+        <szLastUpdOprId>VP1</szLastUpdOprId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>1977</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <eObjectID_0>1</eObjectID_0>
+        <szObjectValue_0>WEBLIB_CIBERCAL</szObjectValue_0>
+        <eObjectID_1>2</eObjectID_1>
+        <szObjectValue_1>ISCRIPT1</szObjectValue_1>
+        <eObjectID_2>12</eObjectID_2>
+        <szObjectValue_2>FieldFormula</szObjectValue_2>
+        <eObjectID_3>0</eObjectID_3>
+        <szObjectValue_3></szObjectValue_3>
+        <eObjectID_4>0</eObjectID_4>
+        <szObjectValue_4></szObjectValue_4>
+        <eObjectID_5>0</eObjectID_5>
+        <szObjectValue_5></szObjectValue_5>
+        <eObjectID_6>0</eObjectID_6>
+        <szObjectValue_6></szObjectValue_6>
+        <nNameCount>9</nNameCount>
+        <lpProgSource> POINTER
+          <rowset name="PcmProgSource" size="64" count="1">
+            <row>
+              <lSourceLen>1268</lSourceLen>
+              <lpSource>custom field</lpSource>
+              <lEntryNamesLen>98</lEntryNamesLen>
+              <nEntry>2</nEntry>
+              <lpEntryTab>custom field</lpEntryTab>
+              <nParams>2</nParams>
+              <lpParams>custom field</lpParams>
+              <nPCVersion>133</nPCVersion>
+            </row>
+          </rowset>
+        </lpProgSource>
+        <nProgSource>1</nProgSource>
+        <lpPnt> POINTER
+          <rowset name="PcmPnt" size="3708" count="9">
+            <row>
+              <szRecName>WEBLIB_CIBERCAL</szRecName>
+              <szFieldName>ISCRIPT1</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>MULTICALENDAR</szFieldName>
+              <szPackageRoot>CIBER_MULTICALENDAR</szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>HTML</szRecName>
+              <szFieldName>ANGULAR_BOOTSTRAP_CALENDAR_JS</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>HTML</szRecName>
+              <szFieldName>ANGULAR_BOOTSTRAP_CALENDAR_CSS</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>RECORD</szRecName>
+              <szFieldName>WEBLIB_CIBERCAL</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>FIELD</szRecName>
+              <szFieldName>ISCRIPT1</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>HTML</szRecName>
+              <szFieldName>CIBERCAL_MODAL_HTML</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>HTML</szRecName>
+              <szFieldName>CIBERCAL_HTML</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>MULTICALENDAR</szFieldName>
+              <szPackageRoot>CIBER_MULTICALENDAR</szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+          </rowset>
+        </lpPnt>
+        <lpProgCode>custom field</lpProgCode>
+        <nProgCode>0</nProgCode>
+        <eRunLocation>0</eRunLocation>
+        <szLicenseCode>100000000000000000000000000000</szLicenseCode>
+        <lpHashTable>POINTER</lpHashTable>
+        <eProgFlag>0</eProgFlag>
+        <szExtendsClass></szExtendsClass>
+        <szCompiledRelease></szCompiledRelease>
+      </row>
+    </rowset>
+    <peoplecode_text>import CIBER_MULTICALENDAR:MultiCalendar;
+
+Function IScript_MultiCalendar()
+   
+   Local string &amp;js, &amp;css, &amp;json, &amp;template;
+   Local string &amp;parmStr = %Request.GetParameter(&quot;PAGELETID&quot;);
+   
+   &amp;js = GetHTMLText(HTML.ANGULAR_BOOTSTRAP_CALENDAR_JS);
+   &amp;css = GetHTMLText(HTML.ANGULAR_BOOTSTRAP_CALENDAR_CSS);
+   &amp;json = GenerateScriptContentURL(%Portal, %Node, Record.WEBLIB_CIBERCAL, Field.ISCRIPT1, &quot;FieldFormula&quot;, &quot;IScript_MultiCalendar_JSON?PAGELETID=&quot; | &amp;parmStr | &quot;&amp;CBRDT=&quot;);
+   &amp;template = Clean(GetHTMLText(HTML.CIBERCAL_MODAL_HTML));
+   %Response.Write(GetHTMLText(HTML.CIBERCAL_HTML, &amp;js, &amp;css, &amp;json, &amp;template));
+   
+End-Function;
+
+Function IScript_MultiCalendar_JSON()
+   
+   Local string &amp;parmStr = %Request.GetParameter(&quot;PAGELETID&quot;);
+   Local CIBER_MULTICALENDAR:MultiCalendar &amp;objMC = create CIBER_MULTICALENDAR:MultiCalendar(&amp;parmStr);
+   %Response.Write(&amp;objMC.GetJSON());
+   
+End-Function;
+
+</peoplecode_text>
+    <peoplecode_blob>FAgAAAQDAgEBAAAAvAIAAAAAAAABHlcARQBCAEwASQBCAF8AQwBJAEIARQBSAEMAQQBMAAIQSQBTAEMAUgBJAFAAVAAxAAwYRgBpAGUAbABkAEYAbwByAG0AdQBsAGEAAAAAAAAAAAD/uQcAAAkAAQD/AAAAAAAAADwxADAAMAAwADAAMAAwADAAMAAwADAAMAAwADAAMAAwADAAMAAwADAAMAAwADAAMAAwADAAMAAwADAAMAA0MgAwADEANgAtADAAMgAtADEANgAtADEANgAuADUANAAuADUAOAAuADgAMgAxADAANgAyADQyADAAMQA2AC0AMAAyAC0AMQA2AC0AMQA2AC4ANQA0AC4ANQA4AC4AOAAyADEAMAA2ADIABlYAUAAxAAAA//QEAAD/AQAAAFgKJkMASQBCAEUAUgBfAE0AVQBMAFQASQBDAEEATABFAE4ARABBAFIAVwoaTQB1AGwAdABpAEMAYQBsAGUAbgBkAGEAcgAVLU8yCipJAFMAYwByAGkAcAB0AF8ATQB1AGwAdABpAEMAYQBsAGUAbgBkAGEAcgALFC1PREAMcwB0AHIAaQBuAGcAAQYmAGoAcwADAQgmAGMAcwBzAAMBCiYAagBzAG8AbgADARImAHQAZQBtAHAAbABhAHQAZQAVREAMcwB0AHIAaQBuAGcAARAmAHAAYQByAG0AUwB0AHIABhIQJQBSAGUAcQB1AGUAcwB0AAUKGEcAZQB0AFAAYQByAGEAbQBlAHQAZQByAAsWElAAQQBHAEUATABFAFQASQBEABQVTwEGJgBqAHMABgoWRwBlAHQASABUAE0ATABUAGUAeAB0AAshAgAUFQEIJgBjAHMAcwAGChZHAGUAdABIAFQATQBMAFQAZQB4AHQACyEDABQVAQomAGoAcwBvAG4ABgowRwBlAG4AZQByAGEAdABlAFMAYwByAGkAcAB0AEMAbwBuAHQAZQBuAHQAVQBSAEwACxIOJQBQAG8AcgB0AGEAbAADEgolAE4AbwBkAGUAAyEEAAMhBQADFhhGAGkAZQBsAGQARgBvAHIAbQB1AGwAYQADFkpJAFMAYwByAGkAcAB0AF8ATQB1AGwAdABpAEMAYQBsAGUAbgBkAGEAcgBfAEoAUwBPAE4APwBQAEEARwBFAEwARQBUAEkARAA9ACMBECYAcABhAHIAbQBTAHQAcgAjFg4mAEMAQgBSAEQAVAA9ABQVARImAHQAZQBtAHAAbABhAHQAZQAGCgpDAGwAZQBhAG4ACwoWRwBlAHQASABUAE0ATABUAGUAeAB0AAshBgAUFBUSEiUAUgBlAHMAcABvAG4AcwBlAAUKClcAcgBpAHQAZQALChZHAGUAdABIAFQATQBMAFQAZQB4AHQACyEHAAMBBiYAagBzAAMBCCYAYwBzAHMAAwEKJgBqAHMAbwBuAAMBEiYAdABlAG0AcABsAGEAdABlABQUFU83FS1PMgo0SQBTAGMAcgBpAHAAdABfAE0AdQBsAHQAaQBDAGEAbABlAG4AZABhAHIAXwBKAFMATwBOAAsULU9EQAxzAHQAcgBpAG4AZwABECYAcABhAHIAbQBTAHQAcgAGEhAlAFIAZQBxAHUAZQBzAHQABQoYRwBlAHQAUABhAHIAYQBtAGUAdABlAHIACxYSUABBAEcARQBMAEUAVABJAEQAFBVECiZDAEkAQgBFAFIAXwBNAFUATABUAEkAQwBBAEwARQBOAEQAQQBSAFcKGk0AdQBsAHQAaQBDAGEAbABlAG4AZABhAHIAAQwmAG8AYgBqAE0AQwAGaQomQwBJAEIARQBSAF8ATQBVAEwAVABJAEMAQQBMAEUATgBEAEEAUgBXChpNAHUAbAB0AGkAQwBhAGwAZQBuAGQAYQByAAsBECYAcABhAHIAbQBTAHQAcgAUFRISJQBSAGUAcwBwAG8AbgBzAGUABQoKVwByAGkAdABlAAsBDCYAbwBiAGoATQBDAAUKDkcAZQB0AEoAUwBPAE4ACxQUFU83FS0HYgL/AQAAAAAABypJAFMAYwByAGkAcAB0AF8ATQB1AGwAdABpAEMAYQBsAGUAbgBkAGEAcgABAAc0SQBTAGMAcgBpAHAAdABfAE0AdQBsAHQAaQBDAGEAbABlAG4AZABhAHIAXwBKAFMATwBOAAL/AQAAAAcHhR5XAEUAQgBMAEkAQgBfAEMASQBCAEUAUgBDAEEATAAQSQBTAEMAUgBJAFAAVAAxAA5QAEEAQwBLAEEARwBFABpNAFUATABUAEkAQwBBAEwARQBOAEQAQQBSAAhIAFQATQBMADpBAE4ARwBVAEwAQQBSAF8AQgBPAE8AVABTAFQAUgBBAFAAXwBDAEEATABFAE4ARABBAFIAXwBKAFMACEgAVABNAEwAPEEATgBHAFUATABBAFIAXwBCAE8ATwBUAFMAVABSAEEAUABfAEMAQQBMAEUATgBEAEEAUgBfAEMAUwBTAAxSAEUAQwBPAFIARAAeVwBFAEIATABJAEIAXwBDAEkAQgBFAFIAQwBBAEwACkYASQBFAEwARAAQSQBTAEMAUgBJAFAAVAAxAAhIAFQATQBMACZDAEkAQgBFAFIAQwBBAEwAXwBNAE8ARABBAEwAXwBIAFQATQBMAAhIAFQATQBMABpDAEkAQgBFAFIAQwBBAEwAXwBIAFQATQBMAA5QAEEAQwBLAEEARwBFABpNAFUATABUAEkAQwBBAEwARQBOAEQAQQBSAA==</peoplecode_blob>
+  </instance>
+  <instance class="CRM">
+    <rowset name="CrmDefn" size="1208" count="1">
+      <row>
+        <szLastUpdDttm>2016-02-17-14.45.15.779309</szLastUpdDttm>
+        <szLastUpdOprId>VP1</szLastUpdOprId>
+        <szObjectOwnerId></szObjectOwnerId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>400</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szContName>ANGULAR_BOOTSTRAP_CALENDAR_CSS</szContName>
+        <eContType>4</eContType>
+        <nAltContNum>1</nAltContNum>
+        <szLanguageCd>ENG</szLanguageCd>
+        <szFormName></szFormName>
+        <szContFmt></szContFmt>
+        <eContStyle>0</eContStyle>
+        <szDescr></szDescr>
+        <szUrl></szUrl>
+        <nCompAlg>0</nCompAlg>
+        <fAuxFlagMask>0</fAuxFlagMask>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+        <lContLen>0</lContLen>
+        <hContData>HANDLE</hContData>
+        <lContStrLen>27186</lContStrLen>
+        <hContStrData> HANDLE
+          <rowset name="char" size="27186" count="1">
+            <row>
+              <hContStrData>/**
+ * angular-bootstrap-calendar - A pure AngularJS bootstrap themed responsive calendar that can display events and has views for year, month, week and day
+ * @version v0.18.2
+ * @link https://github.com/mattlewis92/angular-bootstrap-calendar
+ * @license MIT
+ */
+[class*=&quot;cal-cell&quot;] {
+  float: left;
+  margin-left: 0;
+  min-height: 1px;
+}
+.cal-row-fluid {
+  width: 100%;
+  *zoom: 1;
+}
+.cal-row-fluid:before,
+.cal-row-fluid:after {
+  display: table;
+  content: &quot;&quot;;
+  line-height: 0;
+}
+.cal-row-fluid:after {
+  clear: both;
+}
+.cal-row-fluid [class*=&quot;cal-cell&quot;] {
+  display: block;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  margin-left: 0%;
+  *margin-left: -0.05213764%;
+}
+.cal-row-fluid [class*=&quot;cal-cell&quot;]:first-child {
+  margin-left: 0;
+}
+.cal-row-fluid .controls-row [class*=&quot;cal-cell&quot;] + [class*=&quot;cal-cell&quot;] {
+  margin-left: 0%;
+}
+.cal-row-fluid .cal-cell7 {
+  width: 100%;
+  *width: 99.94669509594883%;
+}
+.cal-row-fluid .cal-cell6 {
+  width: 85.71428571428571%;
+  *width: 85.66098081023453%;
+}
+.cal-row-fluid .cal-cell5 {
+  width: 71.42857142857142%;
+  *width: 71.37526652452024%;
+}
+.cal-row-fluid .cal-cell4 {
+  width: 57.14285714285714%;
+  *width: 57.089552238805965%;
+}
+.cal-row-fluid .cal-cell3 {
+  width: 42.857142857142854%;
+  *width: 42.80383795309168%;
+}
+.cal-row-fluid .cal-cell2 {
+  width: 28.57142857142857%;
+  *width: 28.518123667377395%;
+}
+.cal-row-fluid .cal-cell1 {
+  width: 14.285714285714285%;
+  *width: 14.232409381663112%;
+}
+.cal-week-box .cal-offset7,
+.cal-row-fluid .cal-offset7,
+.cal-row-fluid .cal-offset7:first-child {
+  margin-left: 100%;
+  *margin-left: 99.89339019189765%;
+}
+.cal-week-box .cal-offset6,
+.cal-row-fluid .cal-offset6,
+.cal-row-fluid .cal-offset6:first-child {
+  margin-left: 85.71428571428571%;
+  *margin-left: 85.60767590618336%;
+}
+.cal-week-box .cal-offset5,
+.cal-row-fluid .cal-offset5,
+.cal-row-fluid .cal-offset5:first-child {
+  margin-left: 71.42857142857142%;
+  *margin-left: 71.32196162046907%;
+}
+.cal-week-box .cal-offset4,
+.cal-row-fluid .cal-offset4,
+.cal-row-fluid .cal-offset4:first-child {
+  margin-left: 57.14285714285714%;
+  *margin-left: 57.03624733475479%;
+}
+.cal-week-box .cal-offset3,
+.cal-row-fluid .cal-offset3,
+.cal-row-fluid .cal-offset3:first-child {
+  margin-left: 42.857142857142854%;
+  *margin-left: 42.750533049040506%;
+}
+.cal-week-box .cal-offset2,
+.cal-row-fluid .cal-offset2,
+.cal-row-fluid .cal-offset2:first-child {
+  margin-left: 28.57142857142857%;
+  *margin-left: 28.46481876332622%;
+}
+.cal-week-box .cal-offset1,
+.cal-row-fluid .cal-offset1,
+.cal-row-fluid .cal-offset1:first-child {
+  margin-left: 14.285714285714285%;
+  *margin-left: 14.17910447761194%;
+}
+.cal-row-fluid .cal-cell1 {
+  width: 14.285714285714285%;
+  *width: 14.233576642335766%;
+}
+[class*=&quot;cal-cell&quot;].hide,
+.cal-row-fluid [class*=&quot;cal-cell&quot;].hide {
+  display: none;
+}
+[class*=&quot;cal-cell&quot;].pull-right,
+.cal-row-fluid [class*=&quot;cal-cell&quot;].pull-right {
+  float: right;
+}
+.cal-row-head [class*=&quot;cal-cell&quot;]:first-child,
+.cal-row-head [class*=&quot;cal-cell&quot;] {
+  min-height: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cal-events-num {
+  margin-top: 20px;
+}
+.cal-month-day {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+.cal-month-day .cal-events-num {
+  margin-left: 10px;
+  margin-top: 18px;
+}
+#cal-week-box {
+  position: absolute;
+  width: 70px;
+  left: -71px;
+  top: -1px;
+  padding: 8px 5px;
+  cursor: pointer;
+}
+.cal-day-tick {
+  position: absolute;
+  right: 50%;
+  bottom: -21px;
+  padding: 0px 5px;
+  cursor: pointer;
+  z-index: 5;
+  text-align: center;
+  width: 26px;
+  margin-right: -17px;
+}
+.cal-year-box #cal-day-tick {
+  margin-right: -7px;
+}
+.cal-slide-box {
+  position: relative;
+}
+.cal-slide-tick {
+  position: absolute;
+  width: 16px;
+  margin-left: -7px;
+  height: 9px;
+  top: -1px;
+  z-index: 1;
+}
+.cal-slide-tick.tick-month1 {
+  left: 12.5%;
+}
+.cal-slide-tick.tick-month2 {
+  left: 37.5%;
+}
+.cal-slide-tick.tick-month3 {
+  left: 62.5%;
+}
+.cal-slide-tick.tick-month4 {
+  left: 87.5%;
+}
+.cal-slide-tick.tick-day1 {
+  left: 7.14285714285715%;
+}
+.cal-slide-tick.tick-day2 {
+  left: 21.42857142857143%;
+}
+.cal-slide-tick.tick-day3 {
+  left: 35.71428571428572%;
+}
+.cal-slide-tick.tick-day4 {
+  left: 50%;
+}
+.cal-slide-tick.tick-day5 {
+  left: 64.2857142857143%;
+}
+.cal-slide-tick.tick-day6 {
+  left: 78.57142857142859%;
+}
+.cal-slide-tick.tick-day7 {
+  left: 92.85714285714285%;
+}
+.events-list {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+}
+.cal-slide-content ul.unstyled {
+  margin-bottom: 0;
+}
+.cal-slide-content ul li.dragging-active .event-item {
+  color: black;
+}
+.cal-week-box {
+  position: relative;
+}
+.cal-week-box [data-event-class] {
+  white-space: nowrap;
+  height: 30px;
+  line-height: 30px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding-top: 0px !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  font-size: 12px;
+  padding: 0 3px !important;
+}
+.cal-week-box .cal-day-panel {
+  border: 0px !important;
+}
+.cal-week-box.cal-day-box .cal-row-head {
+  padding-left: 60px;
+}
+.cal-week-box.cal-day-box .cal-day-panel {
+  overflow-x: hidden;
+}
+.cal-day-box {
+  text-wrap: none;
+  overflow-x: auto !important;
+  overflow-y: hidden;
+}
+.cal-day-box .cal-day-hour-part {
+  height: 30px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-bottom: thin dashed #e1e1e1;
+}
+.cal-day-box .cal-day-hour .day-highlight {
+  height: 30px;
+}
+.cal-day-box .cal-hours {
+  font-weight: bold;
+  font-size: 12px;
+}
+.cal-day-box .cal-day-hour:nth-child(odd) {
+  background-color: #fafafa;
+}
+.cal-day-box .cal-day-panel {
+  position: relative;
+  padding-left: 60px;
+  border: solid 1px #e1e1e1;
+}
+.cal-day-box .cal-day-panel-hour {
+  position: absolute;
+  width: 100%;
+  margin-left: -60px;
+}
+.cal-day-box .day-event {
+  position: absolute;
+  width: 150px;
+  overflow: hidden;
+  padding: 2px 3px !important;
+}
+.cal-day-box .day-event a {
+  font-size: 12px;
+  text-overflow: ellipsis;
+}
+.cal-day-box .day-highlight {
+  padding-top: 2px;
+  padding-left: 8px;
+  padding-right: 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: 1px solid #c3c3c3;
+  margin: 1px 1px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cal-day-box .day-highlight.dh-event-important {
+  border: 1px solid #ad2121;
+}
+.cal-day-box .day-highlight.dh-event-warning {
+  border: 1px solid #e3bc08;
+}
+.cal-day-box .day-highlight.dh-event-info {
+  border: 1px solid dodgerblue;
+}
+.cal-day-box .day-highlight.dh-event-inverse {
+  border: 1px solid #1b1b1b;
+}
+.cal-day-box .day-highlight.dh-event-success {
+  border: 1px solid darkgreen;
+}
+.cal-day-box .day-highlight.dh-event-special {
+  background-color: #ffe6ff;
+  border: 1px solid #800080;
+}
+.event {
+  display: block;
+  background-color: #c3c3c3;
+  width: 12px;
+  height: 12px;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  -webkit-box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  border: 1px solid #ffffff;
+}
+.event-block {
+  display: block;
+  background-color: #c3c3c3;
+  width: 20px;
+  height: 100%;
+}
+.cal-event-list .event.pull-left {
+  margin-top: 3px;
+}
+.event-important {
+  background-color: #ad2121;
+}
+.event-info {
+  background-color: dodgerblue;
+}
+.event-warning {
+  background-color: #e3bc08;
+}
+.event-inverse {
+  background-color: #1b1b1b;
+}
+.event-success {
+  background-color: darkgreen;
+}
+.event-special {
+  background-color: #800080;
+}
+.day-highlight:hover,
+.day-highlight {
+  background-color: #dddddd;
+}
+.day-highlight.dh-event-important:hover,
+.day-highlight.dh-event-important {
+  background-color: #fae3e3;
+}
+.day-highlight.dh-event-warning:hover,
+.day-highlight.dh-event-warning {
+  background-color: #fdf1ba;
+}
+.day-highlight.dh-event-info:hover,
+.day-highlight.dh-event-info {
+  background-color: #d1e8ff;
+}
+.day-highlight.dh-event-inverse:hover,
+.day-highlight.dh-event-inverse {
+  background-color: #c1c1c1;
+}
+.day-highlight.dh-event-success:hover,
+.day-highlight.dh-event-success {
+  background-color: #caffca;
+}
+.day-highlight.dh-event-special:hover,
+.day-highlight.dh-event-special {
+  background-color: #ffe6ff;
+}
+.cal-row-head [class*=&quot;cal-cell&quot;]:first-child,
+.cal-row-head [class*=&quot;cal-cell&quot;] {
+  font-weight: bolder;
+  text-align: center;
+  border: 0px solid;
+  padding: 5px 0;
+}
+.cal-row-head [class*=&quot;cal-cell&quot;] small {
+  font-weight: normal;
+}
+.cal-year-box .row:hover,
+.cal-row-fluid:hover {
+  background-color: #fafafa;
+}
+.cal-month-day {
+  height: 100px;
+}
+[class*=&quot;cal-cell&quot;]:hover,
+.cell-focus,
+[class*=&quot;cal-cell&quot;] .drop-active,
+.cal-cell.drop-active {
+  background-color: #ededed;
+}
+.cal-year-box [class*=&quot;span&quot;],
+.cal-month-box [class*=&quot;cal-cell&quot;] {
+  min-height: 100px;
+  border-right: 1px solid #e1e1e1;
+  position: relative;
+}
+.cal-year-box [class*=&quot;span&quot;] {
+  min-height: 60px;
+}
+.cal-year-box .row [class*=&quot;col-&quot;]:last-child,
+.cal-month-box .cal-row [class*=&quot;cal-cell&quot;]:last-child {
+  border-right: 0px;
+}
+.cal-year-box .row,
+.cal-month-box .cal-row-fluid {
+  border-bottom: 1px solid #e1e1e1;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.cal-year-box .row:last-child,
+.cal-month-box .cal-row-fluid:last-child {
+  border-bottom: 0px;
+}
+.cal-month-box,
+.cal-year-box,
+.cal-week-box {
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+  border-right: 1px solid #e1e1e1;
+  border-left: 1px solid #e1e1e1;
+  border-radius: 2px;
+}
+.cal-month-box {
+  border-right: 0px;
+  border-bottom: 0px;
+}
+span[data-cal-date] {
+  font-size: 1.2em;
+  font-weight: normal;
+  opacity: 0.5;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+span[data-cal-date]:hover {
+  opacity: 1;
+}
+.cal-day-outmonth span[data-cal-date] {
+  opacity: 0.1;
+  cursor: default;
+}
+.cal-day-today {
+  background-color: #e8fde7;
+}
+.cal-day-today span[data-cal-date] {
+  color: darkgreen;
+}
+.cal-month-box .cal-day-today span[data-cal-date] {
+  font-size: 1.9em;
+}
+.cal-day-holiday span[data-cal-date] {
+  color: #800080;
+}
+.cal-day-weekend span[data-cal-date] {
+  color: darkred;
+}
+#cal-week-box {
+  border: 1px solid #e1e1e1;
+  border-right: 0px;
+  border-radius: 5px 0 0 5px;
+  background-color: #fafafa;
+  text-align: right;
+}
+.cal-week-box .cal-row-head {
+  border-bottom: 1px solid #e1e1e1;
+}
+.cal-day-tick {
+  border: 1px solid #e1e1e1;
+  border-top: 0px solid;
+  border-radius: 0 0 5px 5px;
+  background-color: #ededed;
+  text-align: center;
+}
+.cal-day-tick .fa {
+  display: none;
+}
+.cal-slide-box {
+  border-top: 0px solid #8c8c8c;
+}
+.cal-slide-content {
+  padding: 20px;
+  color: #ffffff;
+  background-color: #555555;
+  -webkit-box-shadow: inset 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+}
+.cal-slide-content a.event-item {
+  color: #ffffff;
+  font-weight: normal;
+}
+a.event-item-edit,
+a.event-item-delete {
+  padding-left: 5px;
+}
+.cal-year-box .cal-slide-content a.event-item,
+.cal-year-box a.event-item-edit,
+.cal-year-box a.event-item-delete {
+  position: relative;
+  top: -3px;
+}
+.events-list {
+  max-height: 47px;
+  padding-left: 5px;
+}
+.cal-column {
+  border-left: 1px solid #e1e1e1;
+}
+a.cal-event-week {
+  text-decoration: none;
+  color: #151515;
+}
+.badge-important {
+  background-color: #b94a48;
+}
+.pointer {
+  cursor: pointer;
+}
+.cal-year-box:last-child {
+  border-bottom: 0px;
+}
+.cal-context {
+  width: 100%;
+}
+/*************************************************************************/
+/*
+custom styles for the different event categories
+	typeColorX, where X = 1, 2, 3, etc.
+*/
+/*************************************************************************/
+.event-typeColor1 {
+  background-color: dodgerblue;
+}
+.day-highlight.dh-event-typeColor1:hover,
+.day-highlight.dh-event-typeColor1 {
+//  background-color: #cc9900;
+}
+.cal-day-box .day-highlight.dh-event-typeColor1 {
+//  border: 1px solid #cc9900;
+}
+.event-typeColor2 { /* color of circle */
+  background-color: #e3bc08;
+}
+.day-highlight.dh-event-typeColor2:hover,
+.day-highlight.dh-event-typeColor2 { /* color of box on hover event */
+//  background-color: #6600cc;
+}
+.cal-day-box .day-highlight.dh-event-typeColor2 {
+//  border: 1px solid #ff3300; /* color of border of box in day view */
+}
+.event-typeColor3 {
+  background-color: #1b1b1b;
+}
+.day-highlight.dh-event-typeColor3:hover,
+.day-highlight.dh-event-typeColor3 {
+//  background-color: #cc9900;
+}
+.cal-day-box .day-highlight.dh-event-typeColor3 {
+//  border: 1px solid #cc9900;
+}
+/*************************************************************************/
+@media (max-width: 991px) {
+  .cal-year-box [class*=&quot;span&quot;]:nth-child(2) {
+    border-right: 0px;
+  }
+  .cal-year-box [class*=&quot;span&quot;]:nth-child(1),
+  .cal-year-box [class*=&quot;span&quot;]:nth-child(2) {
+    border-bottom: 1px solid #e1e1e1;
+  }
+}</hContStrData>
+            </row>
+          </rowset>
+        </hContStrData>
+        <bUsesFormName>0</bUsesFormName>
+        <szAltContFmt></szAltContFmt>
+        <eAltContStyle>0</eAltContStyle>
+        <nAltCompAlg>0</nAltCompAlg>
+        <lAltContLen>0</lAltContLen>
+        <hAltContData>HANDLE</hAltContData>
+        <lLclAltContLen>0</lLclAltContLen>
+        <szLclContFmt></szLclContFmt>
+        <eLclContStyle>0</eLclContStyle>
+        <nLclCompAlg>0</nLclCompAlg>
+        <lLclContLen>0</lLclContLen>
+        <hLclContData>HANDLE</hLclContData>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="CRM">
+    <rowset name="CrmDefn" size="1208" count="1">
+      <row>
+        <szLastUpdDttm>2016-02-15-22.58.41.019000</szLastUpdDttm>
+        <szLastUpdOprId>VP1</szLastUpdOprId>
+        <szObjectOwnerId></szObjectOwnerId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>395</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szContName>ANGULAR_BOOTSTRAP_CALENDAR_JS</szContName>
+        <eContType>4</eContType>
+        <nAltContNum>1</nAltContNum>
+        <szLanguageCd>ENG</szLanguageCd>
+        <szFormName></szFormName>
+        <szContFmt></szContFmt>
+        <eContStyle>0</eContStyle>
+        <szDescr></szDescr>
+        <szUrl></szUrl>
+        <nCompAlg>0</nCompAlg>
+        <fAuxFlagMask>0</fAuxFlagMask>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+        <lContLen>0</lContLen>
+        <hContData>HANDLE</hContData>
+        <lContStrLen>151362</lContStrLen>
+        <hContStrData> HANDLE
+          <rowset name="char" size="151362" count="1">
+            <row>
+              <hContStrData>/**
+ * angular-bootstrap-calendar - A pure AngularJS bootstrap themed responsive calendar that can display events and has views for year, month, week and day
+ * @version v0.18.2
+ * @link https://github.com/mattlewis92/angular-bootstrap-calendar
+ * @license MIT
+ */
+(function webpackUniversalModuleDefinition(root, factory) {
+	if(typeof exports === 'object' &amp;&amp; typeof module === 'object')
+		module.exports = factory(require(&quot;angular&quot;), (function webpackLoadOptionalExternalModule() { try { return require(&quot;interact.js&quot;); } catch(e) {} }()), require(&quot;moment&quot;));
+	else if(typeof define === 'function' &amp;&amp; define.amd)
+		define([&quot;angular&quot;, &quot;interact&quot;, &quot;moment&quot;], factory);
+	else if(typeof exports === 'object')
+		exports[&quot;angularBootstrapCalendarModuleName&quot;] = factory(require(&quot;angular&quot;), (function webpackLoadOptionalExternalModule() { try { return require(&quot;interact.js&quot;); } catch(e) {} }()), require(&quot;moment&quot;));
+	else
+		root[&quot;angularBootstrapCalendarModuleName&quot;] = factory(root[&quot;angular&quot;], root[&quot;interact&quot;], root[&quot;moment&quot;]);
+})(this, function(__WEBPACK_EXTERNAL_MODULE_12__, __WEBPACK_EXTERNAL_MODULE_47__, __WEBPACK_EXTERNAL_MODULE_49__) {
+return /******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId])
+/******/ 			return installedModules[moduleId].exports;
+
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			exports: {},
+/******/ 			id: moduleId,
+/******/ 			loaded: false
+/******/ 		};
+
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+
+/******/ 		// Flag the module as loaded
+/******/ 		module.loaded = true;
+
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+
+
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = &quot;&quot;;
+
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(0);
+/******/ })
+/************************************************************************/
+/******/ ([
+/* 0 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	__webpack_require__(8);
+
+	var angular = __webpack_require__(12);
+
+	function requireAll(r) {
+	  r.keys().forEach(r);
+	}
+
+	var templates = {};
+
+	if (true) {
+
+	  var templatesContext = __webpack_require__(13);
+
+	  templatesContext.keys().forEach(function(templateName) {
+	    var templateNameWithoutPrefix = templateName.replace('./', '');
+	    var cacheTemplateName = 'mwl/' + templateNameWithoutPrefix;
+	    var configTemplateName = templateNameWithoutPrefix.replace('.html', '');
+	    templates[configTemplateName] = {
+	      cacheTemplateName: cacheTemplateName,
+	      template: templatesContext(templateName)
+	    };
+	  });
+
+	}
+
+	module.exports = angular
+	  .module('mwl.calendar', [])
+	  .config([&quot;calendarConfig&quot;, function(calendarConfig) {
+	    angular.forEach(templates, function(template, templateName) {
+	      if (!calendarConfig.templates[templateName]) {
+	        calendarConfig.templates[templateName] = template.cacheTemplateName;
+	      }
+	    });
+	  }])
+	  .run([&quot;$templateCache&quot;, function($templateCache) {
+
+	    angular.forEach(templates, function(template) {
+	      if (!$templateCache.get(template.cacheTemplateName)) {
+	        $templateCache.put(template.cacheTemplateName, template.template);
+	      }
+	    });
+
+	  }]).name;
+
+	requireAll(__webpack_require__(23));
+	requireAll(__webpack_require__(37));
+	requireAll(__webpack_require__(42));
+
+
+/***/ },
+/* 1 */,
+/* 2 */,
+/* 3 */,
+/* 4 */,
+/* 5 */,
+/* 6 */,
+/* 7 */,
+/* 8 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 9 */,
+/* 10 */,
+/* 11 */,
+/* 12 */
+/***/ function(module, exports) {
+
+	module.exports = __WEBPACK_EXTERNAL_MODULE_12__;
+
+/***/ },
+/* 13 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var map = {
+		&quot;./calendar.html&quot;: 14,
+		&quot;./calendarDayView.html&quot;: 15,
+		&quot;./calendarHourList.html&quot;: 16,
+		&quot;./calendarMonthCell.html&quot;: 17,
+		&quot;./calendarMonthCellEvents.html&quot;: 18,
+		&quot;./calendarMonthView.html&quot;: 19,
+		&quot;./calendarSlideBox.html&quot;: 20,
+		&quot;./calendarWeekView.html&quot;: 21,
+		&quot;./calendarYearView.html&quot;: 22
+	};
+	function webpackContext(req) {
+		return __webpack_require__(webpackContextResolve(req));
+	};
+	function webpackContextResolve(req) {
+		return map[req] || (function() { throw new Error(&quot;Cannot find module '&quot; + req + &quot;'.&quot;) }());
+	};
+	webpackContext.keys = function webpackContextKeys() {
+		return Object.keys(map);
+	};
+	webpackContext.resolve = webpackContextResolve;
+	module.exports = webpackContext;
+	webpackContext.id = 13;
+
+
+/***/ },
+/* 14 */
+/***/ function(module, exports) {
+
+	module.exports = &quot;&lt;div class=\&quot;cal-context\&quot; ng-switch=\&quot;vm.view\&quot;&gt;\n\n  &lt;div class=\&quot;alert alert-danger\&quot; ng-switch-default&gt;The value passed to the view attribute of the calendar is not set&lt;/div&gt;\n\n  &lt;div class=\&quot;alert alert-danger\&quot; ng-hide=\&quot;vm.viewDate\&quot;&gt;The value passed to view-date attribute of the calendar is not set&lt;/div&gt;\n\n  &lt;mwl-calendar-year\n    events=\&quot;vm.events\&quot;\n    view-date=\&quot;vm.viewDate\&quot;\n    on-event-click=\&quot;vm.onEventClick\&quot;\n    on-event-times-changed=\&quot;vm.onEventTimesChanged\&quot;\n    on-edit-event-click=\&quot;vm.onEditEventClick\&quot;\n    on-delete-event-click=\&quot;vm.onDeleteEventClick\&quot;\n    on-timespan-click=\&quot;vm.onTimespanClick\&quot;\n    edit-event-html=\&quot;vm.editEventHtml\&quot;\n    delete-event-html=\&quot;vm.deleteEventHtml\&quot;\n    cell-is-open=\&quot;vm.cellIsOpen\&quot;\n    cell-modifier=\&quot;vm.cellModifier\&quot;\n    ng-switch-when=\&quot;year\&quot;\n  &gt;&lt;/mwl-calendar-year&gt;\n\n  &lt;mwl-calendar-month\n    events=\&quot;vm.events\&quot;\n    view-date=\&quot;vm.viewDate\&quot;\n    on-event-click=\&quot;vm.onEventClick\&quot;\n    on-event-times-changed=\&quot;vm.onEventTimesChanged\&quot;\n    on-edit-event-click=\&quot;vm.onEditEventClick\&quot;\n&quot;;
+	module.exports = module.exports + &quot;on-delete-event-click=\&quot;vm.onDeleteEventClick\&quot;\n    on-timespan-click=\&quot;vm.onTimespanClick\&quot;\n    edit-event-html=\&quot;vm.editEventHtml\&quot;\n    delete-event-html=\&quot;vm.deleteEventHtml\&quot;\n    cell-is-open=\&quot;vm.cellIsOpen\&quot;\n    cell-modifier=\&quot;vm.cellModifier\&quot;\n    ng-switch-when=\&quot;month\&quot;\n    &gt;&lt;/mwl-calendar-month&gt;\n\n  &lt;mwl-calendar-week\n    events=\&quot;vm.events\&quot;\n    view-date=\&quot;vm.viewDate\&quot;\n    on-event-click=\&quot;vm.onEventClick\&quot;\n    on-event-times-changed=\&quot;vm.onEventTimesChanged\&quot;\n    day-view-start=\&quot;vm.dayViewStart\&quot;\n    day-view-end=\&quot;vm.dayViewEnd\&quot;\n    day-view-split=\&quot;vm.dayViewSplit\&quot;\n    on-timespan-click=\&quot;vm.onTimespanClick\&quot;\n    ng-switch-when=\&quot;week\&quot;\n    &gt;&lt;/mwl-calendar-week&gt;\n\n  &lt;mwl-calendar-day\n    events=\&quot;vm.events\&quot;\n    view-date=\&quot;vm.viewDate\&quot;\n    on-event-click=\&quot;vm.onEventClick\&quot;\n    on-event-times-changed=\&quot;vm.onEventTimesChanged\&quot;\n    on-timespan-click=\&quot;vm.onTimespanClick\&quot;\n    day-view-start=\&quot;vm.dayViewStart\&quot;\n    day-view-end=\&quot;vm.dayViewEnd\&quot;\n    day-view-split=\&quot;vm.dayViewSplit\&quot;\n    ng-switch-when=\&quot;day\&quot;\n    &gt;&lt;/mwl-calendar-day&gt;\n&lt;/div&gt;\n&quot;;
+
+/***/ },
+/* 15 */
+/***/ function(module, exports) {
+
+	module.exports = &quot;&lt;div class=\&quot;cal-day-box\&quot;&gt;\n  &lt;div class=\&quot;row-fluid clearfix cal-row-head\&quot;&gt;\n    &lt;div class=\&quot;span1 col-xs-1 cal-cell\&quot; ng-bind=\&quot;vm.calendarConfig.i18nStrings.timeLabel\&quot;&gt;&lt;/div&gt;\n    &lt;div class=\&quot;span11 col-xs-11 cal-cell\&quot; ng-bind=\&quot;vm.calendarConfig.i18nStrings.eventsLabel\&quot;&gt;&lt;/div&gt;\n  &lt;/div&gt;\n\n  &lt;div class=\&quot;cal-day-panel clearfix\&quot; ng-style=\&quot;{height: vm.dayViewHeight + 'px'}\&quot;&gt;\n\n    &lt;mwl-calendar-hour-list\n      day-view-start=\&quot;vm.dayViewStart\&quot;\n      day-view-end=\&quot;vm.dayViewEnd\&quot;\n      day-view-split=\&quot;vm.dayViewSplit\&quot;\n      on-timespan-click=\&quot;vm.onTimespanClick\&quot;\n      view-date=\&quot;vm.viewDate\&quot;&gt;\n    &lt;/mwl-calendar-hour-list&gt;\n\n    &lt;div\n      class=\&quot;pull-left day-event day-highlight\&quot;\n      ng-repeat=\&quot;event in vm.view track by event.$id\&quot;\n      ng-class=\&quot;'dh-event-' + event.type + ' ' + event.cssClass\&quot;\n      ng-style=\&quot;{top: event.top + 'px', left: event.left + 60 + 'px', height: event.height + 'px'}\&quot;\n      mwl-draggable=\&quot;event.draggable === true\&quot;\n      axis=\&quot;'xy'\&quot;\n      snap-grid=\&quot;{y: 30, x: 50}\&quot;\n      on-drag=\&quot;vm.eventDragged(event, y)\&quot;\n      on-drag-end=\&quot;vm.eventDragComplete(event, y)\&quot;\n      mwl-resizable=\&quot;event.resizable === true &amp;&amp; event.endsAt\&quot;\n      resize-edges=\&quot;{top: true, bottom: true}\&quot;\n      on-resize=\&quot;vm.eventResized(event, edge, y)\&quot;\n      on-resize-end=\&quot;vm.eventResizeComplete(event, edge, y)\&quot;&gt;\n\n      &lt;span class=\&quot;cal-hours\&quot;&gt;\n        &lt;span ng-show=\&quot;event.top == 0\&quot;&gt;&lt;span ng-bind=\&quot;(event.tempStartsAt || event.startsAt) | calendarDate:'day':true\&quot;&gt;&lt;/span&gt;, &lt;/span&gt;\n        &lt;span ng-bind=\&quot;(event.tempStartsAt || event.startsAt) | calendarDate:'time':true\&quot;&gt;&lt;/span&gt;\n      &lt;/span&gt;\n      &lt;a href=\&quot;javascript:;\&quot; class=\&quot;event-item\&quot; ng-click=\&quot;vm.onEventClick({calendarEvent: event})\&quot;&gt;\n        &lt;span ng-bind-html=\&quot;vm.$sce.trustAsHtml(event.title) | calendarTruncateEventTitle:20:event.height\&quot;&gt;&lt;/span&gt;\n      &lt;/a&gt;\n\n    &lt;/div&gt;\n\n  &lt;/div&gt;\n\n&lt;/div&gt;\n&quot;;
+
+/***/ },
+/* 16 */
+/***/ function(module, exports) {
+
+	module.exports = &quot;&lt;div class=\&quot;cal-day-panel-hour\&quot;&gt;\n\n  &lt;div class=\&quot;cal-day-hour\&quot; ng-repeat=\&quot;hour in vm.hours track by $index\&quot;&gt;\n\n    &lt;div\n      class=\&quot;row-fluid cal-day-hour-part\&quot;\n      ng-click=\&quot;vm.onTimespanClick({calendarDate: hour.date.toDate()})\&quot;&gt;\n      &lt;div class=\&quot;span1 col-xs-1\&quot;&gt;&lt;strong ng-bind=\&quot;hour.label\&quot;&gt;&lt;/strong&gt;&lt;/div&gt;\n      &lt;div class=\&quot;span11 col-xs-11\&quot;&gt;&lt;/div&gt;\n    &lt;/div&gt;\n\n    &lt;div\n      class=\&quot;row-fluid cal-day-hour-part\&quot;\n      ng-click=\&quot;vm.onTimespanClick({calendarDate: hour.date.clone().add(vm.dayViewSplit, 'minutes').toDate()})\&quot;&gt;\n      &lt;div class=\&quot;span1 col-xs-1\&quot;&gt;&lt;/div&gt;\n      &lt;div class=\&quot;span11 col-xs-11\&quot;&gt;&lt;/div&gt;\n    &lt;/div&gt;\n\n    &lt;div\n      class=\&quot;row-fluid cal-day-hour-part\&quot;\n      ng-show=\&quot;vm.dayViewSplit &lt; 30\&quot;\n      ng-click=\&quot;vm.onTimespanClick({calendarDate: hour.date.clone().add(vm.dayViewSplit * 2, 'minutes').toDate()})\&quot;&gt;\n      &lt;div class=\&quot;span1 col-xs-1\&quot;&gt;&lt;/div&gt;\n      &lt;div class=\&quot;span11 col-xs-11\&quot;&gt;&lt;/div&gt;\n    &lt;/div&gt;\n\n    &lt;div\n      class=\&quot;row-fluid cal-day-hour-part\&quot;\n      ng-show=\&quot;vm.dayViewSplit &lt; 30\&quot;\n      ng-click=\&quot;vm.onTimespanClick({calendarDate: hour.date.clone().add(vm.dayViewSplit * 3, 'minutes').toDate()})\&quot;&gt;\n      &lt;div class=\&quot;span1 col-xs-1\&quot;&gt;&lt;/div&gt;\n      &lt;div class=\&quot;span11 col-xs-11\&quot;&gt;&lt;/div&gt;\n    &lt;/div&gt;\n\n    &lt;div\n      class=\&quot;row-fluid cal-day-hour-part\&quot;\n      ng-show=\&quot;vm.dayViewSplit &lt; 15\&quot;\n      ng-click=\&quot;vm.onTimespanClick({calendarDate: hour.date.clone().add(vm.dayViewSplit * 4, 'minutes').toDate()})\&quot;&gt;\n      &lt;div class=\&quot;span1 col-xs-1\&quot;&gt;&lt;/div&gt;\n      &lt;div class=\&quot;span11 col-xs-11\&quot;&gt;&lt;/div&gt;\n    &lt;/div&gt;\n\n    &lt;div\n      class=\&quot;row-fluid cal-day-hour-part\&quot;\n      ng-show=\&quot;vm.dayViewSplit &lt; 15\&quot;\n      ng-click=\&quot;vm.onTimespanClick({calendarDate: hour.date.clone().add(vm.dayViewSplit * 5, 'minutes').toDate()})\&quot;&gt;\n      &lt;div class=\&quot;span1 col-xs-1\&quot;&gt;&lt;/div&gt;\n      &lt;div class=\&quot;span11 col-xs-11\&quot;&gt;&lt;/div&gt;\n    &lt;/div&gt;\n\n  &lt;/div&gt;\n\n&lt;/div&gt;\n&quot;;
+
+/***/ },
+/* 17 */
+/***/ function(module, exports) {
+
+	module.exports = &quot;&lt;div\n  mwl-droppable\n  on-drop=\&quot;vm.handleEventDrop(dropData.event, day.date, dropData.draggedFromDate)\&quot;\n  class=\&quot;cal-month-day {{ day.cssClass }}\&quot;\n  ng-class=\&quot;{\n            'cal-day-outmonth': !day.inMonth,\n            'cal-day-inmonth': day.inMonth,\n            'cal-day-weekend': day.isWeekend,\n            'cal-day-past': day.isPast,\n            'cal-day-today': day.isToday,\n            'cal-day-future': day.isFuture\n          }\&quot;&gt;\n\n  &lt;small\n    class=\&quot;cal-events-num badge badge-important pull-left\&quot;\n    ng-show=\&quot;day.badgeTotal &gt; 0\&quot;\n    ng-bind=\&quot;day.badgeTotal\&quot;&gt;\n  &lt;/small&gt;\n\n  &lt;span\n    class=\&quot;pull-right\&quot;\n    data-cal-date\n    ng-click=\&quot;vm.calendarCtrl.dateClicked(day.date)\&quot;\n    ng-bind=\&quot;day.label\&quot;&gt;\n  &lt;/span&gt;\n\n  &lt;div class=\&quot;cal-day-tick\&quot; ng-show=\&quot;dayIndex === vm.openDayIndex &amp;&amp; vm.view[vm.openDayIndex].events.length &gt; 0\&quot;&gt;\n    &lt;i class=\&quot;glyphicon glyphicon-chevron-up\&quot;&gt;&lt;/i&gt;\n    &lt;i class=\&quot;fa fa-chevron-up\&quot;&gt;&lt;/i&gt;\n  &lt;/div&gt;\n\n  &lt;ng-include src=\&quot;vm.calendarConfig.templates.calendarMonthCellEvents\&quot;&gt;&lt;/ng-include&gt;\n\n  &lt;div id=\&quot;cal-week-box\&quot; ng-if=\&quot;$first &amp;&amp; rowHovered\&quot;&gt;\n    {{ vm.calendarConfig.i18nStrings.weekNumber.replace('{week}', day.date.week()) }}\n  &lt;/div&gt;\n\n&lt;/div&gt;\n&quot;;
+
+/***/ },
+/* 18 */
+/***/ function(module, exports) {
+
+	module.exports = &quot;&lt;div class=\&quot;events-list\&quot; ng-show=\&quot;day.events.length &gt; 0\&quot;&gt;\n  &lt;a\n    ng-repeat=\&quot;event in day.events | orderBy:'startsAt' track by event.$id\&quot;\n    href=\&quot;javascript:;\&quot;\n    ng-click=\&quot;vm.onEventClick({calendarEvent: event})\&quot;\n    class=\&quot;pull-left event\&quot;\n    ng-class=\&quot;'event-' + event.type + ' ' + event.cssClass\&quot;\n    ng-mouseenter=\&quot;vm.highlightEvent(event, true)\&quot;\n    ng-mouseleave=\&quot;vm.highlightEvent(event, false)\&quot;\n    tooltip-append-to-body=\&quot;true\&quot;\n    uib-tooltip-html=\&quot;((event.startsAt | calendarDate:'time':true) + (vm.calendarConfig.displayEventEndTimes &amp;&amp; event.endsAt ? ' - ' + (event.endsAt | calendarDate:'time':true) : '') + ' - ' + event.title) | calendarTrustAsHtml\&quot;\n    mwl-draggable=\&quot;event.draggable === true\&quot;\n    drop-data=\&quot;{event: event, draggedFromDate: day.date.toDate()}\&quot;&gt;\n  &lt;/a&gt;\n&lt;/div&gt;\n&quot;;
+
+/***/ },
+/* 19 */
+/***/ function(module, exports) {
+
+	module.exports = &quot;&lt;div class=\&quot;cal-row-fluid cal-row-head\&quot;&gt;\n\n  &lt;div class=\&quot;cal-cell1\&quot; ng-repeat=\&quot;day in vm.weekDays track by $index\&quot; ng-bind=\&quot;day\&quot;&gt;&lt;/div&gt;\n\n&lt;/div&gt;\n&lt;div class=\&quot;cal-month-box\&quot;&gt;\n\n  &lt;div\n    ng-repeat=\&quot;rowOffset in vm.monthOffsets track by rowOffset\&quot;\n    ng-mouseenter=\&quot;rowHovered = true\&quot;\n    ng-mouseleave=\&quot;rowHovered = false\&quot;&gt;\n    &lt;div class=\&quot;cal-row-fluid cal-before-eventlist\&quot;&gt;\n      &lt;div\n        ng-repeat=\&quot;day in vm.view | calendarLimitTo:7:rowOffset track by $index\&quot;\n        ng-init=\&quot;dayIndex = vm.view.indexOf(day)\&quot;\n        class=\&quot;cal-cell1 cal-cell {{ day.highlightClass }}\&quot;\n        ng-click=\&quot;vm.dayClicked(day, false, $event)\&quot;\n        ng-class=\&quot;{pointer: day.events.length &gt; 0}\&quot;&gt;\n        &lt;ng-include src=\&quot;vm.calendarConfig.templates.calendarMonthCell\&quot;&gt;&lt;/ng-include&gt;\n      &lt;/div&gt;\n    &lt;/div&gt;\n\n    &lt;mwl-calendar-slide-box\n      is-open=\&quot;vm.openRowIndex === $index &amp;&amp; vm.view[vm.openDayIndex].events.length &gt; 0\&quot;\n      events=\&quot;vm.view[vm.openDayIndex].events\&quot;\n      on-event-click=\&quot;vm.onEventClick\&quot;\n      edit-event-html=\&quot;vm.editEventHtml\&quot;\n      on-edit-event-click=\&quot;vm.onEditEventClick\&quot;\n      delete-event-html=\&quot;vm.deleteEventHtml\&quot;\n      on-delete-event-click=\&quot;vm.onDeleteEventClick\&quot;&gt;\n    &lt;/mwl-calendar-slide-box&gt;\n\n  &lt;/div&gt;\n\n&lt;/div&gt;\n&quot;;
+
+/***/ },
+/* 20 */
+/***/ function(module, exports) {
+
+	module.exports = &quot;&lt;div class=\&quot;cal-slide-box\&quot; uib-collapse=\&quot;vm.isCollapsed\&quot; mwl-collapse-fallback=\&quot;vm.isCollapsed\&quot;&gt;\n  &lt;div class=\&quot;cal-slide-content cal-event-list\&quot;&gt;\n    &lt;ul class=\&quot;unstyled list-unstyled\&quot;&gt;\n\n      &lt;li\n        ng-repeat=\&quot;event in vm.events | orderBy:'startsAt' track by event.$id\&quot;\n        ng-class=\&quot;event.cssClass\&quot;\n        mwl-draggable=\&quot;event.draggable === true\&quot;\n        drop-data=\&quot;{event: event}\&quot;&gt;\n        &lt;span class=\&quot;pull-left event\&quot; ng-class=\&quot;'event-' + event.type\&quot;&gt;&lt;/span&gt;\n        &amp;nbsp;\n        &lt;a\n          href=\&quot;javascript:;\&quot;\n          class=\&quot;event-item\&quot;\n          ng-click=\&quot;vm.onEventClick({calendarEvent: event})\&quot;&gt;\n          &lt;span ng-bind-html=\&quot;vm.$sce.trustAsHtml(event.title)\&quot;&gt;&lt;/span&gt;\n          (&lt;span ng-bind=\&quot;event.startsAt | calendarDate:(isMonthView ? 'time' : 'datetime'):true\&quot;&gt;&lt;/span&gt;&lt;span ng-if=\&quot;vm.calendarConfig.displayEventEndTimes &amp;&amp; event.endsAt\&quot;&gt; - &lt;span ng-bind=\&quot;event.endsAt | calendarDate:(isMonthView ? 'time' : 'datetime'):true\&quot;&gt;&lt;/span&gt;&lt;/span&gt;)\n        &lt;/a&gt;\n\n        &lt;a\n          href=\&quot;javascript:;\&quot;\n          class=\&quot;event-item-edit\&quot;\n          ng-if=\&quot;vm.editEventHtml &amp;&amp; event.editable !== false\&quot;\n          ng-bind-html=\&quot;vm.$sce.trustAsHtml(vm.editEventHtml)\&quot;\n          ng-click=\&quot;vm.onEditEventClick({calendarEvent: event})\&quot;&gt;\n        &lt;/a&gt;\n\n        &lt;a\n          href=\&quot;javascript:;\&quot;\n          class=\&quot;event-item-delete\&quot;\n          ng-if=\&quot;vm.deleteEventHtml &amp;&amp; event.deletable !== false\&quot;\n          ng-bind-html=\&quot;vm.$sce.trustAsHtml(vm.deleteEventHtml)\&quot;\n          ng-click=\&quot;vm.onDeleteEventClick({calendarEvent: event})\&quot;&gt;\n        &lt;/a&gt;\n      &lt;/li&gt;\n\n    &lt;/ul&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n&quot;;
+
+/***/ },
+/* 21 */
+/***/ function(module, exports) {
+
+	module.exports = &quot;&lt;div class=\&quot;cal-week-box\&quot; ng-class=\&quot;{'cal-day-box': vm.showTimes}\&quot;&gt;\n  &lt;div class=\&quot;cal-row-fluid cal-row-head\&quot;&gt;\n\n    &lt;div\n      class=\&quot;cal-cell1\&quot;\n      ng-repeat=\&quot;day in vm.view.days track by $index\&quot;\n      ng-class=\&quot;{\n        'cal-day-weekend': day.isWeekend,\n        'cal-day-past': day.isPast,\n        'cal-day-today': day.isToday,\n        'cal-day-future': day.isFuture}\&quot;\n      mwl-element-dimensions=\&quot;vm.dayColumnDimensions\&quot;&gt;\n\n      &lt;span ng-bind=\&quot;day.weekDayLabel\&quot;&gt;&lt;/span&gt;\n      &lt;br&gt;\n      &lt;small&gt;\n        &lt;span\n          data-cal-date\n          ng-click=\&quot;vm.calendarCtrl.dateClicked(day.date)\&quot;\n          class=\&quot;pointer\&quot;\n          ng-bind=\&quot;day.dayLabel\&quot;&gt;\n        &lt;/span&gt;\n      &lt;/small&gt;\n\n    &lt;/div&gt;\n\n  &lt;/div&gt;\n\n  &lt;div class=\&quot;cal-day-panel clearfix\&quot; ng-style=\&quot;{height: vm.showTimes ? (vm.dayViewHeight + 'px') : 'auto'}\&quot;&gt;\n\n    &lt;mwl-calendar-hour-list\n      day-view-start=\&quot;vm.dayViewStart\&quot;\n      day-view-end=\&quot;vm.dayViewEnd\&quot;\n      day-view-split=\&quot;vm.dayViewSplit\&quot;\n      view-date=\&quot;vm.viewDate\&quot;\n      on-timespan-click=\&quot;vm.onTimespanClick\&quot;\n      ng-if=\&quot;vm.showTimes\&quot;&gt;\n    &lt;/mwl-calendar-hour-list&gt;\n\n    &lt;div class=\&quot;row\&quot;&gt;\n      &lt;div class=\&quot;col-xs-12\&quot;&gt;\n        &lt;div\n          class=\&quot;cal-row-fluid \&quot;\n          ng-repeat=\&quot;event in vm.view.events track by event.$id\&quot;&gt;\n          &lt;div\n            ng-class=\&quot;'cal-cell' + (vm.showTimes ? 1 : event.daySpan) + (vm.showTimes ? '' : ' cal-offset' + event.dayOffset) + ' day-highlight dh-event-' + event.type + ' ' + event.cssClass\&quot;\n&quot;
+	module.exports = module.exports + &quot;ng-style=\&quot;{\n              top: vm.showTimes ? ((event.top + 2) + 'px') : 'auto',\n              position: vm.showTimes ? 'absolute' : 'inherit',\n              width: vm.showTimes ? (vm.dayColumnDimensions.width + 'px') : '',\n              left: vm.showTimes ? (vm.dayColumnDimensions.width * event.dayOffset) + 15 + 'px' : ''\n            }\&quot;\n            data-event-class\n            mwl-draggable=\&quot;event.draggable === true\&quot;\n            axis=\&quot;vm.showTimes ? 'xy' : 'x'\&quot;\n            snap-grid=\&quot;vm.showTimes ? {x: vm.dayColumnDimensions.width, y: 30} : {x: vm.dayColumnDimensions.width}\&quot;\n            on-drag=\&quot;vm.tempTimeChanged(event, y)\&quot;\n            on-drag-end=\&quot;vm.weekDragged(event, x, y)\&quot;\n            mwl-resizable=\&quot;event.resizable === true &amp;&amp; event.endsAt &amp;&amp; !vm.showTimes\&quot;\n            resize-edges=\&quot;{left: true, right: true}\&quot;\n            on-resize-end=\&quot;vm.weekResized(event, edge, x)\&quot;&gt;\n            &lt;strong ng-bind=\&quot;(event.tempStartsAt || event.startsAt) | calendarDate:'time':true\&quot; ng-show=\&quot;vm.showTimes\&quot;&gt;&lt;/strong&gt;\n            &lt;a\n              href=\&quot;javascript:;\&quot;\n              ng-click=\&quot;vm.onEventClick({calendarEvent: event})\&quot;\n              class=\&quot;event-item\&quot;\n              ng-bind-html=\&quot;vm.$sce.trustAsHtml(event.title)\&quot;\n              uib-tooltip-html=\&quot;event.title | calendarTrustAsHtml\&quot;\n              tooltip-placement=\&quot;left\&quot;\n              tooltip-append-to-body=\&quot;true\&quot;&gt;\n            &lt;/a&gt;\n          &lt;/div&gt;\n        &lt;/div&gt;\n      &lt;/div&gt;\n\n    &lt;/div&gt;\n\n  &lt;/div&gt;\n&lt;/div&gt;\n&quot;;
+
+/***/ },
+/* 22 */
+/***/ function(module, exports) {
+
+	module.exports = &quot;&lt;div class=\&quot;cal-year-box\&quot;&gt;\n  &lt;div ng-repeat=\&quot;rowOffset in [0, 4, 8] track by rowOffset\&quot;&gt;\n    &lt;div class=\&quot;row cal-before-eventlist\&quot;&gt;\n      &lt;div\n        class=\&quot;span3 col-md-3 col-xs-6 cal-cell {{ day.cssClass }}\&quot;\n        ng-repeat=\&quot;month in vm.view | calendarLimitTo:4:rowOffset track by $index\&quot;\n        ng-init=\&quot;monthIndex = vm.view.indexOf(month)\&quot;\n        ng-click=\&quot;vm.monthClicked(month, false, $event)\&quot;\n        ng-class=\&quot;{pointer: month.events.length &gt; 0, 'cal-day-today': month.isToday}\&quot;\n        mwl-droppable\n        on-drop=\&quot;vm.handleEventDrop(dropData.event, month.date)\&quot;&gt;\n\n        &lt;span\n          class=\&quot;pull-right\&quot;\n          data-cal-date\n          ng-click=\&quot;vm.calendarCtrl.dateClicked(month.date)\&quot;\n          ng-bind=\&quot;month.label\&quot;&gt;\n        &lt;/span&gt;\n\n        &lt;small\n          class=\&quot;cal-events-num badge badge-important pull-left\&quot;\n          ng-show=\&quot;month.badgeTotal &gt; 0\&quot;\n          ng-bind=\&quot;month.badgeTotal\&quot;&gt;\n        &lt;/small&gt;\n\n        &lt;div\n          class=\&quot;cal-day-tick\&quot;\n          ng-show=\&quot;monthIndex === vm.openMonthIndex &amp;&amp; vm.view[vm.openMonthIndex].events.length &gt; 0\&quot;&gt;\n          &lt;i class=\&quot;glyphicon glyphicon-chevron-up\&quot;&gt;&lt;/i&gt;\n          &lt;i class=\&quot;fa fa-chevron-up\&quot;&gt;&lt;/i&gt;\n        &lt;/div&gt;\n\n      &lt;/div&gt;\n    &lt;/div&gt;\n\n    &lt;mwl-calendar-slide-box\n      is-open=\&quot;vm.openRowIndex === $index &amp;&amp; vm.view[vm.openMonthIndex].events.length &gt; 0\&quot;\n      events=\&quot;vm.view[vm.openMonthIndex].events\&quot;\n      on-event-click=\&quot;vm.onEventClick\&quot;\n      edit-event-html=\&quot;vm.editEventHtml\&quot;\n      on-edit-event-click=\&quot;vm.onEditEventClick\&quot;\n      delete-event-html=\&quot;vm.deleteEventHtml\&quot;\n      on-delete-event-click=\&quot;vm.onDeleteEventClick\&quot;&gt;\n    &lt;/mwl-calendar-slide-box&gt;\n\n  &lt;/div&gt;\n\n&lt;/div&gt;\n&quot;;
+
+/***/ },
+/* 23 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var map = {
+		&quot;./mwlCalendar.js&quot;: 24,
+		&quot;./mwlCalendarDay.js&quot;: 25,
+		&quot;./mwlCalendarHourList.js&quot;: 26,
+		&quot;./mwlCalendarMonth.js&quot;: 27,
+		&quot;./mwlCalendarSlideBox.js&quot;: 28,
+		&quot;./mwlCalendarWeek.js&quot;: 29,
+		&quot;./mwlCalendarYear.js&quot;: 30,
+		&quot;./mwlCollapseFallback.js&quot;: 31,
+		&quot;./mwlDateModifier.js&quot;: 32,
+		&quot;./mwlDraggable.js&quot;: 33,
+		&quot;./mwlDroppable.js&quot;: 34,
+		&quot;./mwlElementDimensions.js&quot;: 35,
+		&quot;./mwlResizable.js&quot;: 36
+	};
+	function webpackContext(req) {
+		return __webpack_require__(webpackContextResolve(req));
+	};
+	function webpackContextResolve(req) {
+		return map[req] || (function() { throw new Error(&quot;Cannot find module '&quot; + req + &quot;'.&quot;) }());
+	};
+	webpackContext.keys = function webpackContextKeys() {
+		return Object.keys(map);
+	};
+	webpackContext.resolve = webpackContextResolve;
+	module.exports = webpackContext;
+	webpackContext.id = 23;
+
+
+/***/ },
+/* 24 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var angular = __webpack_require__(12);
+
+	angular
+	  .module('mwl.calendar')
+	  .controller('MwlCalendarCtrl', [&quot;$scope&quot;, &quot;$log&quot;, &quot;$timeout&quot;, &quot;$attrs&quot;, &quot;$locale&quot;, &quot;moment&quot;, &quot;calendarTitle&quot;, function($scope, $log, $timeout, $attrs, $locale, moment, calendarTitle) {
+
+	    var vm = this;
+
+	    vm.events = vm.events || [];
+
+	    vm.changeView = function(view, newDay) {
+	      vm.view = view;
+	      vm.viewDate = newDay;
+	    };
+
+	    vm.dateClicked = function(date) {
+
+	      var rawDate = moment(date).toDate();
+
+	      var nextView = {
+	        year: 'month',
+	        month: 'day',
+	        week: 'day'
+	      };
+
+	      if (vm.onViewChangeClick({calendarDate: rawDate, calendarNextView: nextView[vm.view]}) !== false) {
+	        vm.changeView(nextView[vm.view], rawDate);
+	      }
+
+	    };
+
+	    var previousDate = moment(vm.viewDate);
+	    var previousView = vm.view;
+
+	    function eventIsValid(event) {
+	      if (!event.startsAt) {
+	        $log.warn('Bootstrap calendar: ', 'Event is missing the startsAt field', event);
+	      }
+
+	      if (!angular.isDate(event.startsAt)) {
+	        $log.warn('Bootstrap calendar: ', 'Event startsAt should be a javascript date object', event);
+	      }
+
+	      if (angular.isDefined(event.endsAt)) {
+	        if (!angular.isDate(event.endsAt)) {
+	          $log.warn('Bootstrap calendar: ', 'Event endsAt should be a javascript date object', event);
+	        }
+	        if (moment(event.startsAt).isAfter(moment(event.endsAt))) {
+	          $log.warn('Bootstrap calendar: ', 'Event cannot start after it finishes', event);
+	        }
+	      }
+
+	      return true;
+	    }
+
+	    function refreshCalendar() {
+
+	      if (calendarTitle[vm.view] &amp;&amp; angular.isDefined($attrs.viewTitle)) {
+	        vm.viewTitle = calendarTitle[vm.view](vm.viewDate);
+	      }
+
+	      vm.events = vm.events.filter(eventIsValid).map(function(event, index) {
+	        Object.defineProperty(event, '$id', {enumerable: false, configurable: true, value: index});
+	        return event;
+	      });
+
+	      //if on-timespan-click=&quot;calendarDay = calendarDate&quot; is set then don't update the view as nothing needs to change
+	      var currentDate = moment(vm.viewDate);
+	      var shouldUpdate = true;
+	      if (
+	        previousDate.clone().startOf(vm.view).isSame(currentDate.clone().startOf(vm.view)) &amp;&amp;
+	        !previousDate.isSame(currentDate) &amp;&amp;
+	        vm.view === previousView
+	      ) {
+	        shouldUpdate = false;
+	      }
+	      previousDate = currentDate;
+	      previousView = vm.view;
+
+	      if (shouldUpdate) {
+	        // a $timeout is required as $broadcast is synchronous so if a new events array is set the calendar won't update
+	        $timeout(function() {
+	          $scope.$broadcast('calendar.refreshView');
+	        });
+	      }
+	    }
+
+	    var eventsWatched = false;
+
+	    //Refresh the calendar when any of these variables change.
+	    $scope.$watchGroup([
+	      'vm.viewDate',
+	      'vm.view',
+	      'vm.cellIsOpen',
+	      function() {
+	        return moment.locale() + $locale.id; //Auto update the calendar when the locale changes
+	      }
+	    ], function() {
+	      if (!eventsWatched) {
+	        eventsWatched = true;
+	        //need to deep watch events hence why it isn't included in the watch group
+	        $scope.$watch('vm.events', refreshCalendar, true); //this will call refreshCalendar when the watcher starts (i.e. now)
+	      } else {
+	        refreshCalendar();
+	      }
+	    });
+
+	  }])
+	  .directive('mwlCalendar', [&quot;calendarConfig&quot;, function(calendarConfig) {
+
+	    return {
+	      templateUrl: calendarConfig.templates.calendar,
+	      restrict: 'E',
+	      scope: {
+	        events: '=',
+	        view: '=',
+	        viewTitle: '=?',
+	        viewDate: '=',
+	        editEventHtml: '=?',
+	        deleteEventHtml: '=?',
+	        cellIsOpen: '=?',
+	        onEventClick: '&amp;',
+	        onEventTimesChanged: '&amp;',
+	        onEditEventClick: '&amp;',
+	        onDeleteEventClick: '&amp;',
+	        onTimespanClick: '&amp;',
+	        onViewChangeClick: '&amp;',
+	        cellModifier: '&amp;',
+	        dayViewStart: '@',
+	        dayViewEnd: '@',
+	        dayViewSplit: '@'
+	      },
+	      controller: 'MwlCalendarCtrl as vm',
+	      bindToController: true
+	    };
+
+	  }]);
+
+
+/***/ },
+/* 25 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var angular = __webpack_require__(12);
+
+	angular
+	  .module('mwl.calendar')
+	  .controller('MwlCalendarDayCtrl', [&quot;$scope&quot;, &quot;$sce&quot;, &quot;moment&quot;, &quot;calendarHelper&quot;, &quot;calendarConfig&quot;, function($scope, $sce, moment, calendarHelper, calendarConfig) {
+
+	    var vm = this;
+
+	    vm.calendarConfig = calendarConfig;
+	    vm.$sce = $sce;
+
+	    $scope.$on('calendar.refreshView', function() {
+	      vm.dayViewSplit = vm.dayViewSplit || 30;
+	      vm.dayViewHeight = calendarHelper.getDayViewHeight(
+	        vm.dayViewStart,
+	        vm.dayViewEnd,
+	        vm.dayViewSplit
+	      );
+
+	      vm.view = calendarHelper.getDayView(
+	        vm.events,
+	        vm.viewDate,
+	        vm.dayViewStart,
+	        vm.dayViewEnd,
+	        vm.dayViewSplit
+	      );
+
+	    });
+
+	    vm.eventDragComplete = function(event, minuteChunksMoved) {
+	      var minutesDiff = minuteChunksMoved * vm.dayViewSplit;
+	      var newStart = moment(event.startsAt).add(minutesDiff, 'minutes');
+	      var newEnd = moment(event.endsAt).add(minutesDiff, 'minutes');
+	      delete event.tempStartsAt;
+
+	      vm.onEventTimesChanged({
+	        calendarEvent: event,
+	        calendarNewEventStart: newStart.toDate(),
+	        calendarNewEventEnd: event.endsAt ? newEnd.toDate() : null
+	      });
+	    };
+
+	    vm.eventDragged = function(event, minuteChunksMoved) {
+	      var minutesDiff = minuteChunksMoved * vm.dayViewSplit;
+	      event.tempStartsAt = moment(event.startsAt).add(minutesDiff, 'minutes').toDate();
+	    };
+
+	    vm.eventResizeComplete = function(event, edge, minuteChunksMoved) {
+	      var minutesDiff = minuteChunksMoved * vm.dayViewSplit;
+	      var start = moment(event.startsAt);
+	      var end = moment(event.endsAt);
+	      if (edge === 'start') {
+	        start.add(minutesDiff, 'minutes');
+	      } else {
+	        end.add(minutesDiff, 'minutes');
+	      }
+	      delete event.tempStartsAt;
+
+	      vm.onEventTimesChanged({
+	        calendarEvent: event,
+	        calendarNewEventStart: start.toDate(),
+	        calendarNewEventEnd: end.toDate()
+	      });
+	    };
+
+	    vm.eventResized = function(event, edge, minuteChunksMoved) {
+	      var minutesDiff = minuteChunksMoved * vm.dayViewSplit;
+	      if (edge === 'start') {
+	        event.tempStartsAt = moment(event.startsAt).add(minutesDiff, 'minutes').toDate();
+	      }
+	    };
+
+	  }])
+	  .directive('mwlCalendarDay', [&quot;calendarConfig&quot;, function(calendarConfig) {
+
+	    return {
+	      templateUrl: calendarConfig.templates.calendarDayView,
+	      restrict: 'E',
+	      require: '^mwlCalendar',
+	      scope: {
+	        events: '=',
+	        viewDate: '=',
+	        onEventClick: '=',
+	        onEventTimesChanged: '=',
+	        onTimespanClick: '=',
+	        dayViewStart: '=',
+	        dayViewEnd: '=',
+	        dayViewSplit: '='
+	      },
+	      controller: 'MwlCalendarDayCtrl as vm',
+	      bindToController: true
+	    };
+
+	  }]);
+
+
+/***/ },
+/* 26 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var angular = __webpack_require__(12);
+
+	angular
+	  .module('mwl.calendar')
+	  .controller('MwlCalendarHourListCtrl', [&quot;$scope&quot;, &quot;moment&quot;, &quot;calendarConfig&quot;, &quot;calendarHelper&quot;, function($scope, moment, calendarConfig, calendarHelper) {
+	    var vm = this;
+	    var dayViewStart, dayViewEnd;
+
+	    function updateDays() {
+	      dayViewStart = moment(vm.dayViewStart || '00:00', 'HH:mm');
+	      dayViewEnd = moment(vm.dayViewEnd || '23:00', 'HH:mm');
+	      vm.dayViewSplit = parseInt(vm.dayViewSplit);
+	      vm.hours = [];
+	      var dayCounter = moment(vm.viewDate)
+	        .clone()
+	        .hours(dayViewStart.hours())
+	        .minutes(dayViewStart.minutes())
+	        .seconds(dayViewStart.seconds());
+	      for (var i = 0; i &lt;= dayViewEnd.diff(dayViewStart, 'hours'); i++) {
+	        vm.hours.push({
+	          label: calendarHelper.formatDate(dayCounter, calendarConfig.dateFormats.hour),
+	          date: dayCounter.clone()
+	        });
+	        dayCounter.add(1, 'hour');
+	      }
+	    }
+
+	    var originalLocale = moment.locale();
+
+	    $scope.$on('calendar.refreshView', function() {
+
+	      if (originalLocale !== moment.locale()) {
+	        originalLocale = moment.locale();
+	        updateDays();
+	      }
+
+	    });
+
+	    $scope.$watchGroup([
+	      'vm.dayViewStart',
+	      'vm.dayViewEnd',
+	      'vm.dayViewSplit',
+	      'vm.viewDate'
+	    ], function() {
+	      updateDays();
+	    });
+
+	  }])
+	  .directive('mwlCalendarHourList', [&quot;calendarConfig&quot;, function(calendarConfig) {
+
+	    return {
+	      restrict: 'E',
+	      templateUrl: calendarConfig.templates.calendarHourList,
+	      controller: 'MwlCalendarHourListCtrl as vm',
+	      scope: {
+	        viewDate: '=',
+	        dayViewStart: '=',
+	        dayViewEnd: '=',
+	        dayViewSplit: '=',
+	        onTimespanClick: '='
+	      },
+	      bindToController: true
+	    };
+
+	  }]);
+
+
+/***/ },
+/* 27 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var angular = __webpack_require__(12);
+
+	angular
+	  .module('mwl.calendar')
+	  .controller('MwlCalendarMonthCtrl', [&quot;$scope&quot;, &quot;moment&quot;, &quot;calendarHelper&quot;, &quot;calendarConfig&quot;, function($scope, moment, calendarHelper, calendarConfig) {
+
+	    var vm = this;
+	    vm.calendarConfig = calendarConfig;
+	    vm.openRowIndex = null;
+
+	    $scope.$on('calendar.refreshView', function() {
+
+	      vm.weekDays = calendarHelper.getWeekDayNames();
+
+	      vm.view = calendarHelper.getMonthView(vm.events, vm.viewDate, vm.cellModifier);
+	      var rows = Math.floor(vm.view.length / 7);
+	      vm.monthOffsets = [];
+	      for (var i = 0; i &lt; rows; i++) {
+	        vm.monthOffsets.push(i * 7);
+	      }
+
+	      //Auto open the calendar to the current day if set
+	      if (vm.cellIsOpen &amp;&amp; vm.openRowIndex === null) {
+	        vm.openDayIndex = null;
+	        vm.view.forEach(function(day) {
+	          if (day.inMonth &amp;&amp; moment(vm.viewDate).startOf('day').isSame(day.date)) {
+	            vm.dayClicked(day, true);
+	          }
+	        });
+	      }
+
+	    });
+
+	    vm.dayClicked = function(day, dayClickedFirstRun, $event) {
+
+	      if (!dayClickedFirstRun) {
+	        vm.onTimespanClick({
+	          calendarDate: day.date.toDate(),
+	          $event: $event
+	        });
+	        if ($event &amp;&amp; $event.defaultPrevented) {
+	          return;
+	        }
+	      }
+
+	      vm.openRowIndex = null;
+	      var dayIndex = vm.view.indexOf(day);
+	      if (dayIndex === vm.openDayIndex) { //the day has been clicked and is already open
+	        vm.openDayIndex = null; //close the open day
+	        vm.cellIsOpen = false;
+	      } else {
+	        vm.openDayIndex = dayIndex;
+	        vm.openRowIndex = Math.floor(dayIndex / 7);
+	        vm.cellIsOpen = true;
+	      }
+
+	    };
+
+	    vm.highlightEvent = function(event, shouldAddClass) {
+
+	      vm.view.forEach(function(day) {
+	        delete day.highlightClass;
+	        if (shouldAddClass) {
+	          var dayContainsEvent = day.events.indexOf(event) &gt; -1;
+	          if (dayContainsEvent) {
+	            day.highlightClass = 'day-highlight dh-event-' + event.type;
+	          }
+	        }
+	      });
+
+	    };
+
+	    vm.handleEventDrop = function(event, newDayDate, draggedFromDate) {
+
+	      var newStart = moment(event.startsAt)
+	        .date(moment(newDayDate).date())
+	        .month(moment(newDayDate).month());
+
+	      var newEnd = calendarHelper.adjustEndDateFromStartDiff(event.startsAt, newStart, event.endsAt);
+
+	      vm.onEventTimesChanged({
+	        calendarEvent: event,
+	        calendarDate: newDayDate,
+	        calendarNewEventStart: newStart.toDate(),
+	        calendarNewEventEnd: newEnd ? newEnd.toDate() : null,
+	        calendarDraggedFromDate: draggedFromDate
+	      });
+	    };
+
+	  }])
+	  .directive('mwlCalendarMonth', [&quot;calendarConfig&quot;, function(calendarConfig) {
+
+	    return {
+	      templateUrl: calendarConfig.templates.calendarMonthView,
+	      restrict: 'E',
+	      require: '^mwlCalendar',
+	      scope: {
+	        events: '=',
+	        viewDate: '=',
+	        onEventClick: '=',
+	        onEditEventClick: '=',
+	        onDeleteEventClick: '=',
+	        onEventTimesChanged: '=',
+	        editEventHtml: '=',
+	        deleteEventHtml: '=',
+	        cellIsOpen: '=',
+	        onTimespanClick: '=',
+	        cellModifier: '='
+	      },
+	      controller: 'MwlCalendarMonthCtrl as vm',
+	      link: function(scope, element, attrs, calendarCtrl) {
+	        scope.vm.calendarCtrl = calendarCtrl;
+	      },
+	      bindToController: true
+	    };
+
+	  }]);
+
+
+/***/ },
+/* 28 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var angular = __webpack_require__(12);
+
+	angular
+	  .module('mwl.calendar')
+	  .controller('MwlCalendarSlideBoxCtrl', [&quot;$sce&quot;, &quot;$scope&quot;, &quot;$timeout&quot;, &quot;calendarConfig&quot;, function($sce, $scope, $timeout, calendarConfig) {
+
+	    var vm = this;
+	    vm.$sce = $sce;
+	    vm.calendarConfig = calendarConfig;
+
+	    vm.isCollapsed = true;
+	    $scope.$watch('vm.isOpen', function(isOpen) {
+	      //events must be populated first to set the element height before animation will work
+	      $timeout(function() {
+	        vm.isCollapsed = !isOpen;
+	      });
+	    });
+
+	  }])
+	  .directive('mwlCalendarSlideBox', [&quot;calendarConfig&quot;, function(calendarConfig) {
+
+	    return {
+	      restrict: 'E',
+	      templateUrl: calendarConfig.templates.calendarSlideBox,
+	      replace: true,
+	      controller: 'MwlCalendarSlideBoxCtrl as vm',
+	      require: ['^?mwlCalendarMonth', '^?mwlCalendarYear'],
+	      link: function(scope, elm, attrs, ctrls) {
+	        scope.isMonthView = !!ctrls[0];
+	        scope.isYearView = !!ctrls[1];
+	      },
+	      scope: {
+	        isOpen: '=',
+	        events: '=',
+	        onEventClick: '=',
+	        editEventHtml: '=',
+	        onEditEventClick: '=',
+	        deleteEventHtml: '=',
+	        onDeleteEventClick: '='
+	      },
+	      bindToController: true
+	    };
+
+	  }]);
+
+
+/***/ },
+/* 29 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var angular = __webpack_require__(12);
+
+	angular
+	  .module('mwl.calendar')
+	  .controller('MwlCalendarWeekCtrl', [&quot;$scope&quot;, &quot;$sce&quot;, &quot;moment&quot;, &quot;calendarHelper&quot;, &quot;calendarConfig&quot;, function($scope, $sce, moment, calendarHelper, calendarConfig) {
+
+	    var vm = this;
+
+	    vm.showTimes = calendarConfig.showTimesOnWeekView;
+	    vm.$sce = $sce;
+
+	    $scope.$on('calendar.refreshView', function() {
+	      vm.dayViewSplit = vm.dayViewSplit || 30;
+	      vm.dayViewHeight = calendarHelper.getDayViewHeight(
+	        vm.dayViewStart,
+	        vm.dayViewEnd,
+	        vm.dayViewSplit
+	      );
+	      if (vm.showTimes) {
+	        vm.view = calendarHelper.getWeekViewWithTimes(
+	          vm.events,
+	          vm.viewDate,
+	          vm.dayViewStart,
+	          vm.dayViewEnd,
+	          vm.dayViewSplit
+	        );
+	      } else {
+	        vm.view = calendarHelper.getWeekView(vm.events, vm.viewDate);
+	      }
+	    });
+
+	    vm.weekDragged = function(event, daysDiff, minuteChunksMoved) {
+
+	      var newStart = moment(event.startsAt).add(daysDiff, 'days');
+	      var newEnd = moment(event.endsAt).add(daysDiff, 'days');
+
+	      if (minuteChunksMoved) {
+	        var minutesDiff = minuteChunksMoved * vm.dayViewSplit;
+	        newStart = newStart.add(minutesDiff, 'minutes');
+	        newEnd = newEnd.add(minutesDiff, 'minutes');
+	      }
+
+	      delete event.tempStartsAt;
+
+	      vm.onEventTimesChanged({
+	        calendarEvent: event,
+	        calendarNewEventStart: newStart.toDate(),
+	        calendarNewEventEnd: event.endsAt ? newEnd.toDate() : null
+	      });
+	    };
+
+	    vm.weekResized = function(event, edge, daysDiff) {
+
+	      var start = moment(event.startsAt);
+	      var end = moment(event.endsAt);
+	      if (edge === 'start') {
+	        start.add(daysDiff, 'days');
+	      } else {
+	        end.add(daysDiff, 'days');
+	      }
+
+	      vm.onEventTimesChanged({
+	        calendarEvent: event,
+	        calendarNewEventStart: start.toDate(),
+	        calendarNewEventEnd: end.toDate()
+	      });
+
+	    };
+
+	    vm.tempTimeChanged = function(event, minuteChunksMoved) {
+	      var minutesDiff = minuteChunksMoved * vm.dayViewSplit;
+	      event.tempStartsAt = moment(event.startsAt).add(minutesDiff, 'minutes').toDate();
+	    };
+
+	  }])
+	  .directive('mwlCalendarWeek', [&quot;calendarConfig&quot;, function(calendarConfig) {
+
+	    return {
+	      templateUrl: calendarConfig.templates.calendarWeekView,
+	      restrict: 'E',
+	      require: '^mwlCalendar',
+	      scope: {
+	        events: '=',
+	        viewDate: '=',
+	        onEventClick: '=',
+	        onEventTimesChanged: '=',
+	        dayViewStart: '=',
+	        dayViewEnd: '=',
+	        dayViewSplit: '=',
+	        onTimespanClick: '='
+	      },
+	      controller: 'MwlCalendarWeekCtrl as vm',
+	      link: function(scope, element, attrs, calendarCtrl) {
+	        scope.vm.calendarCtrl = calendarCtrl;
+	      },
+	      bindToController: true
+	    };
+
+	  }]);
+
+
+/***/ },
+/* 30 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var angular = __webpack_require__(12);
+
+	angular
+	  .module('mwl.calendar')
+	  .controller('MwlCalendarYearCtrl', [&quot;$scope&quot;, &quot;moment&quot;, &quot;calendarHelper&quot;, function($scope, moment, calendarHelper) {
+
+	    var vm = this;
+	    vm.openMonthIndex = null;
+
+	    $scope.$on('calendar.refreshView', function() {
+	      vm.view = calendarHelper.getYearView(vm.events, vm.viewDate, vm.cellModifier);
+
+	      //Auto open the calendar to the current day if set
+	      if (vm.cellIsOpen &amp;&amp; vm.openMonthIndex === null) {
+	        vm.openMonthIndex = null;
+	        vm.view.forEach(function(month) {
+	          if (moment(vm.viewDate).startOf('month').isSame(month.date)) {
+	            vm.monthClicked(month, true);
+	          }
+	        });
+	      }
+
+	    });
+
+	    vm.monthClicked = function(month, monthClickedFirstRun, $event) {
+
+	      if (!monthClickedFirstRun) {
+	        vm.onTimespanClick({
+	          calendarDate: month.date.toDate(),
+	          $event: $event
+	        });
+	        if ($event &amp;&amp; $event.defaultPrevented) {
+	          return;
+	        }
+	      }
+
+	      vm.openRowIndex = null;
+	      var monthIndex = vm.view.indexOf(month);
+	      if (monthIndex === vm.openMonthIndex) { //the month has been clicked and is already open
+	        vm.openMonthIndex = null; //close the open month
+	        vm.cellIsOpen = false;
+	      } else {
+	        vm.openMonthIndex = monthIndex;
+	        vm.openRowIndex = Math.floor(monthIndex / 4);
+	        vm.cellIsOpen = true;
+	      }
+
+	    };
+
+	    vm.handleEventDrop = function(event, newMonthDate) {
+	      var newStart = moment(event.startsAt).month(moment(newMonthDate).month());
+	      var newEnd = calendarHelper.adjustEndDateFromStartDiff(event.startsAt, newStart, event.endsAt);
+
+	      vm.onEventTimesChanged({
+	        calendarEvent: event,
+	        calendarDate: newMonthDate,
+	        calendarNewEventStart: newStart.toDate(),
+	        calendarNewEventEnd: newEnd ? newEnd.toDate() : null
+	      });
+	    };
+
+	  }])
+	  .directive('mwlCalendarYear', [&quot;calendarConfig&quot;, function(calendarConfig) {
+
+	    return {
+	      templateUrl: calendarConfig.templates.calendarYearView,
+	      restrict: 'E',
+	      require: '^mwlCalendar',
+	      scope: {
+	        events: '=',
+	        viewDate: '=',
+	        onEventClick: '=',
+	        onEventTimesChanged: '=',
+	        onEditEventClick: '=',
+	        onDeleteEventClick: '=',
+	        editEventHtml: '=',
+	        deleteEventHtml: '=',
+	        cellIsOpen: '=',
+	        onTimespanClick: '=',
+	        cellModifier: '='
+	      },
+	      controller: 'MwlCalendarYearCtrl as vm',
+	      link: function(scope, element, attrs, calendarCtrl) {
+	        scope.vm.calendarCtrl = calendarCtrl;
+	      },
+	      bindToController: true
+	    };
+
+	  }]);
+
+
+/***/ },
+/* 31 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var angular = __webpack_require__(12);
+
+	angular
+	  .module('mwl.calendar')
+	  .controller('MwlCollapseFallbackCtrl', [&quot;$scope&quot;, &quot;$attrs&quot;, &quot;$element&quot;, function($scope, $attrs, $element) {
+
+	    $scope.$watch($attrs.mwlCollapseFallback, function(shouldCollapse) {
+	      if (shouldCollapse) {
+	        $element.addClass('ng-hide');
+	      } else {
+	        $element.removeClass('ng-hide');
+	      }
+	    });
+
+	  }])
+	  .directive('mwlCollapseFallback', [&quot;$injector&quot;, function($injector) {
+
+	    if ($injector.has('uibCollapseDirective')) {
+	      return {};
+	    }
+
+	    return {
+	      restrict: 'A',
+	      controller: 'MwlCollapseFallbackCtrl'
+	    };
+
+	  }]);
+
+
+/***/ },
+/* 32 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var angular = __webpack_require__(12);
+
+	angular
+	  .module('mwl.calendar')
+	  .controller('MwlDateModifierCtrl', [&quot;$element&quot;, &quot;$attrs&quot;, &quot;$scope&quot;, &quot;moment&quot;, function($element, $attrs, $scope, moment) {
+
+	    var vm = this;
+
+	    function onClick() {
+	      if (angular.isDefined($attrs.setToToday)) {
+	        vm.date = new Date();
+	      } else if (angular.isDefined($attrs.increment)) {
+	        vm.date = moment(vm.date).add(1, vm.increment).toDate();
+	      } else if (angular.isDefined($attrs.decrement)) {
+	        vm.date = moment(vm.date).subtract(1, vm.decrement).toDate();
+	      }
+	      $scope.$apply();
+	    }
+
+	    $element.bind('click', onClick);
+
+	    $scope.$on('$destroy', function() {
+	      $element.unbind('click', onClick);
+	    });
+
+	  }])
+	  .directive('mwlDateModifier', function() {
+
+	    return {
+	      restrict: 'A',
+	      controller: 'MwlDateModifierCtrl as vm',
+	      scope: {
+	        date: '=',
+	        increment: '=',
+	        decrement: '='
+	      },
+	      bindToController: true
+	    };
+
+	  });
+
+
+/***/ },
+/* 33 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var angular = __webpack_require__(12);
+
+	angular
+	  .module('mwl.calendar')
+	  .controller('MwlDraggableCtrl', [&quot;$element&quot;, &quot;$scope&quot;, &quot;$window&quot;, &quot;$parse&quot;, &quot;$attrs&quot;, &quot;$timeout&quot;, &quot;interact&quot;, function($element, $scope, $window, $parse, $attrs, $timeout, interact) {
+
+	    if (!interact) {
+	      return;
+	    }
+
+	    var snap, snapGridDimensions;
+	    if ($attrs.snapGrid) {
+	      snapGridDimensions = $parse($attrs.snapGrid)($scope);
+	      snap = {
+	        targets: [
+	          interact.createSnapGrid(snapGridDimensions)
+	        ]
+	      };
+	    }
+
+	    function translateElement(elm, transformValue) {
+	      return elm
+	        .css('-ms-transform', transformValue)
+	        .css('-webkit-transform', transformValue)
+	        .css('transform', transformValue);
+	    }
+
+	    function canDrag() {
+	      return $parse($attrs.mwlDraggable)($scope);
+	    }
+
+	    function getUnitsMoved(x, y, gridDimensions) {
+
+	      var result = {x: x, y: y};
+
+	      if (gridDimensions &amp;&amp; gridDimensions.x) {
+	        result.x /= gridDimensions.x;
+	      }
+
+	      if (gridDimensions &amp;&amp; gridDimensions.y) {
+	        result.y /= gridDimensions.y;
+	      }
+
+	      return result;
+
+	    }
+
+	    interact($element[0]).draggable({
+	      snap: snap,
+	      onstart: function(event) {
+	        if (canDrag()) {
+	          angular.element(event.target).addClass('dragging-active');
+	          event.target.dropData = $parse($attrs.dropData)($scope);
+	          event.target.style.pointerEvents = 'none';
+	          if ($attrs.onDragStart) {
+	            $parse($attrs.onDragStart)($scope);
+	            $scope.$apply();
+	          }
+	        }
+	      },
+	      onmove: function(event) {
+
+	        if (canDrag()) {
+	          var elm = angular.element(event.target);
+	          var x = (parseFloat(elm.attr('data-x')) || 0) + (event.dx || 0);
+	          var y = (parseFloat(elm.attr('data-y')) || 0) + (event.dy || 0);
+
+	          switch ($parse($attrs.axis)($scope)) {
+	            case 'x':
+	              y = 0;
+	              break;
+
+	            case 'y':
+	              x = 0;
+	              break;
+
+	            default:
+	          }
+
+	          if ($window.getComputedStyle(elm[0]).position === 'static') {
+	            elm.css('position', 'relative');
+	          }
+
+	          translateElement(elm, 'translate(' + x + 'px, ' + y + 'px)')
+	            .css('z-index', 1000)
+	            .attr('data-x', x)
+	            .attr('data-y', y);
+
+	          if ($attrs.onDrag) {
+	            $parse($attrs.onDrag)($scope, getUnitsMoved(x, y, snapGridDimensions));
+	            $scope.$apply();
+	          }
+	        }
+
+	      },
+	      onend: function(event) {
+
+	        if (canDrag()) {
+	          var elm = angular.element(event.target);
+	          var x = elm.attr('data-x');
+	          var y = elm.attr('data-y');
+
+	          event.target.style.pointerEvents = 'auto';
+	          if ($attrs.onDragEnd) {
+	            $parse($attrs.onDragEnd)($scope, getUnitsMoved(x, y, snapGridDimensions));
+	            $scope.$apply();
+	          }
+
+	          $timeout(function() {
+	            translateElement(elm, '')
+	              .css('z-index', 'auto')
+	              .removeAttr('data-x')
+	              .removeAttr('data-y')
+	              .removeClass('dragging-active');
+	          });
+	        }
+
+	      }
+	    });
+
+	    $scope.$on('$destroy', function() {
+	      interact($element[0]).unset();
+	    });
+
+	  }])
+	  .directive('mwlDraggable', function() {
+
+	    return {
+	      restrict: 'A',
+	      controller: 'MwlDraggableCtrl'
+	    };
+
+	  });
+
+
+/***/ },
+/* 34 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var angular = __webpack_require__(12);
+
+	angular
+	  .module('mwl.calendar')
+	  .controller('MwlDroppableCtrl', [&quot;$element&quot;, &quot;$scope&quot;, &quot;$parse&quot;, &quot;$attrs&quot;, &quot;interact&quot;, function($element, $scope, $parse, $attrs, interact) {
+
+	    if (!interact) {
+	      return;
+	    }
+
+	    interact($element[0]).dropzone({
+	      ondragenter: function(event) {
+	        angular.element(event.target).addClass('drop-active');
+	      },
+	      ondragleave: function(event) {
+	        angular.element(event.target).removeClass('drop-active');
+	      },
+	      ondropdeactivate: function(event) {
+	        angular.element(event.target).removeClass('drop-active');
+	      },
+	      ondrop: function(event) {
+	        if (event.relatedTarget.dropData) {
+	          $parse($attrs.onDrop)($scope, {dropData: event.relatedTarget.dropData});
+	          $scope.$apply();
+	        }
+	      }
+	    });
+
+	    $scope.$on('$destroy', function() {
+	      interact($element[0]).unset();
+	    });
+
+	  }])
+	  .directive('mwlDroppable', function() {
+
+	    return {
+	      restrict: 'A',
+	      controller: 'MwlDroppableCtrl'
+	    };
+
+	  });
+
+
+/***/ },
+/* 35 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var angular = __webpack_require__(12);
+
+	angular
+	  .module('mwl.calendar')
+	  .controller('MwlElementDimensionsCtrl', [&quot;$element&quot;, &quot;$scope&quot;, &quot;$parse&quot;, &quot;$attrs&quot;, function($element, $scope, $parse, $attrs) {
+
+	    $parse($attrs.mwlElementDimensions).assign($scope, {
+	      width: $element[0].offsetWidth,
+	      height: $element[0].offsetHeight
+	    });
+
+	  }])
+	  .directive('mwlElementDimensions', function() {
+
+	    return {
+	      restrict: 'A',
+	      controller: 'MwlElementDimensionsCtrl'
+	    };
+
+	  });
+
+
+/***/ },
+/* 36 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var angular = __webpack_require__(12);
+
+	angular
+	  .module('mwl.calendar')
+	  .controller('MwlResizableCtrl', [&quot;$element&quot;, &quot;$scope&quot;, &quot;$parse&quot;, &quot;$attrs&quot;, &quot;$timeout&quot;, &quot;interact&quot;, function($element, $scope, $parse, $attrs, $timeout, interact) {
+
+	    if (!interact) {
+	      return;
+	    }
+
+	    var snap, snapGridDimensions;
+	    if ($attrs.snapGrid) {
+	      snapGridDimensions = $parse($attrs.snapGrid)($scope);
+	      snap = {
+	        targets: [
+	          interact.createSnapGrid(snapGridDimensions)
+	        ]
+	      };
+	    }
+
+	    var originalDimensions = {};
+	    var originalDimensionsStyle = {};
+	    var resizeEdge;
+
+	    function canResize() {
+	      return $parse($attrs.mwlResizable)($scope);
+	    }
+
+	    function getUnitsResized(edge, elm, gridDimensions) {
+	      var unitsResized = {};
+	      unitsResized.edge = edge;
+	      if (edge === 'start') {
+	        unitsResized.x = elm.data('x');
+	        unitsResized.y = elm.data('y');
+	      } else if (edge === 'end') {
+	        unitsResized.x = parseFloat(elm.css('width').replace('px', '')) - originalDimensions.width;
+	        unitsResized.y = parseFloat(elm.css('height').replace('px', '')) - originalDimensions.height;
+	      }
+	      if (gridDimensions &amp;&amp; gridDimensions.x) {
+	        unitsResized.x = Math.round(unitsResized.x / gridDimensions.x);
+	      }
+	      if (gridDimensions &amp;&amp; gridDimensions.y) {
+	        unitsResized.y = Math.round(unitsResized.y / gridDimensions.y);
+	      }
+	      return unitsResized;
+	    }
+
+	    interact($element[0]).resizable({
+	      edges: $parse($attrs.resizeEdges)($scope),
+	      snap: snap,
+	      onstart: function(event) {
+
+	        if (canResize()) {
+	          resizeEdge = 'end';
+	          var elm = angular.element(event.target);
+	          originalDimensions.height = elm[0].offsetHeight;
+	          originalDimensions.width = elm[0].offsetWidth;
+	          originalDimensionsStyle.height = elm.css('height');
+	          originalDimensionsStyle.width = elm.css('width');
+	        }
+
+	      },
+	      onmove: function(event) {
+
+	        if (canResize()) {
+	          var elm = angular.element(event.target);
+	          var x = parseFloat(elm.data('x') || 0);
+	          var y = parseFloat(elm.data('y') || 0);
+
+	          elm.css({
+	            width: event.rect.width + 'px',
+	            height: event.rect.height + 'px'
+	          });
+
+	          // translate when resizing from top or left edges
+	          x += event.deltaRect.left;
+	          y += event.deltaRect.top;
+
+	          elm.css('transform', 'translate(' + x + 'px,' + y + 'px)');
+
+	          elm.data('x', x);
+	          elm.data('y', y);
+
+	          if (event.deltaRect.left !== 0 || event.deltaRect.top !== 0) {
+	            resizeEdge = 'start';
+	          }
+
+	          if ($attrs.onResize) {
+	            $parse($attrs.onResize)($scope, getUnitsResized(resizeEdge, elm, snapGridDimensions));
+	            $scope.$apply();
+	          }
+
+	        }
+
+	      },
+	      onend: function(event) {
+
+	        if (canResize()) {
+
+	          var elm = angular.element(event.target);
+	          var unitsResized = getUnitsResized(resizeEdge, elm, snapGridDimensions);
+
+	          $timeout(function() {
+	            elm
+	              .data('x', null)
+	              .data('y', null)
+	              .css({
+	                transform: '',
+	                width: originalDimensionsStyle.width,
+	                height: originalDimensionsStyle.height
+	              });
+	          });
+
+	          if ($attrs.onResizeEnd) {
+	            $parse($attrs.onResizeEnd)($scope, unitsResized);
+	            $scope.$apply();
+	          }
+	        }
+
+	      }
+	    });
+
+	    $scope.$on('$destroy', function() {
+	      interact($element[0]).unset();
+	    });
+
+	  }])
+	  .directive('mwlResizable', function() {
+
+	    return {
+	      restrict: 'A',
+	      controller: 'MwlResizableCtrl'
+	    };
+
+	  });
+
+
+/***/ },
+/* 37 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var map = {
+		&quot;./calendarDate.js&quot;: 38,
+		&quot;./calendarLimitTo.js&quot;: 39,
+		&quot;./calendarTruncateEventTitle.js&quot;: 40,
+		&quot;./calendarTrustAsHtml.js&quot;: 41
+	};
+	function webpackContext(req) {
+		return __webpack_require__(webpackContextResolve(req));
+	};
+	function webpackContextResolve(req) {
+		return map[req] || (function() { throw new Error(&quot;Cannot find module '&quot; + req + &quot;'.&quot;) }());
+	};
+	webpackContext.keys = function webpackContextKeys() {
+		return Object.keys(map);
+	};
+	webpackContext.resolve = webpackContextResolve;
+	module.exports = webpackContext;
+	webpackContext.id = 37;
+
+
+/***/ },
+/* 38 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var angular = __webpack_require__(12);
+
+	angular
+	  .module('mwl.calendar')
+	  .filter('calendarDate', [&quot;calendarHelper&quot;, &quot;calendarConfig&quot;, function(calendarHelper, calendarConfig) {
+
+	    function calendarDate(date, format, getFromConfig) {
+
+	      if (getFromConfig === true) {
+	        format = calendarConfig.dateFormats[format];
+	      }
+
+	      return calendarHelper.formatDate(date, format);
+
+	    }
+
+	    // This is stateful because the locale can change as well
+	    // as calendarConfig.dateFormats which would change the value outside of this filter
+	    calendarDate.$stateful = true;
+
+	    return calendarDate;
+
+	  }]);
+
+
+/***/ },
+/* 39 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var angular = __webpack_require__(12);
+
+	angular
+	  .module('mwl.calendar')
+	  .filter('calendarLimitTo', [&quot;limitToFilter&quot;, function(limitToFilter) {
+
+	    if (angular.version.minor &gt;= 4) { //1.4+ supports the begin attribute
+	      return limitToFilter;
+	    }
+
+	    //Copied from the angular source. Only 1.4 has the begin functionality.
+	    return function(input, limit, begin) {
+	      if (Math.abs(Number(limit)) === Infinity) {
+	        limit = Number(limit);
+	      } else {
+	        limit = parseInt(limit);
+	      }
+	      if (isNaN(limit)) {
+	        return input;
+	      }
+
+	      if (angular.isNumber(input)) {
+	        input = input.toString();
+	      }
+	      if (!angular.isArray(input) &amp;&amp; !angular.isString(input)) {
+	        return input;
+	      }
+
+	      begin = (!begin || isNaN(begin)) ? 0 : parseInt(begin);
+	      begin = (begin &lt; 0 &amp;&amp; begin &gt;= -input.length) ? input.length + begin : begin;
+
+	      if (limit &gt;= 0) {
+	        return input.slice(begin, begin + limit);
+	      } else if (begin === 0) {
+	        return input.slice(limit, input.length);
+	      } else {
+	        return input.slice(Math.max(0, begin + limit), begin);
+	      }
+	    };
+
+	  }]);
+
+
+/***/ },
+/* 40 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var angular = __webpack_require__(12);
+
+	angular
+	  .module('mwl.calendar')
+	  .filter('calendarTruncateEventTitle', function() {
+
+	    return function(string, length, boxHeight) {
+	      if (!string) {
+	        return '';
+	      }
+
+	      //Only truncate if if actually needs truncating
+	      if (string.length &gt;= length &amp;&amp; string.length / 20 &gt; boxHeight / 30) {
+	        return string.substr(0, length) + '...';
+	      } else {
+	        return string;
+	      }
+	    };
+
+	  });
+
+
+/***/ },
+/* 41 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var angular = __webpack_require__(12);
+
+	angular
+	  .module('mwl.calendar')
+	  .filter('calendarTrustAsHtml', [&quot;$sce&quot;, function($sce) {
+
+	    return function(text) {
+	      return $sce.trustAsHtml(text);
+	    };
+
+	  }]);
+
+
+/***/ },
+/* 42 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var map = {
+		&quot;./calendarConfig.js&quot;: 43,
+		&quot;./calendarHelper.js&quot;: 44,
+		&quot;./calendarTitle.js&quot;: 45,
+		&quot;./interact.js&quot;: 46,
+		&quot;./moment.js&quot;: 48
+	};
+	function webpackContext(req) {
+		return __webpack_require__(webpackContextResolve(req));
+	};
+	function webpackContextResolve(req) {
+		return map[req] || (function() { throw new Error(&quot;Cannot find module '&quot; + req + &quot;'.&quot;) }());
+	};
+	webpackContext.keys = function webpackContextKeys() {
+		return Object.keys(map);
+	};
+	webpackContext.resolve = webpackContextResolve;
+	module.exports = webpackContext;
+	webpackContext.id = 42;
+
+
+/***/ },
+/* 43 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var angular = __webpack_require__(12);
+
+	angular
+	  .module('mwl.calendar')
+	  .constant('calendarConfig', {
+	    allDateFormats: {
+	      angular: {
+	        date: {
+	          hour: 'ha',
+	          day: 'd MMM',
+	          month: 'MMMM',
+	          weekDay: 'EEEE',
+	          time: 'HH:mm',
+	          datetime: 'MMM d, h:mm a'
+	        },
+	        title: {
+	          day: 'EEEE d MMMM, yyyy',
+	          week: 'Week {week} of {year}',
+	          month: 'MMMM yyyy',
+	          year: 'yyyy'
+	        }
+	      },
+	      moment: {
+	        date: {
+	          hour: 'ha',
+	          day: 'D MMM',
+	          month: 'MMMM',
+	          weekDay: 'dddd',
+	          time: 'HH:mm',
+	          datetime: 'MMM D, h:mm a'
+	        },
+	        title: {
+	          day: 'dddd D MMMM, YYYY',
+	          week: 'Week {week} of {year}',
+	          month: 'MMMM YYYY',
+	          year: 'YYYY'
+	        }
+	      }
+	    },
+	    get dateFormats() {
+	      return this.allDateFormats[this.dateFormatter].date;
+	    },
+	    get titleFormats() {
+	      return this.allDateFormats[this.dateFormatter].title;
+	    },
+	    dateFormatter: 'angular',
+	    displayEventEndTimes: false,
+	    showTimesOnWeekView: false,
+	    displayAllMonthEvents: false,
+	    i18nStrings: {
+	      eventsLabel: 'Events',
+	      timeLabel: 'Time',
+	      weekNumber: 'Week {week}'
+	    },
+	    templates: {}
+	  });
+
+
+/***/ },
+/* 44 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var angular = __webpack_require__(12);
+
+	angular
+	  .module('mwl.calendar')
+	  .factory('calendarHelper', [&quot;dateFilter&quot;, &quot;moment&quot;, &quot;calendarConfig&quot;, function(dateFilter, moment, calendarConfig) {
+
+	    function formatDate(date, format) {
+	      if (calendarConfig.dateFormatter === 'angular') {
+	        return dateFilter(moment(date).toDate(), format);
+	      } else if (calendarConfig.dateFormatter === 'moment') {
+	        return moment(date).format(format);
+	      }
+	    }
+
+	    function adjustEndDateFromStartDiff(oldStart, newStart, oldEnd) {
+	      if (!oldEnd) {
+	        return oldEnd;
+	      }
+	      var diffInSeconds = moment(newStart).diff(moment(oldStart));
+	      return moment(oldEnd).add(diffInSeconds);
+	    }
+
+	    function getRecurringEventPeriod(eventPeriod, recursOn, containerPeriodStart) {
+
+	      var eventStart = moment(eventPeriod.start);
+	      var eventEnd = moment(eventPeriod.end);
+	      var periodStart = moment(containerPeriodStart);
+
+	      if (angular.isDefined(recursOn)) {
+
+	        switch (recursOn) {
+	          case 'year':
+	            eventStart.set({
+	              year: periodStart.year()
+	            });
+	            break;
+
+	          case 'month':
+	            eventStart.set({
+	              year: periodStart.year(),
+	              month: periodStart.month()
+	            });
+	            break;
+
+	          default:
+	            throw new Error('Invalid value (' + recursOn + ') given for recurs on. Can only be year or month.');
+	        }
+
+	        eventEnd = adjustEndDateFromStartDiff(eventPeriod.start, eventStart, eventEnd);
+
+	      }
+
+	      return {start: eventStart, end: eventEnd};
+
+	    }
+
+	    function eventIsInPeriod(event, periodStart, periodEnd) {
+
+	      periodStart = moment(periodStart);
+	      periodEnd = moment(periodEnd);
+
+	      var eventPeriod = getRecurringEventPeriod({start: event.startsAt, end: event.endsAt || event.startsAt}, event.recursOn, periodStart);
+	      var eventStart = eventPeriod.start;
+	      var eventEnd = eventPeriod.end;
+
+	      return (eventStart.isAfter(periodStart) &amp;&amp; eventStart.isBefore(periodEnd)) ||
+	        (eventEnd.isAfter(periodStart) &amp;&amp; eventEnd.isBefore(periodEnd)) ||
+	        (eventStart.isBefore(periodStart) &amp;&amp; eventEnd.isAfter(periodEnd)) ||
+	        eventStart.isSame(periodStart) ||
+	        eventEnd.isSame(periodEnd);
+
+	    }
+
+	    function filterEventsInPeriod(events, startPeriod, endPeriod) {
+	      return events.filter(function(event) {
+	        return eventIsInPeriod(event, startPeriod, endPeriod);
+	      });
+	    }
+
+	    function getEventsInPeriod(calendarDate, period, allEvents) {
+	      var startPeriod = moment(calendarDate).startOf(period);
+	      var endPeriod = moment(calendarDate).endOf(period);
+	      return filterEventsInPeriod(allEvents, startPeriod, endPeriod);
+	    }
+
+	    function getBadgeTotal(events) {
+	      return events.filter(function(event) {
+	        return event.incrementsBadgeTotal !== false;
+	      }).length;
+	    }
+
+	    function getWeekDayNames() {
+	      var weekdays = [];
+	      var count = 0;
+	      while (count &lt; 7) {
+	        weekdays.push(formatDate(moment().weekday(count++), calendarConfig.dateFormats.weekDay));
+	      }
+	      return weekdays;
+	    }
+
+	    function getYearView(events, viewDate, cellModifier) {
+
+	      var view = [];
+	      var eventsInPeriod = getEventsInPeriod(viewDate, 'year', events);
+	      var month = moment(viewDate).startOf('year');
+	      var count = 0;
+	      while (count &lt; 12) {
+	        var startPeriod = month.clone();
+	        var endPeriod = startPeriod.clone().endOf('month');
+	        var periodEvents = filterEventsInPeriod(eventsInPeriod, startPeriod, endPeriod);
+	        var cell = {
+	          label: formatDate(startPeriod, calendarConfig.dateFormats.month),
+	          isToday: startPeriod.isSame(moment().startOf('month')),
+	          events: periodEvents,
+	          date: startPeriod,
+	          badgeTotal: getBadgeTotal(periodEvents)
+	        };
+
+	        cellModifier({calendarCell: cell});
+	        view.push(cell);
+	        month.add(1, 'month');
+	        count++;
+	      }
+
+	      return view;
+
+	    }
+
+	    function getMonthView(events, viewDate, cellModifier) {
+
+	      var startOfMonth = moment(viewDate).startOf('month');
+	      var day = startOfMonth.clone().startOf('week');
+	      var endOfMonthView = moment(viewDate).endOf('month').endOf('week');
+	      var eventsInPeriod;
+	      if (calendarConfig.displayAllMonthEvents) {
+	        eventsInPeriod = filterEventsInPeriod(events, day, endOfMonthView);
+	      } else {
+	        eventsInPeriod = filterEventsInPeriod(events, startOfMonth, startOfMonth.clone().endOf('month'));
+	      }
+	      var view = [];
+	      var today = moment().startOf('day');
+
+	      while (day.isBefore(endOfMonthView)) {
+
+	        var inMonth = day.month() === moment(viewDate).month();
+	        var monthEvents = [];
+	        if (inMonth || calendarConfig.displayAllMonthEvents) {
+	          monthEvents = filterEventsInPeriod(eventsInPeriod, day, day.clone().endOf('day'));
+	        }
+
+	        var cell = {
+	          label: day.date(),
+	          date: day.clone(),
+	          inMonth: inMonth,
+	          isPast: today.isAfter(day),
+	          isToday: today.isSame(day),
+	          isFuture: today.isBefore(day),
+	          isWeekend: [0, 6].indexOf(day.day()) &gt; -1,
+	          events: monthEvents,
+	          badgeTotal: getBadgeTotal(monthEvents)
+	        };
+
+	        cellModifier({calendarCell: cell});
+
+	        view.push(cell);
+
+	        day.add(1, 'day');
+	      }
+
+	      return view;
+
+	    }
+
+	    function getWeekView(events, viewDate) {
+
+	      var startOfWeek = moment(viewDate).startOf('week');
+	      var endOfWeek = moment(viewDate).endOf('week');
+	      var dayCounter = startOfWeek.clone();
+	      var days = [];
+	      var today = moment().startOf('day');
+	      while (days.length &lt; 7) {
+	        days.push({
+	          weekDayLabel: formatDate(dayCounter, calendarConfig.dateFormats.weekDay),
+	          date: dayCounter.clone(),
+	          dayLabel: formatDate(dayCounter, calendarConfig.dateFormats.day),
+	          isPast: dayCounter.isBefore(today),
+	          isToday: dayCounter.isSame(today),
+	          isFuture: dayCounter.isAfter(today),
+	          isWeekend: [0, 6].indexOf(dayCounter.day()) &gt; -1
+	        });
+	        dayCounter.add(1, 'day');
+	      }
+
+	      var eventsSorted = filterEventsInPeriod(events, startOfWeek, endOfWeek).map(function(event) {
+
+	        var weekViewStart = moment(startOfWeek).startOf('day');
+	        var weekViewEnd = moment(endOfWeek).startOf('day');
+
+	        var eventPeriod = getRecurringEventPeriod({
+	          start: moment(event.startsAt).startOf('day'),
+	          end: moment(event.endsAt || event.startsAt).startOf('day')
+	        }, event.recursOn, weekViewStart);
+
+	        var eventStart = eventPeriod.start;
+	        var eventEnd = eventPeriod.end;
+
+	        var offset, span;
+	        if (eventStart.isBefore(weekViewStart) || eventStart.isSame(weekViewStart)) {
+	          offset = 0;
+	        } else {
+	          offset = eventStart.diff(weekViewStart, 'days');
+	        }
+
+	        if (eventEnd.isAfter(weekViewEnd)) {
+	          eventEnd = weekViewEnd;
+	        }
+
+	        if (eventStart.isBefore(weekViewStart)) {
+	          eventStart = weekViewStart;
+	        }
+
+	        span = moment(eventEnd).diff(eventStart, 'days') + 1;
+
+	        event.daySpan = span;
+	        event.dayOffset = offset;
+
+	        return event;
+	      });
+
+	      return {days: days, events: eventsSorted};
+
+	    }
+
+	    function getDayView(events, viewDate, dayViewStart, dayViewEnd, dayViewSplit) {
+
+	      var dayStartHour = moment(dayViewStart || '00:00', 'HH:mm').hours();
+	      var dayEndHour = moment(dayViewEnd || '23:00', 'HH:mm').hours();
+	      var hourHeight = (60 / dayViewSplit) * 30;
+	      var calendarStart = moment(viewDate).startOf('day').add(dayStartHour, 'hours');
+	      var calendarEnd = moment(viewDate).startOf('day').add(dayEndHour, 'hours');
+	      var calendarHeight = (dayEndHour - dayStartHour + 1) * hourHeight;
+	      var hourHeightMultiplier = hourHeight / 60;
+	      var buckets = [];
+	      var eventsInPeriod = filterEventsInPeriod(
+	        events,
+	        moment(viewDate).startOf('day').toDate(),
+	        moment(viewDate).endOf('day').toDate()
+	      );
+
+	      return eventsInPeriod.map(function(event) {
+	        if (moment(event.startsAt).isBefore(calendarStart)) {
+	          event.top = 0;
+	        } else {
+	          event.top = (moment(event.startsAt).startOf('minute').diff(calendarStart.startOf('minute'), 'minutes') * hourHeightMultiplier) - 2;
+	        }
+
+	        if (moment(event.endsAt || event.startsAt).isAfter(calendarEnd)) {
+	          event.height = calendarHeight - event.top;
+	        } else {
+	          var diffStart = event.startsAt;
+	          if (moment(event.startsAt).isBefore(calendarStart)) {
+	            diffStart = calendarStart.toDate();
+	          }
+	          if (!event.endsAt) {
+	            event.height = 30;
+	          } else {
+	            event.height = moment(event.endsAt || event.startsAt).diff(diffStart, 'minutes') * hourHeightMultiplier;
+	          }
+	        }
+
+	        if (event.top - event.height &gt; calendarHeight) {
+	          event.height = 0;
+	        }
+
+	        event.left = 0;
+
+	        return event;
+	      }).filter(function(event) {
+	        return event.height &gt; 0;
+	      }).map(function(event) {
+
+	        var cannotFitInABucket = true;
+	        buckets.forEach(function(bucket, bucketIndex) {
+	          var canFitInThisBucket = true;
+
+	          bucket.forEach(function(bucketItem) {
+	            if (eventIsInPeriod(event, bucketItem.startsAt, bucketItem.endsAt || bucketItem.startsAt) ||
+	              eventIsInPeriod(bucketItem, event.startsAt, event.endsAt || event.startsAt)) {
+	              canFitInThisBucket = false;
+	            }
+	          });
+
+	          if (canFitInThisBucket &amp;&amp; cannotFitInABucket) {
+	            cannotFitInABucket = false;
+	            event.left = bucketIndex * 150;
+	            buckets[bucketIndex].push(event);
+	          }
+
+	        });
+
+	        if (cannotFitInABucket) {
+	          event.left = buckets.length * 150;
+	          buckets.push([event]);
+	        }
+
+	        return event;
+
+	      });
+
+	    }
+
+	    function getWeekViewWithTimes(events, viewDate, dayViewStart, dayViewEnd, dayViewSplit) {
+	      var weekView = getWeekView(events, viewDate);
+	      var newEvents = [];
+	      weekView.days.forEach(function(day) {
+	        var dayEvents = weekView.events.filter(function(event) {
+	          return moment(event.startsAt).startOf('day').isSame(moment(day.date).startOf('day'));
+	        });
+	        var newDayEvents = getDayView(
+	          dayEvents,
+	          day.date,
+	          dayViewStart,
+	          dayViewEnd,
+	          dayViewSplit
+	        );
+	        newEvents = newEvents.concat(newDayEvents);
+	      });
+	      weekView.events = newEvents;
+	      return weekView;
+	    }
+
+	    function getDayViewHeight(dayViewStart, dayViewEnd, dayViewSplit) {
+	      var dayViewStartM = moment(dayViewStart || '00:00', 'HH:mm');
+	      var dayViewEndM = moment(dayViewEnd || '23:00', 'HH:mm');
+	      var hourHeight = (60 / dayViewSplit) * 30;
+	      return ((dayViewEndM.diff(dayViewStartM, 'hours') + 1) * hourHeight) + 2;
+	    }
+
+	    return {
+	      getWeekDayNames: getWeekDayNames,
+	      getYearView: getYearView,
+	      getMonthView: getMonthView,
+	      getWeekView: getWeekView,
+	      getDayView: getDayView,
+	      getWeekViewWithTimes: getWeekViewWithTimes,
+	      getDayViewHeight: getDayViewHeight,
+	      adjustEndDateFromStartDiff: adjustEndDateFromStartDiff,
+	      formatDate: formatDate,
+	      eventIsInPeriod: eventIsInPeriod //expose for testing only
+	    };
+
+	  }]);
+
+
+/***/ },
+/* 45 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var angular = __webpack_require__(12);
+
+	angular
+	  .module('mwl.calendar')
+	  .factory('calendarTitle', [&quot;moment&quot;, &quot;calendarConfig&quot;, &quot;calendarHelper&quot;, function(moment, calendarConfig, calendarHelper) {
+
+	    function day(viewDate) {
+	      return calendarHelper.formatDate(viewDate, calendarConfig.titleFormats.day);
+	    }
+
+	    function week(viewDate) {
+	      var weekTitleLabel = calendarConfig.titleFormats.week;
+	      return weekTitleLabel.replace('{week}', moment(viewDate).isoWeek()).replace('{year}', moment(viewDate).format('YYYY'));
+	    }
+
+	    function month(viewDate) {
+	      return calendarHelper.formatDate(viewDate, calendarConfig.titleFormats.month);
+	    }
+
+	    function year(viewDate) {
+	      return calendarHelper.formatDate(viewDate, calendarConfig.titleFormats.year);
+	    }
+
+	    return {
+	      day: day,
+	      week: week,
+	      month: month,
+	      year: year
+	    };
+
+	  }]);
+
+
+/***/ },
+/* 46 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var angular = __webpack_require__(12);
+	var interact;
+	try {
+	  interact = __webpack_require__(47);
+	} catch (e) {
+	  /* istanbul ignore next */
+	  interact = null;
+	}
+
+	angular
+	  .module('mwl.calendar')
+	  .constant('interact', interact);
+
+
+/***/ },
+/* 47 */
+/***/ function(module, exports) {
+
+	if(typeof __WEBPACK_EXTERNAL_MODULE_47__ === 'undefined') {var e = new Error(&quot;Cannot find module \&quot;undefined\&quot;&quot;); e.code = 'MODULE_NOT_FOUND'; throw e;}
+	module.exports = __WEBPACK_EXTERNAL_MODULE_47__;
+
+/***/ },
+/* 48 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var angular = __webpack_require__(12);
+	var moment = __webpack_require__(49);
+
+	angular
+	  .module('mwl.calendar')
+	  .constant('moment', moment);
+
+
+/***/ },
+/* 49 */
+/***/ function(module, exports) {
+
+	module.exports = __WEBPACK_EXTERNAL_MODULE_49__;
+
+/***/ }
+/******/ ])
+});
+;</hContStrData>
+            </row>
+          </rowset>
+        </hContStrData>
+        <bUsesFormName>0</bUsesFormName>
+        <szAltContFmt></szAltContFmt>
+        <eAltContStyle>0</eAltContStyle>
+        <nAltCompAlg>0</nAltCompAlg>
+        <lAltContLen>0</lAltContLen>
+        <hAltContData>HANDLE</hAltContData>
+        <lLclAltContLen>0</lLclAltContLen>
+        <szLclContFmt></szLclContFmt>
+        <eLclContStyle>0</eLclContStyle>
+        <nLclCompAlg>0</nLclCompAlg>
+        <lLclContLen>0</lLclContLen>
+        <hLclContData>HANDLE</hLclContData>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="CRM">
+    <rowset name="CrmDefn" size="1208" count="1">
+      <row>
+        <szLastUpdDttm>2016-02-15-23.01.10.019914</szLastUpdDttm>
+        <szLastUpdOprId>VP1</szLastUpdOprId>
+        <szObjectOwnerId></szObjectOwnerId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>397</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szContName>CIBERCAL_HTML</szContName>
+        <eContType>4</eContType>
+        <nAltContNum>1</nAltContNum>
+        <szLanguageCd>ENG</szLanguageCd>
+        <szFormName></szFormName>
+        <szContFmt></szContFmt>
+        <eContStyle>0</eContStyle>
+        <szDescr></szDescr>
+        <szUrl></szUrl>
+        <nCompAlg>0</nCompAlg>
+        <fAuxFlagMask>0</fAuxFlagMask>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+        <lContLen>0</lContLen>
+        <hContData>HANDLE</hContData>
+        <lContStrLen>10118</lContStrLen>
+        <hContStrData> HANDLE
+          <rowset name="char" size="10118" count="1">
+            <row>
+              <hContStrData>&lt;!doctype html&gt;
+&lt;html&gt;
+    &lt;script src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js'&gt;&lt;xsl:comment&gt;This is a comment!&lt;/xsl:comment&gt;&lt;/script&gt;
+	&lt;script&gt;
+	$(document).ready(function(){
+		document.getElementById('cibercal').innerHTML = ('&lt;mwl-calendar events=&quot;vm.events&quot; view=&quot;vm.calendarView&quot; view-date=&quot;vm.viewDate&quot; view-title=&quot;vm.calendarTitle&quot; day-view-start=&quot;08:00&quot; day-view-end=&quot;18:00&quot; day-view-split=&quot;30&quot; on-event-click=&quot;vm.eventClicked(calendarEvent);&quot;&gt;&lt;/mwl-calendar&gt;');
+	});
+	&lt;/script&gt;
+
+	&lt;div id=&quot;myCalendar&quot; ng-controller=&quot;MyController as vm&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;
+
+        &lt;div class=&quot;col-md-12&quot;&gt;
+		  &lt;h3 class=&quot;text-center col-md-8&quot;&gt;{{ vm.calendarTitle }}&lt;/h3&gt;
+          &lt;div class=&quot;btn-group col-md-4&quot;&gt;
+
+            &lt;button
+			  ng-click=&quot;updateEvts()&quot;
+              class=&quot;btn btn-primary&quot;
+              mwl-date-modifier=&quot;&quot;
+              date=&quot;vm.viewDate&quot;
+              decrement=&quot;vm.calendarView&quot;&gt;
+              Previous
+            &lt;/button&gt;
+            &lt;button
+			  ng-click=&quot;updateEvts()&quot;
+              class=&quot;btn btn-default&quot;
+              mwl-date-modifier=&quot;&quot;
+              date=&quot;vm.viewDate&quot;
+              set-to-today=&quot;&quot;
+			  todayobj=&quot;vm.calendarView&quot;&gt;
+              Today
+            &lt;/button&gt;
+            &lt;button
+			  ng-click=&quot;updateEvts()&quot;
+              class=&quot;btn btn-primary&quot;
+              mwl-date-modifier=&quot;&quot;
+              date=&quot;vm.viewDate&quot;
+              increment=&quot;vm.calendarView&quot;&gt;
+              Next
+            &lt;/button&gt;
+          &lt;/div&gt;
+
+          &lt;div class=&quot;btn-group col-md-4&quot;&gt;
+			&lt;label class=&quot;btn btn-primary&quot; ng-model=&quot;vm.calendarView&quot; uib-btn-radio=&quot;'month'&quot;&gt;Month&lt;/label&gt;
+            &lt;label class=&quot;btn btn-primary&quot; ng-model=&quot;vm.calendarView&quot; uib-btn-radio=&quot;'week'&quot;&gt;Week&lt;/label&gt;
+            &lt;label class=&quot;btn btn-primary&quot; ng-model=&quot;vm.calendarView&quot; uib-btn-radio=&quot;'day'&quot;&gt;Day&lt;/label&gt;
+          &lt;/div&gt;
+	      &lt;div class=&quot;col-md-8&quot; id='cibercal'&gt;Lazy Dog jumps over quick brown fox&lt;/div&gt;
+
+        &lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js'&gt;&lt;xsl:comment&gt;This is a comment!&lt;/xsl:comment&gt;&lt;/script&gt;
+	&lt;script src='https://cdnjs.cloudflare.com/ajax/libs/interact.js/1.2.4/interact.min.js'&gt;&lt;xsl:comment&gt;This is a comment!&lt;/xsl:comment&gt;&lt;/script&gt;
+	&lt;script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.js'&gt;&lt;xsl:comment&gt;This is a comment!&lt;/xsl:comment&gt;&lt;/script&gt;
+	&lt;script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.js'&gt;&lt;xsl:comment&gt;This is a comment!&lt;/xsl:comment&gt;&lt;/script&gt;
+	&lt;script src='https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.14.3/ui-bootstrap-tpls.min.js'&gt;&lt;xsl:comment&gt;This is a comment!&lt;/xsl:comment&gt;&lt;/script&gt;
+	&lt;script src='%JavaScript(ANGULAR_BOOTSTRAP_CALENDAR_JS)'&gt;&lt;xsl:comment&gt;This is a comment!&lt;/xsl:comment&gt;&lt;/script&gt;
+
+	&lt;link href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;/&gt;
+    &lt;style&gt;%BIND(:2)&lt;/style&gt;
+
+	&lt;script type=&quot;text/javascript&quot;&gt;
+
+
+	angular.module('mwl.calendar.docs', ['mwl.calendar', 'ngAnimate', 'ui.bootstrap']);
+		angular
+		  .module('mwl.calendar.docs')
+		  .controller('MyController', function($scope, $http, moment, alert) {
+		  
+			var vm = this;
+			
+			$scope.previousMonth = moment().month(); // initialize previous month variable				
+			$scope.updateEvts = function(){
+				//console.log('prev='+$scope.previousMonth);
+				var url_parm = moment(vm.viewDate).format('YYYYMMDD');
+				if ($scope.previousMonth != moment(vm.viewDate).month()){
+					$http.get('%BIND(:3)'+url_parm).success(function(data) {
+						vm.events = data;
+					});					
+				}				
+				$scope.previousMonth = moment(vm.viewDate).month();
+				//console.log('next='+$scope.previousMonth);
+			}
+
+			vm.calendarView = 'month';
+			vm.viewDate = moment().startOf('month').toDate();
+			vm.isCellOpen = false;
+
+			$http.get('%BIND(:3)'+moment(vm.viewDate).format('YYYYMMDD')).success(function(data) {
+				vm.events = data;
+			});					
+
+			vm.eventClicked = function(event) {
+			  alert.show('Clicked', event);
+			};
+
+		  });
+	  
+	angular
+	  .module('mwl.calendar.docs')
+	  .factory('alert', function($uibModal) {
+
+		function show(action, event) {
+		  return $uibModal.open({
+			//templateUrl: 'modalContent.html',
+			//template: '&lt;div class=&quot;modal-header&quot;&gt;&lt;h3 class=&quot;modal-title&quot;&gt;{{ vm.event.title }}&lt;/h3&gt;&lt;/div&gt;&lt;div class=&quot;modal-body&quot;&gt;&lt;p&gt;Date:&lt;pre&gt;{{ vm.event.startsAt | json }}&lt;/pre&gt;&lt;/p&gt;&lt;p&gt;Details:&lt;pre&gt;{{ vm.event.detail }}&lt;/pre&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;modal-footer&quot;&gt;&lt;button class=&quot;btn btn-primary&quot; ng-click=&quot;$close()&quot;&gt;OK&lt;/button&gt;&lt;/div&gt;',
+			template: '%BIND(:4)',
+			controller: function() {
+			  var vm = this;
+			  vm.action = action;
+			  vm.event = event;
+			},
+			controllerAs: 'vm'
+		  });
+		}
+
+		return {
+		  show: show
+		};
+
+	  });
+	  
+    angular.element('MyController').ready(function() {
+      angular.bootstrap(myCalendar, ['mwl.calendar.docs']);
+    });
+	  	  
+	&lt;/script&gt;
+  
+  &lt;/html&gt;</hContStrData>
+            </row>
+          </rowset>
+        </hContStrData>
+        <bUsesFormName>0</bUsesFormName>
+        <szAltContFmt></szAltContFmt>
+        <eAltContStyle>0</eAltContStyle>
+        <nAltCompAlg>0</nAltCompAlg>
+        <lAltContLen>0</lAltContLen>
+        <hAltContData>HANDLE</hAltContData>
+        <lLclAltContLen>0</lLclAltContLen>
+        <szLclContFmt></szLclContFmt>
+        <eLclContStyle>0</eLclContStyle>
+        <nLclCompAlg>0</nLclCompAlg>
+        <lLclContLen>0</lLclContLen>
+        <hLclContData>HANDLE</hLclContData>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="CRM">
+    <rowset name="CrmDefn" size="1208" count="1">
+      <row>
+        <szLastUpdDttm>2016-02-15-23.00.28.019349</szLastUpdDttm>
+        <szLastUpdOprId>VP1</szLastUpdOprId>
+        <szObjectOwnerId></szObjectOwnerId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>396</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szContName>CIBERCAL_MODAL_HTML</szContName>
+        <eContType>4</eContType>
+        <nAltContNum>1</nAltContNum>
+        <szLanguageCd>ENG</szLanguageCd>
+        <szFormName></szFormName>
+        <szContFmt></szContFmt>
+        <eContStyle>0</eContStyle>
+        <szDescr></szDescr>
+        <szUrl></szUrl>
+        <nCompAlg>0</nCompAlg>
+        <fAuxFlagMask>0</fAuxFlagMask>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+        <lContLen>0</lContLen>
+        <hContData>HANDLE</hContData>
+        <lContStrLen>672</lContStrLen>
+        <hContStrData> HANDLE
+          <rowset name="char" size="672" count="1">
+            <row>
+              <hContStrData>&lt;div class=&quot;modal-header&quot;&gt;
+	&lt;h3 class=&quot;modal-title&quot;&gt;{{ vm.event.title }}&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class=&quot;modal-body&quot;&gt;
+	&lt;p&gt;Date:
+	&lt;pre&gt;{{ vm.event.startsAt | json }}&lt;/pre&gt;
+	&lt;/p&gt;
+	&lt;p&gt;Details:
+	&lt;pre&gt;{{ vm.event.detail }}&lt;/pre&gt;
+	&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;modal-footer&quot;&gt;&lt;button class=&quot;btn btn-primary&quot; ng-click=&quot;$close()&quot;&gt;OK&lt;/button&gt;&lt;/div&gt;</hContStrData>
+            </row>
+          </rowset>
+        </hContStrData>
+        <bUsesFormName>0</bUsesFormName>
+        <szAltContFmt></szAltContFmt>
+        <eAltContStyle>0</eAltContStyle>
+        <nAltCompAlg>0</nAltCompAlg>
+        <lAltContLen>0</lAltContLen>
+        <hAltContData>HANDLE</hAltContData>
+        <lLclAltContLen>0</lLclAltContLen>
+        <szLclContFmt></szLclContFmt>
+        <eLclContStyle>0</eLclContStyle>
+        <nLclCompAlg>0</nLclCompAlg>
+        <lLclContLen>0</lLclContLen>
+        <hLclContData>HANDLE</hLclContData>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="APM">
+    <rowset name="ApmDefn" size="968" count="1">
+      <row>
+        <szLastUpdDttm>2016-02-16-16.53.02.820274</szLastUpdDttm>
+        <szLastUpdOprId>VP1</szLastUpdOprId>
+        <szObjectOwnerId></szObjectOwnerId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>50</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szPackageId>CIBER_MULTICALENDAR</szPackageId>
+        <szLanguageCd>ENG</szLanguageCd>
+        <szPackageRoot>CIBER_MULTICALENDAR</szPackageRoot>
+        <szQualifyPath>.</szQualifyPath>
+        <lPackageLevel>0</lPackageLevel>
+        <szPackageRef></szPackageRef>
+        <szDescr></szDescr>
+        <lDescrLongLen>0</lDescrLongLen>
+        <lpszDescrLong>POINTER</lpszDescrLong>
+        <eRenameObject>0</eRenameObject>
+        <szPrevPackageId></szPrevPackageId>
+        <ApmDefnList.lClassCount>1</ApmDefnList.lClassCount>
+        <ApmDefnList.hDefnClassList> HANDLE
+          <rowset name="ApmClassList" size="464" count="1">
+            <row>
+              <ApmClassKey.szClassId>MultiCalendar</ApmClassKey.szClassId>
+              <ApmClassKey.szPackageRoot>CIBER_MULTICALENDAR</ApmClassKey.szPackageRoot>
+              <ApmClassKey.szQualifyPath>:</ApmClassKey.szQualifyPath>
+              <szClassRef></szClassRef>
+              <lClassLevel>1</lClassLevel>
+              <lClassCount>1</lClassCount>
+              <hClassDefn> HANDLE
+                <rowset name="ApmClassDefn" size="576" count="1">
+                  <row>
+                    <szClassId>MultiCalendar</szClassId>
+                    <szClassRef></szClassRef>
+                    <szDescr></szDescr>
+                    <eRenameObject>0</eRenameObject>
+                    <szPrevClassId></szPrevClassId>
+                  </row>
+                </rowset>
+              </hClassDefn>
+            </row>
+          </rowset>
+        </ApmDefnList.hDefnClassList>
+        <ApmDefnList.lPackageCount>0</ApmDefnList.lPackageCount>
+        <ApmDefnList.hDefnPackageList>HANDLE</ApmDefnList.hDefnPackageList>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="PCM">
+    <rowset name="PcmProg" size="2240" count="1">
+      <row>
+        <szLastUpdDttm>2016-02-16-16.53.02.820281</szLastUpdDttm>
+        <szLastUpdOprId>VP1</szLastUpdOprId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>1976</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <eObjectID_0>104</eObjectID_0>
+        <szObjectValue_0>CIBER_MULTICALENDAR</szObjectValue_0>
+        <eObjectID_1>107</eObjectID_1>
+        <szObjectValue_1>MultiCalendar</szObjectValue_1>
+        <eObjectID_2>12</eObjectID_2>
+        <szObjectValue_2>OnExecute</szObjectValue_2>
+        <eObjectID_3>0</eObjectID_3>
+        <szObjectValue_3></szObjectValue_3>
+        <eObjectID_4>0</eObjectID_4>
+        <szObjectValue_4></szObjectValue_4>
+        <eObjectID_5>0</eObjectID_5>
+        <szObjectValue_5></szObjectValue_5>
+        <eObjectID_6>0</eObjectID_6>
+        <szObjectValue_6></szObjectValue_6>
+        <nNameCount>11</nNameCount>
+        <lpProgSource> POINTER
+          <rowset name="PcmProgSource" size="64" count="1">
+            <row>
+              <lSourceLen>11666</lSourceLen>
+              <lpSource>custom field</lpSource>
+              <lEntryNamesLen>538</lEntryNamesLen>
+              <nEntry>15</nEntry>
+              <lpEntryTab>custom field</lpEntryTab>
+              <nParams>13</nParams>
+              <lpParams>custom field</lpParams>
+              <nPCVersion>133</nPCVersion>
+            </row>
+          </rowset>
+        </lpProgSource>
+        <nProgSource>1</nProgSource>
+        <lpPnt> POINTER
+          <rowset name="PcmPnt" size="4532" count="11">
+            <row>
+              <szRecName></szRecName>
+              <szFieldName></szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName></szFieldName>
+              <szPackageRoot>CIBER_PTPPB_PAGELET</szPackageRoot>
+              <szQualifyPath>XMLDataSource</szQualifyPath>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>XMLDOC</szFieldName>
+              <szPackageRoot>XmlDoc</szPackageRoot>
+              <szQualifyPath>XmlDoc</szQualifyPath>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>JSON</szFieldName>
+              <szPackageRoot>CIBER_PTPPB_PAGELET</szPackageRoot>
+              <szQualifyPath>Utility:JSON</szQualifyPath>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>JSONOBJECT</szFieldName>
+              <szPackageRoot>CIBER_PTPPB_PAGELET</szPackageRoot>
+              <szQualifyPath>Utility:JSON</szQualifyPath>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>PAGELETWIZARDXML</szFieldName>
+              <szPackageRoot>CIBER_PTPPB_PAGELET</szPackageRoot>
+              <szQualifyPath>XMLDataSource</szQualifyPath>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>XMLNODE</szFieldName>
+              <szPackageRoot>XmlNode</szPackageRoot>
+              <szQualifyPath>XmlNode</szQualifyPath>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>VALUE</szFieldName>
+              <szPackageRoot>CIBER_PTPPB_PAGELET</szPackageRoot>
+              <szQualifyPath>Utility:JSON</szQualifyPath>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>ELEMENTS</szFieldName>
+              <szPackageRoot>CIBER_PTPPB_PAGELET</szPackageRoot>
+              <szQualifyPath>Utility:JSON</szQualifyPath>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>PAIR</szFieldName>
+              <szPackageRoot>CIBER_PTPPB_PAGELET</szPackageRoot>
+              <szQualifyPath>Utility:JSON</szQualifyPath>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>MEMBERS</szFieldName>
+              <szPackageRoot>CIBER_PTPPB_PAGELET</szPackageRoot>
+              <szQualifyPath>Utility:JSON</szQualifyPath>
+            </row>
+          </rowset>
+        </lpPnt>
+        <lpProgCode>custom field</lpProgCode>
+        <nProgCode>0</nProgCode>
+        <eRunLocation>0</eRunLocation>
+        <szLicenseCode></szLicenseCode>
+        <lpHashTable>POINTER</lpHashTable>
+        <eProgFlag>0</eProgFlag>
+        <szExtendsClass></szExtendsClass>
+        <szCompiledRelease></szCompiledRelease>
+      </row>
+    </rowset>
+    <peoplecode_text>import CIBER_PTPPB_PAGELET:XMLDataSource:*;
+import CIBER_PTPPB_PAGELET:Utility:JSON:*;
+
+class MultiCalendar
+   method MultiCalendar(&amp;id_param As string);
+   method GetJSON() Returns string;
+   method GetXML() Returns string; /* for testing */
+   
+private
+   instance string &amp;pageletId;
+   instance XmlDoc &amp;XMLDoc;
+   
+   /* for use with angular js calendar */
+   instance CIBER_PTPPB_PAGELET:Utility:JSON:JSON &amp;Events;
+   instance CIBER_PTPPB_PAGELET:Utility:JSON:JSONObject &amp;OneEvent;
+   
+   /* for style sheet element name */
+   instance number &amp;X;
+   Constant &amp;TYPE = &quot;typeColor&quot;;
+   
+   method addEvent();
+   method addEventItem(&amp;strKey As string, &amp;strValue As string);
+   method GetJSONfromQuery();
+   method GetJSONfromConsCal();
+   method GetNextType() Returns string;
+   method FormatDateTimeText(&amp;strDtTm As string) Returns string;
+   
+end-class;
+
+method MultiCalendar
+   /+ &amp;id_param as String +/
+   &amp;pageletId = &amp;id_param;
+   &amp;X = 1;
+   
+   Local CIBER_PTPPB_PAGELET:XMLDataSource:PageletWizardXML &amp;pwObj = create CIBER_PTPPB_PAGELET:XMLDataSource:PageletWizardXML(&amp;pageletId);
+   &amp;XMLDoc = &amp;pwObj.GetXMLDoc();
+   
+end-method;
+
+method GetXML
+   /+ Returns String +/
+   Return &amp;XMLDoc.GenFormattedXmlString();
+end-method;
+
+method GetJSON
+   /+ Returns String +/
+   
+   /*
+	example angular js calendar event format JSON:
+	[{
+	&quot;title&quot;: &quot;Ajax event&quot;,
+	&quot;type&quot;: &quot;warning&quot;,
+	&quot;startsAt&quot;: &quot;2016-01-03T12:00:00.000&quot;,
+	&quot;endsAt&quot;: &quot;2016-01-03T16:00:00.000&quot;
+	},
+	{
+	&quot;title&quot;: &quot;2nd Ajax event&quot;,
+	&quot;type&quot;: &quot;information&quot;,
+	&quot;startsAt&quot;: &quot;2016-02-03T12:00:00.000&quot;,
+	&quot;endsAt&quot;: &quot;2016-02-03T16:00:00.000&quot;
+	}]
+*/
+   
+   /* create json structures for calendar events */
+   &amp;Events = create CIBER_PTPPB_PAGELET:Utility:JSON:JSON(&quot;A&quot;);
+   %This.GetJSONfromQuery();
+   %This.GetJSONfromConsCal();
+   Return &amp;Events.getFinalString();
+   
+end-method;
+
+method GetJSONfromQuery
+   
+   Local string &amp;jsontype;
+   Local number &amp;i, &amp;j, &amp;k, &amp;y;
+   Local XmlNode &amp;thisnode, &amp;thatnode;
+   Local array of string &amp;aryKeyFieldNames, &amp;aryKeyNames;
+   Local array of XmlNode &amp;ary_queryresult, &amp;ary_queryrows_row, &amp;ary_queryfields_field, &amp;ary_querydata;
+   
+   &amp;ary_queryresult = &amp;XMLDoc.GetElementsByTagName(&quot;queryresult&quot;); /* go thru all query pagelets */
+   For &amp;i = 1 To &amp;ary_queryresult.Len
+      &amp;jsontype = %This.GetNextType();
+      &amp;ary_queryrows_row = &amp;ary_queryresult [&amp;i].FindNodes(&quot;queryrows/row&quot;);
+      If &amp;ary_queryrows_row.Len &gt; 0 Then /* make sure query has rows */
+         
+         /* get key field name &amp; key field */
+         &amp;ary_queryfields_field = &amp;ary_queryresult [&amp;i].FindNodes(&quot;queryfields/field&quot;);
+         &amp;aryKeyFieldNames = CreateArrayRept(&quot;&quot;, &amp;ary_queryfields_field.Len);
+         &amp;aryKeyNames = CreateArrayRept(&quot;&quot;, &amp;ary_queryfields_field.Len);
+         For &amp;j = 1 To &amp;ary_queryfields_field.Len
+            &amp;aryKeyFieldNames [&amp;j] = &amp;ary_queryfields_field [&amp;j].GetAttributeValue(1);
+            &amp;aryKeyNames [&amp;j] = &amp;ary_queryfields_field [&amp;j].FindNode(&quot;headingtext&quot;).NodeValue;
+         End-For;
+         
+         /* get actual key/value pair data */
+         
+         For &amp;j = 1 To &amp;ary_queryrows_row.Len
+            For &amp;k = 1 To &amp;aryKeyFieldNames.Len
+               %This.addEventItem(&amp;aryKeyNames [&amp;k], &amp;ary_queryrows_row [&amp;j].FindNode(&quot;querydata[@fieldname='&quot; | &amp;aryKeyFieldNames [&amp;k] | &quot;']/text&quot;).NodeValue);
+            End-For;
+            %This.addEventItem(&quot;type&quot;, &amp;jsontype);
+            %This.addEvent();
+         End-For;
+      Else
+         %This.addEventItem(&quot;title&quot;, &quot;placeholder&quot;);
+         %This.addEventItem(&quot;type&quot;, &amp;jsontype);
+         %This.addEventItem(&quot;detail&quot;, &quot;&quot;);
+         %This.addEventItem(&quot;startsAt&quot;, &quot;1980-01-01T12:00:00.000&quot;);
+         %This.addEventItem(&quot;endsAt&quot;, &quot;1980-01-01T13:00:00.000&quot;);
+         %This.addEvent();
+      End-If;
+   End-For;
+   
+end-method;
+
+method GetJSONfromConsCal
+   
+   /* 
+	example calendar event xml format:
+		&lt;event allday=&quot;N&quot; id=&quot;2101&quot;&gt;
+			&lt;title&gt;Test Event&lt;/title&gt;
+			&lt;startdttm&gt;2016-01-14-02.00.00.000000&lt;/startdttm&gt;
+			&lt;enddttm&gt;2016-01-14-03.00.00.000000&lt;/enddttm&gt;
+			&lt;detail&gt;Location: Tully Student Center&lt;/detail&gt;
+		&lt;/event&gt;
+*/
+   Local string &amp;jsontype;
+   Local number &amp;i, &amp;j;
+   Local array of XmlNode &amp;ary_comm_cal_results, &amp;ary_event;
+   
+   &amp;ary_comm_cal_results = &amp;XMLDoc.GetElementsByTagName(&quot;community-calendars-result&quot;); /* go thru all calendar pagelets */
+   For &amp;i = 1 To &amp;ary_comm_cal_results.Len
+      &amp;jsontype = %This.GetNextType();
+      &amp;ary_event = &amp;ary_comm_cal_results [&amp;i].GetElementsByTagName(&quot;event&quot;);
+      If &amp;ary_event.Len = 0 Then
+         %This.addEventItem(&quot;title&quot;, &quot;placeholder&quot;);
+         %This.addEventItem(&quot;type&quot;, &amp;jsontype);
+         %This.addEventItem(&quot;detail&quot;, &quot;&quot;);
+         %This.addEventItem(&quot;startsAt&quot;, &quot;1980-01-01T12:00:00.000&quot;);
+         %This.addEventItem(&quot;endsAt&quot;, &quot;1980-01-01T13:00:00.000&quot;);
+         %This.addEvent();
+      Else
+         For &amp;j = 1 To &amp;ary_event.Len
+            %This.addEventItem(&quot;title&quot;, &amp;ary_event [&amp;j].FindNode(&quot;title&quot;).NodeValue);
+            %This.addEventItem(&quot;type&quot;, &amp;jsontype);
+            %This.addEventItem(&quot;detail&quot;, &amp;ary_event [&amp;j].FindNode(&quot;detail&quot;).NodeValue);
+            %This.addEventItem(&quot;startsAt&quot;, %This.FormatDateTimeText(&amp;ary_event [&amp;j].FindNode(&quot;startdttm&quot;).NodeValue));
+            %This.addEventItem(&quot;endsAt&quot;, %This.FormatDateTimeText(&amp;ary_event [&amp;j].FindNode(&quot;enddttm&quot;).NodeValue));
+            %This.addEvent();
+         End-For;
+      End-If;
+   End-For;
+   
+end-method;
+
+method addEvent
+   
+   /*
+	add event for angular js calendar
+	*/
+   
+   Local CIBER_PTPPB_PAGELET:Utility:JSON:Value &amp;tmpJSONVal = create CIBER_PTPPB_PAGELET:Utility:JSON:Value(&quot;O&quot;);
+   &amp;tmpJSONVal.JSONObject = &amp;OneEvent;
+   Local CIBER_PTPPB_PAGELET:Utility:JSON:Elements &amp;tmpJSONElems = create CIBER_PTPPB_PAGELET:Utility:JSON:Elements(&amp;tmpJSONVal);
+   
+   If &amp;Events.BaseJSONArray.JSONElements &lt;&gt; Null Then
+      &amp;Events.BaseJSONArray.JSONElements.addElements(&amp;tmpJSONElems);
+   Else
+      &amp;Events.BaseJSONArray.JSONElements = &amp;tmpJSONElems;
+   End-If;
+   
+   &amp;OneEvent = Null;
+end-method;
+
+method addEventItem
+   /+ &amp;strKey as String, +/
+   /+ &amp;strValue as String +/
+   
+   /*	add event item for angular js calendar */
+   
+   Local CIBER_PTPPB_PAGELET:Utility:JSON:Value &amp;tmpValue = create CIBER_PTPPB_PAGELET:Utility:JSON:Value(&quot;S&quot;);
+   &amp;tmpValue.JSONString = &amp;strValue;
+   
+   Local CIBER_PTPPB_PAGELET:Utility:JSON:Pair &amp;tmpPair = create CIBER_PTPPB_PAGELET:Utility:JSON:Pair(&amp;strKey, &amp;tmpValue);
+   Local CIBER_PTPPB_PAGELET:Utility:JSON:Members &amp;tmpMembers = create CIBER_PTPPB_PAGELET:Utility:JSON:Members(&amp;tmpPair);
+   
+   If &amp;OneEvent = Null Then
+      &amp;OneEvent = create CIBER_PTPPB_PAGELET:Utility:JSON:JSONObject();
+      &amp;OneEvent.JSONMembers = &amp;tmpMembers;
+   Else
+      If &amp;OneEvent.JSONMembers &lt;&gt; Null Then
+         &amp;OneEvent.JSONMembers.addMembers(&amp;tmpMembers);
+      Else
+         &amp;OneEvent.JSONMembers = &amp;tmpMembers;
+      End-If;
+   End-If;
+   
+end-method;
+
+method GetNextType
+   /+ Returns String +/
+   Local string &amp;str_ret = &amp;TYPE | &amp;X;
+   &amp;X = &amp;X + 1;
+   Return &amp;str_ret;
+end-method;
+
+method FormatDateTimeText
+   /+ &amp;strDtTm as String +/
+   /+ Returns String +/
+   Return Substring(Replace(Replace(Replace(&amp;strDtTm, 11, 1, &quot;T&quot;), 14, 1, &quot;:&quot;), 17, 1, &quot;:&quot;), 1, 23);
+   
+end-method;
+
+</peoplecode_text>
+    <peoplecode_blob>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ZABYAE0ATAALARQmAHAAYQBnAGUAbABlAHQASQBkABQVAQ4mAFgATQBMAEQAbwBjAAYBDCYAcAB3AE8AYgBqAAUKEkcAZQB0AFgATQBMAEQAbwBjAAsUFU9kFS1PY0EKDEcAZQB0AFgATQBMAC1tHFIAZQB0AHUAcgBuAHMAIABTAHQAcgBpAG4AZwA4AQ4mAFgATQBMAEQAbwBjAAUKKkcAZQBuAEYAbwByAG0AYQB0AHQAZQBkAFgAbQBsAFMAdAByAGkAbgBnAAsUFWQVLU9jQQoORwBlAHQASgBTAE8ATgAtbRxSAGUAdAB1AHIAbgBzACAAUwB0AHIAaQBuAGcATyR8Av98AgAALwAqAAoACQBlAHgAYQBtAHAAbABlACAAYQBuAGcAdQBsAGEAcgAgAGoAcwAgAGMAYQBsAGUAbgBkAGEAcgAgAGUAdgBlAG4AdAAgAGYAbwByAG0AYQB0ACAASgBTAE8ATgA6AAoACQBbAHsACgAJACIAdABpAHQAbABlACIAOgAgACIAQQBqAGEAeAAgAGUAdgBlAG4AdAAiACwACgAJACIAdAB5AHAAZQAiADoAIAAiAHcAYQByAG4AaQBuAGcAIgAsAAoACQAiAHMAdABhAHIAdABzAEEAdAAiADoAIAAiADIAMAAxADYALQAwADEALQAwADMAVAAxADIAOgAwADAAOgAwADAALgAwADAAMAAiACwACgAJACIAZQBuAGQAcwBBAHQAIgA6ACAAIgAyADAAMQA2AC0AMAAxAC0AMAAzAFQAMQA2ADoAMAAwADoAMAAwAC4AMAAwADAAIgAKAAkAfQAsAAoACQB7AAoACQAiAHQAaQB0AGwAZQAiADoAIAAiADIAbgBkACAAQQBqAGEAeAAgAGUAdgBlAG4AdAAiACwACgAJACIAdAB5AHAAZQAiADoAIAAiAGkAbgBmAG8AcgBtAGEAdABpAG8AbgAiACwACgAJACIAcwB0AGEAcgB0AHMAQQB0ACIAOgAgACIAMgAwADEANgAtADAAMgAtADAAMwBUADEAMgA6ADAAMAA6ADAAMAAuADAAMAAwACIALAAKAAkAIgBlAG4AZABzAEEAdAAiADoAIAAiADIAMAAxADYALQAwADIALQAwADMAVAAxADYAOgAwADAAOgAwADAALgAwADAAMAAiAAoACQB9AF0ACgAqAC8ATyRgAGAvACoAIABjAHIAZQBhAHQAZQAgAGoAcwBvAG4AIABzAHQAcgB1AGMAdAB1AHIAZQBzACAAZgBvAHIAIABjAGEAbABlAG4AZABhAHIAIABlAHYAZQBuAHQAcwAgACoALwABDiYARQB2AGUAbgB0AHMABmkKJkMASQBCAEUAUgBfAFAAVABQAFAAQgBfAFAAQQBHAEUATABFAFQAVwoOVQB0AGkAbABpAHQAeQBXCghKAFMATwBOAFcKCEoAUwBPAE4ACxYCQQAUFRIKJQBUAGgAaQBzAAUKIEcAZQB0AEoAUwBPAE4AZgByAG8AbQBRAHUAZQByAHkACxQVEgolAFQAaABpAHMABQokRwBlAHQASgBTAE8ATgBmAHIAbwBtAEMAbwBuAHMAQwBhAGwACxQVOAEOJgBFAHYAZQBuAHQAcwAFChxnAGUAdABGAGkAbgBhAGwAUwB0AHIAaQBuAGcACxQVT2QVLU9jQQogRwBlAHQASgBTAE8ATgBmAHIAbwBtAFEAdQBlAHIAeQAtT0RADHMAdAByAGkAbgBnAAESJgBqAHMAbwBuAHQAeQBwAGUAFURADG4AdQBtAGIAZQByAAEEJgBpAAMBBCYAagADAQQmAGsAAwEEJgB5ABVECg5YAG0AbABOAG8AZABlAAESJgB0AGgAaQBzAG4AbwBkAGUAAwESJgB0AGgAYQB0AG4AbwBkAGUAFURACmEAcgByAGEAeQBABG8AZgBADHMAdAByAGkAbgBnAAEiJgBhAHIAeQBLAGUAeQBGAGkAZQBsAGQATgBhAG0AZQBzAAMBGCYAYQByAHkASwBlAHkATgBhAG0AZQBzABVEQAphAHIAcgBhAHkAQARvAGYACg5YAG0AbABOAG8AZABlAAEgJgBhAHIAeQBfAHEAdQBlAHIAeQByAGUAcwB1AGwAdAADASQmAGEAcgB5AF8AcQB1AGUAcgB5AHIAbwB3AHMAXwByAG8AdwADASwmAGEAcgB5AF8AcQB1AGUAcgB5AGYAaQBlAGwAZABzAF8AZgBpAGUAbABkAAMBHCYAYQByAHkAXwBxAHUAZQByAHkAZABhAHQAYQAVTwEgJgBhAHIAeQBfAHEAdQBlAHIAeQByAGUAcwB1AGwAdAAGAQ4mAFgATQBMAEQAbwBjAAUKKEcAZQB0AEUAbABlAG0AZQBuAHQAcwBCAHkAVABhAGcATgBhAG0AZQALFhZxAHUAZQByAHkAcgBlAHMAdQBsAHQAFBVOQABALwAqACAAZwBvACAAdABoAHIAdQAgAGEAbABsACAAcQB1AGUAcgB5ACAAcABhAGcAZQBsAGUAdABzACAAKgAvACkBBCYAaQAGUBIAAAABAAAAAAAAAAAAAAAAAAAqASAmAGEAcgB5AF8AcQB1AGUAcgB5AHIAZQBzAHUAbAB0AAUKBkwAZQBuAC0BEiYAagBzAG8AbgB0AHkAcABlAAYSCiUAVABoAGkAcwAFChZHAGUAdABOAGUAeAB0AFQAeQBwAGUACxQVASQmAGEAcgB5AF8AcQB1AGUAcgB5AHIAbwB3AHMAXwByAG8AdwAGASAmAGEAcgB5AF8AcQB1AGUAcgB5AHIAZQBzAHUAbAB0AEwBBCYAaQBNBQoSRgBpAG4AZABOAG8AZABlAHMACxYacQB1AGUAcgB5AHIAbwB3AHMALwByAG8AdwAUFRwBJCYAYQByAHkAXwBxAHUAZQByAHkAcgBvAHcAcwBfAHIAbwB3AAUKBkwAZQBuAAlQEgAAAAAAAAAAAAAAAAAAAAAAAB9OPAA8LwAqACAAbQBhAGsAZQAgAHMAdQByAGUAIABxAHUAZQByAHkAIABoAGEAcwAgAHIAbwB3AHMAIAAqAC8ATyRIAEgvACoAIABnAGUAdAAgAGsAZQB5ACAAZgBpAGUAbABkACAAbgBhAG0AZQAgACYAIABrAGUAeQAgAGYAaQBlAGwAZAAgACoALwABLCYAYQByAHkAXwBxAHUAZQByAHkAZgBpAGUAbABkAHMAXwBmAGkAZQBsAGQABgEgJgBhAHIAeQBfAHEAdQBlAHIAeQByAGUAcwB1AGwAdABMAQQmAGkATQUKEkYAaQBuAGQATgBvAGQAZQBzAAsWInEAdQBlAHIAeQBmAGkAZQBsAGQAcwAvAGYAaQBlAGwAZAAUFQEiJgBhAHIAeQBLAGUAeQBGAGkAZQBsAGQATgBhAG0AZQBzAAYKHkMAcgBlAGEAdABlAEEAcgByAGEAeQBSAGUAcAB0AAsWAAMBLCYAYQByAHkAXwBxAHUAZQByAHkAZgBpAGUAbABkAHMAXwBmAGkAZQBsAGQABQoGTABlAG4AFBUBGCYAYQByAHkASwBlAHkATgBhAG0AZQBzAAYKHkMAcgBlAGEAdABlAEEAcgByAGEAeQBSAGUAcAB0AAsWAAMBLCYAYQByAHkAXwBxAHUAZQByAHkAZgBpAGUAbABkAHMAXwBmAGkAZQBsAGQABQoGTABlAG4AFBUpAQQmAGoABlASAAAAAQAAAAAAAAAAAAAAAAAAKgEsJgBhAHIAeQBfAHEAdQBlAHIAeQBmAGkAZQBsAGQAcwBfAGYAaQBlAGwAZAAFCgZMAGUAbgAtASImAGEAcgB5AEsAZQB5AEYAaQBlAGwAZABOAGEAbQBlAHMATAEEJgBqAE0GASwmAGEAcgB5AF8AcQB1AGUAcgB5AGYAaQBlAGwAZABzAF8AZgBpAGUAbABkAEwBBCYAagBNBQoiRwBlAHQAQQB0AHQAcgBpAGIAdQB0AGUAVgBhAGwAdQBlAAtQEgAAAAEAAAAAAAAAAAAAAAAAABQVARgmAGEAcgB5AEsAZQB5AE4AYQBtAGUAcwBMAQQmAGoATQYBLCYAYQByAHkAXwBxAHUAZQByAHkAZgBpAGUAbABkAHMAXwBmAGkAZQBsAGQATAEEJgBqAE0FChBGAGkAbgBkAE4AbwBkAGUACxYWaABlAGEAZABpAG4AZwB0AGUAeAB0ABQFChJOAG8AZABlAFYAYQBsAHUAZQAVLBVPJEgASC8AKgAgAGcAZQB0ACAAYQBjAHQAdQBhAGwAIABrAGUAeQAvAHYAYQBsAHUAZQAgAHAAYQBpAHIAIABkAGEAdABhACAAKgAvAE8pAQQmAGoABlASAAAAAQAAAAAAAAAAAAAAAAAAKgEkJgBhAHIAeQBfAHEAdQBlAHIAeQByAG8AdwBzAF8AcgBvAHcABQoGTABlAG4ALSkBBCYAawAGUBIAAAABAAAAAAAAAAAAAAAAAAAqASImAGEAcgB5AEsAZQB5AEYAaQBlAGwAZABOAGEAbQBlAHMABQoGTABlAG4ALRIKJQBUAGgAaQBzAAUKGGEAZABkAEUAdgBlAG4AdABJAHQAZQBtAAsBGCYAYQByAHkASwBlAHkATgBhAG0AZQBzAEwBBCYAawBNAwEkJgBhAHIAeQBfAHEAdQBlAHIAeQByAG8AdwBzAF8AcgBvAHcATAEEJgBqAE0FChBGAGkAbgBkAE4AbwBkAGUACxYscQB1AGUAcgB5AGQAYQB0AGEAWwBAAGYAaQBlAGwAZABuAGEAbQBlAD0AJwAjASImAGEAcgB5AEsAZQB5AEYAaQBlAGwAZABOAGEAbQBlAHMATAEEJgBrAE0jFg4nAF0ALwB0AGUAeAB0ABQFChJOAG8AZABlAFYAYQBsAHUAZQAUFSwVEgolAFQAaABpAHMABQoYYQBkAGQARQB2AGUAbgB0AEkAdABlAG0ACxYIdAB5AHAAZQADARImAGoAcwBvAG4AdAB5AHAAZQAUFRIKJQBUAGgAaQBzAAUKEGEAZABkAEUAdgBlAG4AdAALFBUsFRkSCiUAVABoAGkAcwAFChhhAGQAZABFAHYAZQBuAHQASQB0AGUAbQALFgp0AGkAdABsAGUAAxYWcABsAGEAYwBlAGgAbwBsAGQAZQByABQVEgolAFQAaABpAHMABQoYYQBkAGQARQB2AGUAbgB0AEkAdABlAG0ACxYIdAB5AHAAZQADARImAGoAcwBvAG4AdAB5AHAAZQAUFRIKJQBUAGgAaQBzAAUKGGEAZABkAEUAdgBlAG4AdABJAHQAZQBtAAsWDGQAZQB0AGEAaQBsAAMWABQVEgolAFQAaABpAHMABQoYYQBkAGQARQB2AGUAbgB0AEkAdABlAG0ACxYQcwB0AGEAcgB0AHMAQQB0AAMWLjEAOQA4ADAALQAwADEALQAwADEAVAAxADIAOgAwADAAOgAwADAALgAwADAAMAAUFRIKJQBUAGgAaQBzAAUKGGEAZABkAEUAdgBlAG4AdABJAHQAZQBtAAsWDGUAbgBkAHMAQQB0AAMWLjEAOQA4ADAALQAwADEALQAwADEAVAAxADMAOgAwADAAOgAwADAALgAwADAAMAAUFRIKJQBUAGgAaQBzAAUKEGEAZABkAEUAdgBlAG4AdAALFBUaFSwVT2QVLU9jQQokRwBlAHQASgBTAE8ATgBmAHIAbwBtAEMAbwBuAHMAQwBhAGwALU8kFAL/FAIAAC8AKgAgAAoACQBlAHgAYQBtAHAAbABlACAAYwBhAGwAZQBuAGQAYQByACAAZQB2AGUAbgB0ACAAeABtAGwAIABmAG8AcgBtAGEAdAA6AAoACQAJADwAZQB2AGUAbgB0ACAAYQBsAGwAZABhAHkAPQAiAE4AIgAgAGkAZAA9ACIAMgAxADAAMQAiAD4ACgAJAAkACQA8AHQAaQB0AGwAZQA+AFQAZQBzAHQAIABFAHYAZQBuAHQAPAAvAHQAaQB0AGwAZQA+AAoACQAJAAkAPABzAHQAYQByAHQAZAB0AHQAbQA+ADIAMAAxADYALQAwADEALQAxADQALQAwADIALgAwADAALgAwADAALgAwADAAMAAwADAAMAA8AC8AcwB0AGEAcgB0AGQAdAB0AG0APgAKAAkACQAJADwAZQBuAGQAZAB0AHQAbQA+ADIAMAAxADYALQAwADEALQAxADQALQAwADMALgAwADAALgAwADAALgAwADAAMAAwADAAMAA8AC8AZQBuAGQAZAB0AHQAbQA+AAoACQAJAAkAPABkAGUAdABhAGkAbAA+AEwAbwBjAGEAdABpAG8AbgA6ACAAVAB1AGwAbAB5ACAAUwB0AHUAZABlAG4AdAAgAEMAZQBuAHQAZQByADwALwBkAGUAdABhAGkAbAA+AAoACQAJADwALwBlAHYAZQBuAHQAPgAKACoALwBEQAxzAHQAcgBpAG4AZwABEiYAagBzAG8AbgB0AHkAcABlABVEQAxuAHUAbQBiAGUAcgABBCYAaQADAQQmAGoAFURACmEAcgByAGEAeQBABG8AZgAKDlgAbQBsAE4AbwBkAGUAASomAGEAcgB5AF8AYwBvAG0AbQBfAGMAYQBsAF8AcgBlAHMAdQBsAHQAcwADARQmAGEAcgB5AF8AZQB2AGUAbgB0ABVPASomAGEAcgB5AF8AYwBvAG0AbQBfAGMAYQBsAF8AcgBlAHMAdQBsAHQAcwAGAQ4mAFgATQBMAEQAbwBjAAUKKEcAZQB0AEUAbABlAG0AZQBuAHQAcwBCAHkAVABhAGcATgBhAG0AZQALFjRjAG8AbQBtAHUAbgBpAHQAeQAtAGMAYQBsAGUAbgBkAGEAcgBzAC0AcgBlAHMAdQBsAHQAFBVORgBGLwAqACAAZwBvACAAdABoAHIAdQAgAGEAbABsACAAYwBhAGwAZQBuAGQAYQByACAAcABhAGcAZQBsAGUAdABzACAAKgAvACkBBCYAaQAGUBIAAAABAAAAAAAAAAAAAAAAAAAqASomAGEAcgB5AF8AYwBvAG0AbQBfAGMAYQBsAF8AcgBlAHMAdQBsAHQAcwAFCgZMAGUAbgAtARImAGoAcwBvAG4AdAB5AHAAZQAGEgolAFQAaABpAHMABQoWRwBlAHQATgBlAHgAdABU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</peoplecode_blob>
+  </instance>
