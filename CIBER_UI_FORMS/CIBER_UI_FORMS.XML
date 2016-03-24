@@ -1,0 +1,860 @@
+<?xml version='1.0'?>
+  <!--Warning : Don't edit this file -->
+  <instance class="PJM">
+    <rowset name="PjmDefn" size="2808" count="1">
+      <row>
+        <szLastUpdDttm>2016-03-24-11.22.07.213194</szLastUpdDttm>
+        <szLastUpdOprId>VP1</szLastUpdOprId>
+        <szObjectOwnerID></szObjectOwnerID>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>100</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szProjectName>CIBER_UI_FORMS</szProjectName>
+        <szLanguageCd>ENG</szLanguageCd>
+        <szProjectDescr></szProjectDescr>
+        <szSrcDBName>PSPADMO</szSrcDBName>
+        <szSrcOprId>VP1</szSrcOprId>
+        <szSessionId>2f7a2ebb-f1d4-11e5-9f5d-b93f48b0c012</szSessionId>
+        <szRunDtTm>2016-03-24-11.22.13.213443</szRunDtTm>
+        <szTgtServerName></szTgtServerName>
+        <szTgtDBName></szTgtDBName>
+        <szTgtOprId></szTgtOprId>
+        <fReportFilter>16232832</fReportFilter>
+        <eTargetOrientation>0</eTargetOrientation>
+        <eCompareType>1</eCompareType>
+        <fKeepTgt>31</fKeepTgt>
+        <nCommitLimit>50</nCommitLimit>
+        <szCompRelease></szCompRelease>
+        <szCompRelDttm></szCompRelDttm>
+        <bMaintenanceProject>0</bMaintenanceProject>
+        <bUseDbFieldNameAttrib>0</bUseDbFieldNameAttrib>
+        <szReleaseLabel></szReleaseLabel>
+        <szReleaseDttm></szReleaseDttm>
+        <nDescrLongLen>0</nDescrLongLen>
+        <hDescrLong>HANDLE</hDescrLong>
+        <nProjectCount>2</nProjectCount>
+        <lpPit> POINTER
+          <rowset name="PjmPit" size="1712" count="2">
+            <row>
+              <eObjectType>57</eObjectType>
+              <szObjectValue_0>CIBER_UI_FORMS</szObjectValue_0>
+              <szObjectValue_1>CIBER_UI_FORMS</szObjectValue_1>
+              <szObjectValue_2>.</szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>104</eObjectID_0>
+              <eObjectID_1>116</eObjectID_1>
+              <eObjectID_2>117</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>0</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>58</eObjectType>
+              <szObjectValue_0>CIBER_UI_FORMS</szObjectValue_0>
+              <szObjectValue_1>RecordXML</szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>104</eObjectID_0>
+              <eObjectID_1>107</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>0</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+          </rowset>
+        </lpPit>
+        <nAdsBindingCount>0</nAdsBindingCount>
+        <pPrjAdsBinding>POINTER</pPrjAdsBinding>
+        <bCopyAllSec>1</bCopyAllSec>
+        <bCompAllSec>1</bCompAllSec>
+        <nSecCount>70</nSecCount>
+        <lpSec> POINTER
+          <rowset name="PjmSec" size="1400" count="70">
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>COMMON</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ARA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>BUL</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>CFR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>CRO</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>CZE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>DAN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>DUT</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ENG</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ESP</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>FIN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>FRA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>GER</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>GRK</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>HEB</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>HUN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ITA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>JPN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>KOR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>MAY</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>NOR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>POL</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>POR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ROM</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>RUS</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>SER</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>SLK</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>SLV</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>SVE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>THA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>TUR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>UKE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>VIE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ZHS</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ZHT</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>COMMON</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ARA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>BUL</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>CFR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>CRO</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>CZE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>DAN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>DUT</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ENG</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ESP</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>FIN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>FRA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>GER</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>GRK</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>HEB</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>HUN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ITA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>JPN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>KOR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>MAY</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>NOR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>POL</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>POR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ROM</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>RUS</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>SER</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>SLK</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>SLV</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>SVE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>THA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>TUR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>UKE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>VIE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ZHS</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ZHT</szSectionName>
+            </row>
+          </rowset>
+        </lpSec>
+        <nIncCount>0</nIncCount>
+        <lpInc>POINTER</lpInc>
+        <nDepCount>0</nDepCount>
+        <lpDep>POINTER</lpDep>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="APM">
+    <rowset name="ApmDefn" size="968" count="1">
+      <row>
+        <szLastUpdDttm>2016-03-22-19.06.02.613739</szLastUpdDttm>
+        <szLastUpdOprId>VP1</szLastUpdOprId>
+        <szObjectOwnerId></szObjectOwnerId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>55</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szPackageId>CIBER_UI_FORMS</szPackageId>
+        <szLanguageCd>ENG</szLanguageCd>
+        <szPackageRoot>CIBER_UI_FORMS</szPackageRoot>
+        <szQualifyPath>.</szQualifyPath>
+        <lPackageLevel>0</lPackageLevel>
+        <szPackageRef></szPackageRef>
+        <szDescr></szDescr>
+        <lDescrLongLen>0</lDescrLongLen>
+        <lpszDescrLong>POINTER</lpszDescrLong>
+        <eRenameObject>0</eRenameObject>
+        <szPrevPackageId></szPrevPackageId>
+        <ApmDefnList.lClassCount>1</ApmDefnList.lClassCount>
+        <ApmDefnList.hDefnClassList> HANDLE
+          <rowset name="ApmClassList" size="464" count="1">
+            <row>
+              <ApmClassKey.szClassId>RecordXML</ApmClassKey.szClassId>
+              <ApmClassKey.szPackageRoot>CIBER_UI_FORMS</ApmClassKey.szPackageRoot>
+              <ApmClassKey.szQualifyPath>:</ApmClassKey.szQualifyPath>
+              <szClassRef></szClassRef>
+              <lClassLevel>1</lClassLevel>
+              <lClassCount>1</lClassCount>
+              <hClassDefn> HANDLE
+                <rowset name="ApmClassDefn" size="576" count="1">
+                  <row>
+                    <szClassId>RecordXML</szClassId>
+                    <szClassRef></szClassRef>
+                    <szDescr></szDescr>
+                    <eRenameObject>0</eRenameObject>
+                    <szPrevClassId></szPrevClassId>
+                  </row>
+                </rowset>
+              </hClassDefn>
+            </row>
+          </rowset>
+        </ApmDefnList.hDefnClassList>
+        <ApmDefnList.lPackageCount>0</ApmDefnList.lPackageCount>
+        <ApmDefnList.hDefnPackageList>HANDLE</ApmDefnList.hDefnPackageList>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="PCM">
+    <rowset name="PcmProg" size="2240" count="1">
+      <row>
+        <szLastUpdDttm>2016-03-24-11.20.08.212992</szLastUpdDttm>
+        <szLastUpdOprId>VP1</szLastUpdOprId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>2301</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <eObjectID_0>104</eObjectID_0>
+        <szObjectValue_0>CIBER_UI_FORMS</szObjectValue_0>
+        <eObjectID_1>107</eObjectID_1>
+        <szObjectValue_1>RecordXML</szObjectValue_1>
+        <eObjectID_2>12</eObjectID_2>
+        <szObjectValue_2>OnExecute</szObjectValue_2>
+        <eObjectID_3>0</eObjectID_3>
+        <szObjectValue_3></szObjectValue_3>
+        <eObjectID_4>0</eObjectID_4>
+        <szObjectValue_4></szObjectValue_4>
+        <eObjectID_5>0</eObjectID_5>
+        <szObjectValue_5></szObjectValue_5>
+        <eObjectID_6>0</eObjectID_6>
+        <szObjectValue_6></szObjectValue_6>
+        <nNameCount>19</nNameCount>
+        <lpProgSource> POINTER
+          <rowset name="PcmProgSource" size="64" count="1">
+            <row>
+              <lSourceLen>15192</lSourceLen>
+              <lpSource>custom field</lpSource>
+              <lEntryNamesLen>460</lEntryNamesLen>
+              <nEntry>13</nEntry>
+              <lpEntryTab>custom field</lpEntryTab>
+              <nParams>16</nParams>
+              <lpParams>custom field</lpParams>
+              <nPCVersion>133</nPCVersion>
+            </row>
+          </rowset>
+        </lpProgSource>
+        <nProgSource>1</nProgSource>
+        <lpPnt> POINTER
+          <rowset name="PcmPnt" size="7828" count="19">
+            <row>
+              <szRecName></szRecName>
+              <szFieldName></szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>XMLDOC</szFieldName>
+              <szPackageRoot>XmlDoc</szPackageRoot>
+              <szQualifyPath>XmlDoc</szQualifyPath>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>XMLNODE</szFieldName>
+              <szPackageRoot>XmlNode</szPackageRoot>
+              <szQualifyPath>XmlNode</szQualifyPath>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>RECORD</szFieldName>
+              <szPackageRoot>Record</szPackageRoot>
+              <szQualifyPath>Record</szQualifyPath>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>FIELD</szFieldName>
+              <szPackageRoot>Field</szPackageRoot>
+              <szQualifyPath>Field</szQualifyPath>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>ROWSET</szFieldName>
+              <szPackageRoot>Rowset</szPackageRoot>
+              <szQualifyPath>Rowset</szQualifyPath>
+            </row>
+            <row>
+              <szRecName>RECORD</szRecName>
+              <szFieldName>PSKEYDEFN</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>PSKEYDEFN</szRecName>
+              <szFieldName>KEYPOSN</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>FIELD</szRecName>
+              <szFieldName>FIELDNAME</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>RECORD</szRecName>
+              <szFieldName>PSRECFIELD</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>FIELD</szRecName>
+              <szFieldName>USEEDIT</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>FIELD</szRecName>
+              <szFieldName>DEFFIELDNAME</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>RECORD</szRecName>
+              <szFieldName>PSDBFIELD</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>FIELD</szRecName>
+              <szFieldName>FIELDTYPE</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>FIELD</szRecName>
+              <szFieldName>LENGTH</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>RECORD</szRecName>
+              <szFieldName>PSXLATITEM</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>FIELD</szRecName>
+              <szFieldName>XLATLONGNAME</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>FIELD</szRecName>
+              <szFieldName>XLATSHORTNAME</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>FIELD</szRecName>
+              <szFieldName>FIELDVALUE</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+          </rowset>
+        </lpPnt>
+        <lpProgCode>custom field</lpProgCode>
+        <nProgCode>0</nProgCode>
+        <eRunLocation>0</eRunLocation>
+        <szLicenseCode></szLicenseCode>
+        <lpHashTable>POINTER</lpHashTable>
+        <eProgFlag>0</eProgFlag>
+        <szExtendsClass></szExtendsClass>
+        <szCompiledRelease></szCompiledRelease>
+      </row>
+    </rowset>
+    <peoplecode_text>class RecordXML
+   method RecordXML(&amp;recName As string);
+   method GetXMLDoc() Returns XmlDoc;
+   method setRecordKeyValues(&amp;values As array of string);
+   
+   
+private
+   instance string &amp;RecordName;
+   instance array of string &amp;KeyFieldNames, &amp;KeyFieldValues;
+   
+   method initRecordKeyFields();
+   method getWhereClause() Returns string;
+   method calcUSEEDIT(&amp;parmFieldName As string) Returns array of number;
+   method addDefaultValueAsAttribute(&amp;parmNode As XmlNode);
+   method addFieldAttributeToNode(&amp;parmNode As XmlNode, &amp;parmBitArry As array of number);
+   method addFieldTypeAndLengthToNode(&amp;parmNode As XmlNode);
+   
+end-class;
+
+method RecordXML
+   /+ &amp;recName as String +/
+   &amp;RecordName = &amp;recName;
+   
+   /* need to make sure record name is verified, then call next method */
+   %This.initRecordKeyFields();
+   
+end-method;
+
+method setRecordKeyValues
+   /+ &amp;values as Array of String +/
+   Local number &amp;x;
+   If &amp;values.Len &lt;= &amp;KeyFieldValues.Len Then
+      For &amp;x = 1 To &amp;values.Len
+         &amp;KeyFieldValues [&amp;x] = &amp;values [&amp;x];
+      End-For;
+   Else
+      /* throw exception about too many values for keys */
+   End-If;
+   
+end-method;
+
+method GetXMLDoc
+   /+ Returns XmlDoc +/
+   Local number &amp;x, &amp;y;
+   Local XmlDoc &amp;retXMLDoc = CreateXmlDoc(&quot;&lt;?xml version='1.0' encoding='UTF-8' standalone='yes'?&gt;&lt;psrecordxml/&gt;&quot;);
+   Local XmlNode &amp;baseNode, &amp;thatNode, &amp;thisNode, &amp;recNode, &amp;fieldsNode, &amp;fieldNode;
+   Local Record &amp;thisRecord = CreateRecord(@(&quot;RECORD.&quot; | &amp;RecordName));
+   Local Field &amp;thisField;
+   Local Rowset &amp;thisRowSet;
+   
+   &amp;thisRowSet = CreateRowset(@(&quot;RECORD.&quot; | &amp;RecordName));
+   &amp;thisRowSet.Fill(%This.getWhereClause());
+   
+   &amp;baseNode = &amp;retXMLDoc.DocumentElement;
+   &amp;thatNode = &amp;baseNode.AddElement(&quot;psrecordxmlproperties&quot;);
+   &amp;thisNode = &amp;thatNode.AddElement(&quot;recordname&quot;);
+   &amp;thisNode.NodeValue = &amp;RecordName;
+   &amp;thisNode = &amp;thatNode.AddElement(&quot;fieldcount&quot;);
+   &amp;thisNode.NodeValue = String(&amp;thisRecord.FieldCount);
+   
+   &amp;thatNode = &amp;baseNode.AddElement(&quot;psrecordrows&quot;);
+   &amp;thatNode.AddAttribute(&quot;count&quot;, String(&amp;thisRowSet.ActiveRowCount));
+   
+   For &amp;x = 1 To &amp;thisRowSet.ActiveRowCount
+      &amp;recNode = &amp;thatNode.AddElement(&quot;psrecord&quot;);
+      &amp;recNode.AddAttribute(&quot;rownumber&quot;, String(&amp;x));
+      &amp;fieldsNode = &amp;recNode.AddElement(&quot;psrecordfields&quot;);
+      For &amp;y = 1 To &amp;thisRecord.FieldCount
+         &amp;fieldNode = &amp;fieldsNode.AddElement(&quot;field&quot;);
+         &amp;fieldNode.AddAttribute(&quot;name&quot;, &amp;thisRecord.GetField(&amp;y).Name);
+         &amp;fieldNode.AddAttribute(&quot;field_number&quot;, String(&amp;y));
+         &amp;fieldNode.AddAttribute(&quot;long_label&quot;, &amp;thisRecord.GetField(&amp;y).GetLongLabel(&amp;thisRecord.GetField(&amp;y).Name));
+         &amp;fieldNode.AddAttribute(&quot;short_label&quot;, &amp;thisRecord.GetField(&amp;y).GetShortLabel(&amp;thisRecord.GetField(&amp;y).Name));
+         %This.addFieldTypeAndLengthToNode(&amp;fieldNode);
+         %This.addDefaultValueAsAttribute(&amp;fieldNode);
+         %This.addFieldAttributeToNode(&amp;fieldNode, %This.calcUSEEDIT(&amp;thisRecord.GetField(&amp;y).Name));
+         
+         If &amp;x = 1 Then
+            If &amp;thisRowSet.GetRow(&amp;x).GetRecord(1).GetField(1).Value &lt;&gt; &quot;&quot; Then
+               &amp;fieldNode.AddAttribute(&quot;value&quot;, &amp;thisRowSet.GetRow(&amp;x).GetRecord(1).GetField(&amp;y).Value);
+            End-If;
+         Else
+            &amp;fieldNode.AddAttribute(&quot;value&quot;, &amp;thisRowSet.GetRow(&amp;x).GetRecord(1).GetField(&amp;y).Value);
+         End-If;
+         
+      End-For
+   End-For;
+   
+   Return &amp;retXMLDoc;
+end-method;
+
+method initRecordKeyFields
+   
+   Local Rowset &amp;pskeydefnRS = CreateRowset(Record.PSKEYDEFN);
+   Local number &amp;x;
+   
+   &amp;pskeydefnRS.Fill(&quot;WHERE RECNAME=:1 AND INDEXID=:2&quot;, &amp;RecordName, &quot;_&quot;);
+   
+   &amp;pskeydefnRS.Sort(PSKEYDEFN.KEYPOSN, &quot;A&quot;);
+   &amp;KeyFieldNames = CreateArrayRept(&quot;&quot;, &amp;pskeydefnRS.ActiveRowCount);
+   &amp;KeyFieldValues = CreateArrayRept(&quot;&quot;, &amp;pskeydefnRS.ActiveRowCount);
+   
+   For &amp;x = 1 To &amp;pskeydefnRS.ActiveRowCount
+      &amp;KeyFieldNames [&amp;x] = &amp;pskeydefnRS.GetRow(&amp;x).GetRecord(1).GetField(Field.FIELDNAME).Value;
+   End-For;
+   
+end-method;
+
+method getWhereClause
+   /+ Returns String +/
+   Local string &amp;retStr = &quot;WHERE &quot;;
+   Local number &amp;x;
+   
+   For &amp;x = 1 To &amp;KeyFieldValues.Len
+      If Not None(&amp;KeyFieldValues [&amp;x]) Then
+         If &amp;retStr = &quot;WHERE &quot; Then
+            &amp;retStr = &amp;retStr | &amp;KeyFieldNames [&amp;x] | &quot;='&quot; | &amp;KeyFieldValues [&amp;x] | &quot;' &quot;;
+         Else
+            &amp;retStr = &amp;retStr | &quot;AND &quot; | &amp;KeyFieldNames [&amp;x] | &quot;='&quot; | &amp;KeyFieldValues [&amp;x] | &quot;' &quot;;
+         End-If;
+      End-If;
+   End-For;
+   
+   Return &amp;retStr;
+end-method;
+
+method calcUSEEDIT
+   /+ &amp;parmFieldName as String +/
+   /+ Returns Array of Number +/
+   Local number &amp;bitValue, &amp;tmpValue, &amp;x, &amp;y;
+   Local array of number &amp;bitNumbers = CreateArrayRept(0, 1);
+   Local Rowset &amp;tmpRS = CreateRowset(Record.PSRECFIELD);
+   &amp;tmpRS.Fill(&quot;WHERE RECNAME = :1 AND FIELDNAME = :2&quot;, &amp;RecordName, &amp;parmFieldName);
+   &amp;bitValue = &amp;tmpRS.GetRow(1).GetRecord(1).GetField(Field.USEEDIT).Value;
+   
+   While &amp;bitValue &gt; 0
+      /* get largest base2 number from input */
+      /* set it tmp */
+      &amp;tmpValue = Int(Log10(&amp;bitValue) / Log10(2));
+      
+      /* get remainder from largest base2 number */
+      /* set it bitVal */
+      &amp;bitValue = Int(&amp;bitValue - Exp(&amp;tmpValue * Log10(2) * Ln(10)));
+      
+      
+      If &amp;bitNumbers [1] = 0 Then
+         &amp;bitNumbers [1] = &amp;tmpValue;
+      Else
+         &amp;bitNumbers.Push(&amp;tmpValue);
+      End-If;
+   End-While;
+   
+   Return &amp;bitNumbers;
+end-method;
+
+method addDefaultValueAsAttribute
+   /+ &amp;parmNode as XmlNode +/
+   Local string &amp;tmpStr;
+   Local Rowset &amp;tmpRS, &amp;MainRS;
+   
+   &amp;MainRS = CreateRowset(@(&quot;RECORD.&quot; | &amp;RecordName));
+   &amp;MainRS.GetRow(1).GetRecord(1).SetDefault();
+   
+   &amp;tmpRS = CreateRowset(Record.PSRECFIELD);
+   &amp;tmpRS.Fill(&quot;WHERE RECNAME = :1 AND FIELDNAME = :2&quot;, &amp;RecordName, &amp;parmNode.GetAttributeValue(&quot;name&quot;));
+   
+   &amp;tmpStr = &amp;tmpRS.GetRow(1).GetRecord(1).GetField(Field.DEFFIELDNAME).Value;
+   If All(&amp;tmpStr) Then
+      &amp;parmNode.AddAttribute(&quot;default_value&quot;, &amp;MainRS.GetRow(1).GetRecord(1).GetField(@(&quot;FIELD.&quot; | &amp;parmNode.GetAttributeValue(&quot;name&quot;))).Value);
+   End-If;
+   
+end-method;
+
+method addFieldTypeAndLengthToNode
+   /+ &amp;parmNode as XmlNode +/
+   Local Rowset &amp;tmpRS;
+   Local string &amp;tmpStr;
+   
+   &amp;tmpRS = CreateRowset(Record.PSDBFIELD);
+   &amp;tmpRS.Fill(&quot;WHERE FIELDNAME = :1&quot;, &amp;parmNode.GetAttributeValue(&quot;name&quot;));
+   Evaluate &amp;tmpRS.GetRow(1).GetRecord(1).GetField(Field.FIELDTYPE).Value
+   When 0
+      &amp;tmpStr = &quot;Character&quot;;
+   When 1
+      &amp;tmpStr = &quot;LongCharacter&quot;;
+   When 2
+      &amp;tmpStr = &quot;Number&quot;;
+   When 3
+      &amp;tmpStr = &quot;SignedNumber&quot;;
+   When 4
+      &amp;tmpStr = &quot;Date&quot;;
+   When 5
+      &amp;tmpStr = &quot;Time&quot;;
+   When 6
+      &amp;tmpStr = &quot;DateTime&quot;;
+   When 7
+      &amp;tmpStr = &quot;NA&quot;;
+   When 8
+      &amp;tmpStr = &quot;ImageORAttachment&quot;;
+   When 9
+      &amp;tmpStr = &quot;ImageReference&quot;;
+   When-Other;
+      &amp;tmpStr = &quot;NA&quot;;
+   End-Evaluate;
+   &amp;parmNode.AddAttribute(&quot;field_type&quot;, &amp;tmpStr);
+   &amp;parmNode.AddAttribute(&quot;field_length&quot;, &amp;tmpRS.GetRow(1).GetRecord(1).GetField(Field.LENGTH).Value);
+   
+end-method;
+
+method addFieldAttributeToNode
+   /+ &amp;parmNode as XmlNode, +/
+   /+ &amp;parmBitArry as Array of Number +/
+   
+   Local number &amp;x, &amp;y;
+   Local Rowset &amp;rs;
+   Local XmlNode &amp;tmpNode;
+   Local string &amp;tmpStr;
+   
+   For &amp;x = 1 To &amp;parmBitArry.Len
+      Evaluate &amp;parmBitArry [&amp;x]
+      When 8 /* required */
+         &amp;parmNode.AddAttribute(&quot;required&quot;, &quot;true&quot;);
+      When 9 /* xlat */
+         &amp;rs = CreateRowset(Record.PSXLATITEM);
+         &amp;rs.Fill(&quot;WHERE FIELDNAME = :1 AND %EffDtCheck(PSXLATITEM B,FILL,%CurrentDateIn) AND EFF_STATUS = 'A'&quot;, &amp;parmNode.GetAttributeValue(&quot;name&quot;));
+         For &amp;y = 1 To &amp;rs.ActiveRowCount
+            &amp;tmpNode = &amp;parmNode.AddElement(&quot;xlatitem&quot;);
+            &amp;tmpNode.AddAttribute(&quot;long_description&quot;, &amp;rs.GetRow(&amp;y).GetRecord(1).GetField(Field.XLATLONGNAME).Value);
+            &amp;tmpNode.AddAttribute(&quot;short_description&quot;, &amp;rs.GetRow(&amp;y).GetRecord(1).GetField(Field.XLATSHORTNAME).Value);
+            &amp;tmpNode.AddAttribute(&quot;field_value&quot;, &amp;rs.GetRow(&amp;y).GetRecord(1).GetField(Field.FIELDVALUE).Value);
+         End-For;
+      When 13 /* Y/N edit */
+         &amp;tmpNode = &amp;parmNode.AddElement(&quot;edititem&quot;);
+         &amp;tmpNode.AddAttribute(&quot;description&quot;, &quot;Yes&quot;);
+         &amp;tmpNode.AddAttribute(&quot;field_value&quot;, &quot;Y&quot;);
+         &amp;tmpNode = &amp;parmNode.AddElement(&quot;edititem&quot;);
+         &amp;tmpNode.AddAttribute(&quot;description&quot;, &quot;No&quot;);
+         &amp;tmpNode.AddAttribute(&quot;field_value&quot;, &quot;N&quot;);
+         
+      When 14 /* prompt table edit */
+         SQLExec(&quot;SELECT EDITTABLE FROM PSRECFIELD WHERE RECNAME = :1 AND FIELDNAME = :2&quot;, &amp;RecordName, &amp;parmNode.GetAttributeValue(&quot;name&quot;), &amp;tmpStr);
+         &amp;rs = CreateRowset(@(&quot;RECORD.&quot; | &amp;tmpStr));
+         /* check for effective date and effective status !!!!! */
+         &amp;rs.Fill();
+         For &amp;y = 1 To &amp;rs.ActiveRowCount
+            &amp;tmpNode = &amp;parmNode.AddElement(&quot;promptitem&quot;);
+            &amp;tmpNode.AddAttribute(&quot;first_field&quot;, &amp;rs.GetRow(&amp;y).GetRecord(1).GetField(1).Value);
+            &amp;tmpNode.AddAttribute(&quot;second_field&quot;, &amp;rs.GetRow(&amp;y).GetRecord(1).GetField(2).Value);
+            &amp;tmpNode.AddAttribute(&quot;third_field&quot;, &amp;rs.GetRow(&amp;y).GetRecord(1).GetField(3).Value);
+            &amp;tmpNode.AddAttribute(&quot;fourth_field&quot;, &amp;rs.GetRow(&amp;y).GetRecord(1).GetField(4).Value);
+            rem &amp;tmpNode.AddAttribute(&quot;fifth_field&quot;, &amp;rs.GetRow(&amp;y).GetRecord(1).GetField(5).Value);
+         End-For;
+         
+      When-Other;
+         
+      End-Evaluate;
+      
+   End-For;
+   
+end-method;
+
+</peoplecode_text>
+    <peoplecode_blob>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/wEAAQAHNGEAZABkAEQAZQBmAGEAdQBsAHQAVgBhAGwAdQBlAEEAcwBBAHQAdAByAGkAYgB1AHQAZQAO/wEAAQAHNmEAZABkAEYAaQBlAGwAZABUAHkAcABlAEEAbgBkAEwAZQBuAGcAdABoAFQAbwBOAG8AZABlAAv/AgABAAcuYQBkAGQARgBpAGUAbABkAEEAdAB0AHIAaQBiAHUAdABlAFQAbwBOAG8AZABlABD/AQAAAAEHB/8BABAABwcHAQf/IgAIAAf/IgAIAP8TABAAB/8iAAgAB4UAAA5QAEEAQwBLAEEARwBFAAxYAE0ATABEAE8AQwAOUABBAEMASwBBAEcARQAOWABNAEwATgBPAEQARQAOUABBAEMASwBBAEcARQAMUgBFAEMATwBSAEQADlAAQQBDAEsAQQBHAEUACkYASQBFAEwARAAOUABBAEMASwBBAEcARQAMUgBPAFcAUwBFAFQADFIARQBDAE8AUgBEABJQAFMASwBFAFkARABFAEYATgASUABTAEsARQBZAEQARQBGAE4ADksARQBZAFAATwBTAE4ACkYASQBFAEwARAASRgBJAEUATABEAE4AQQBNAEUADFIARQBDAE8AUgBEABRQAFMAUgBFAEMARgBJAEUATABEAApGAEkARQBMAEQADlUAUwBFAEUARABJAFQACkYASQBFAEwARAAYRABFAEYARgBJAEUATABEAE4AQQBNAEUADFIARQBDAE8AUgBEABJQAFMARABCAEYASQBFAEwARAAKRgBJAEUATABEABJGAEkARQBMAEQAVABZAFAARQAKRgBJAEUATABEAAxMAEUATgBHAFQASAAMUgBFAEMATwBSAEQAFFAAUwBYAEwAQQBUAEkAVABFAE0ACkYASQBFAEwARAAYWABMAEEAVABMAE8ATgBHAE4AQQBNAEUACkYASQBFAEwARAAaWABMAEEAVABTAEgATwBSAFQATgBBAE0ARQAKRgBJAEUATABEABRGAEkARQBMAEQAVgBBAEwAVQBFAA==</peoplecode_blob>
+  </instance>
