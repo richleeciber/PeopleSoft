@@ -3,12 +3,12 @@
   <instance class="PJM">
     <rowset name="PjmDefn" size="2808" count="1">
       <row>
-        <szLastUpdDttm>2016-03-24-11.22.07.213194</szLastUpdDttm>
+        <szLastUpdDttm>2016-04-28-09.00.12.565444</szLastUpdDttm>
         <szLastUpdOprId>VP1</szLastUpdOprId>
         <szObjectOwnerID></szObjectOwnerID>
         <nUseCount>1</nUseCount>
         <bUseUpdate>1</bUseUpdate>
-        <lVersion>100</lVersion>
+        <lVersion>104</lVersion>
         <lSwapVersion>0</lSwapVersion>
         <nSwapNum>0</nSwapNum>
         <szProjectName>CIBER_UI_FORMS</szProjectName>
@@ -16,8 +16,8 @@
         <szProjectDescr></szProjectDescr>
         <szSrcDBName>PSPADMO</szSrcDBName>
         <szSrcOprId>VP1</szSrcOprId>
-        <szSessionId>2f7a2ebb-f1d4-11e5-9f5d-b93f48b0c012</szSessionId>
-        <szRunDtTm>2016-03-24-11.22.13.213443</szRunDtTm>
+        <szSessionId>4e217bcc-0d41-11e6-a551-9cef7ed9ac21</szSessionId>
+        <szRunDtTm>2016-04-28-09.01.21.565121</szRunDtTm>
         <szTgtServerName></szTgtServerName>
         <szTgtDBName></szTgtDBName>
         <szTgtOprId></szTgtOprId>
@@ -34,9 +34,9 @@
         <szReleaseDttm></szReleaseDttm>
         <nDescrLongLen>0</nDescrLongLen>
         <hDescrLong>HANDLE</hDescrLong>
-        <nProjectCount>2</nProjectCount>
+        <nProjectCount>4</nProjectCount>
         <lpPit> POINTER
-          <rowset name="PjmPit" size="1712" count="2">
+          <rowset name="PjmPit" size="3424" count="4">
             <row>
               <eObjectType>57</eObjectType>
               <szObjectValue_0>CIBER_UI_FORMS</szObjectValue_0>
@@ -46,6 +46,42 @@
               <eObjectID_0>104</eObjectID_0>
               <eObjectID_1>116</eObjectID_1>
               <eObjectID_2>117</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>0</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>58</eObjectType>
+              <szObjectValue_0>CIBER_UI_FORMS</szObjectValue_0>
+              <szObjectValue_1>DataSource</szObjectValue_1>
+              <szObjectValue_2>PSRecordDataSource</szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>104</eObjectID_0>
+              <eObjectID_1>105</eObjectID_1>
+              <eObjectID_2>107</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>0</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>58</eObjectType>
+              <szObjectValue_0>CIBER_UI_FORMS</szObjectValue_0>
+              <szObjectValue_1>JSONForm</szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>104</eObjectID_0>
+              <eObjectID_1>107</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
               <eObjectID_3>0</eObjectID_3>
               <bExecute>0</bExecute>
               <eSourceStatus>0</eSourceStatus>
@@ -376,12 +412,12 @@
   <instance class="APM">
     <rowset name="ApmDefn" size="968" count="1">
       <row>
-        <szLastUpdDttm>2016-03-22-19.06.02.613739</szLastUpdDttm>
+        <szLastUpdDttm>2016-04-05-06.16.01.197000</szLastUpdDttm>
         <szLastUpdOprId>VP1</szLastUpdOprId>
         <szObjectOwnerId></szObjectOwnerId>
         <nUseCount>1</nUseCount>
         <bUseUpdate>1</bUseUpdate>
-        <lVersion>55</lVersion>
+        <lVersion>57</lVersion>
         <lSwapVersion>0</lSwapVersion>
         <nSwapNum>0</nSwapNum>
         <szPackageId>CIBER_UI_FORMS</szPackageId>
@@ -395,9 +431,28 @@
         <lpszDescrLong>POINTER</lpszDescrLong>
         <eRenameObject>0</eRenameObject>
         <szPrevPackageId></szPrevPackageId>
-        <ApmDefnList.lClassCount>1</ApmDefnList.lClassCount>
+        <ApmDefnList.lClassCount>2</ApmDefnList.lClassCount>
         <ApmDefnList.hDefnClassList> HANDLE
-          <rowset name="ApmClassList" size="464" count="1">
+          <rowset name="ApmClassList" size="928" count="2">
+            <row>
+              <ApmClassKey.szClassId>JSONForm</ApmClassKey.szClassId>
+              <ApmClassKey.szPackageRoot>CIBER_UI_FORMS</ApmClassKey.szPackageRoot>
+              <ApmClassKey.szQualifyPath>:</ApmClassKey.szQualifyPath>
+              <szClassRef></szClassRef>
+              <lClassLevel>1</lClassLevel>
+              <lClassCount>1</lClassCount>
+              <hClassDefn> HANDLE
+                <rowset name="ApmClassDefn" size="576" count="1">
+                  <row>
+                    <szClassId>JSONForm</szClassId>
+                    <szClassRef></szClassRef>
+                    <szDescr></szDescr>
+                    <eRenameObject>0</eRenameObject>
+                    <szPrevClassId></szPrevClassId>
+                  </row>
+                </rowset>
+              </hClassDefn>
+            </row>
             <row>
               <ApmClassKey.szClassId>RecordXML</ApmClassKey.szClassId>
               <ApmClassKey.szPackageRoot>CIBER_UI_FORMS</ApmClassKey.szPackageRoot>
@@ -419,12 +474,441 @@
             </row>
           </rowset>
         </ApmDefnList.hDefnClassList>
-        <ApmDefnList.lPackageCount>0</ApmDefnList.lPackageCount>
-        <ApmDefnList.hDefnPackageList>HANDLE</ApmDefnList.hDefnPackageList>
+        <ApmDefnList.lPackageCount>1</ApmDefnList.lPackageCount>
+        <ApmDefnList.hDefnPackageList> HANDLE
+          <rowset name="ApmPackageList" size="488" count="1">
+            <row>
+              <ApmDefnKey.szPackageId>DataSource</ApmDefnKey.szPackageId>
+              <ApmDefnKey.szPackageRoot>CIBER_UI_FORMS</ApmDefnKey.szPackageRoot>
+              <ApmDefnKey.szQualifyPath>:</ApmDefnKey.szQualifyPath>
+              <szPackageRef></szPackageRef>
+              <lPackageLevel>1</lPackageLevel>
+            </row>
+          </rowset>
+        </ApmDefnList.hDefnPackageList>
         <nLangCount>0</nLangCount>
         <hLang>HANDLE</hLang>
       </row>
     </rowset>
+  </instance>
+  <instance class="PCM">
+    <rowset name="PcmProg" size="2240" count="1">
+      <row>
+        <szLastUpdDttm>2016-03-29-11.59.40.482473</szLastUpdDttm>
+        <szLastUpdOprId>VP1</szLastUpdOprId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>2303</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <eObjectID_0>104</eObjectID_0>
+        <szObjectValue_0>CIBER_UI_FORMS</szObjectValue_0>
+        <eObjectID_1>105</eObjectID_1>
+        <szObjectValue_1>DataSource</szObjectValue_1>
+        <eObjectID_2>107</eObjectID_2>
+        <szObjectValue_2>PSRecordDataSource</szObjectValue_2>
+        <eObjectID_3>12</eObjectID_3>
+        <szObjectValue_3>OnExecute</szObjectValue_3>
+        <eObjectID_4>0</eObjectID_4>
+        <szObjectValue_4></szObjectValue_4>
+        <eObjectID_5>0</eObjectID_5>
+        <szObjectValue_5></szObjectValue_5>
+        <eObjectID_6>0</eObjectID_6>
+        <szObjectValue_6></szObjectValue_6>
+        <nNameCount>12</nNameCount>
+        <lpProgSource> POINTER
+          <rowset name="PcmProgSource" size="64" count="1">
+            <row>
+              <lSourceLen>8460</lSourceLen>
+              <lpSource>custom field</lpSource>
+              <lEntryNamesLen>446</lEntryNamesLen>
+              <nEntry>7</nEntry>
+              <lpEntryTab>custom field</lpEntryTab>
+              <nParams>7</nParams>
+              <lpParams>custom field</lpParams>
+              <nPCVersion>133</nPCVersion>
+            </row>
+          </rowset>
+        </lpProgSource>
+        <nProgSource>1</nProgSource>
+        <lpPnt> POINTER
+          <rowset name="PcmPnt" size="4944" count="12">
+            <row>
+              <szRecName></szRecName>
+              <szFieldName></szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName></szFieldName>
+              <szPackageRoot>PTPPB_PAGELET</szPackageRoot>
+              <szQualifyPath>UTILITY</szQualifyPath>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>SETTING</szFieldName>
+              <szPackageRoot>PTPPB_PAGELET</szPackageRoot>
+              <szQualifyPath>UTILITY</szQualifyPath>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>COLLECTION</szFieldName>
+              <szPackageRoot>PTPPB_PAGELET</szPackageRoot>
+              <szQualifyPath>UTILITY</szQualifyPath>
+            </row>
+            <row>
+              <szRecName>WEBLIB_PTRTE</szRecName>
+              <szFieldName>ISCRIPT1</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>DATASOURCE</szFieldName>
+              <szPackageRoot>PTPPB_PAGELET</szPackageRoot>
+              <szQualifyPath>DataSource</szQualifyPath>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>ROWSET</szFieldName>
+              <szPackageRoot>Rowset</szPackageRoot>
+              <szQualifyPath>Rowset</szQualifyPath>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>XMLDOC</szFieldName>
+              <szPackageRoot>XmlDoc</szPackageRoot>
+              <szQualifyPath>XmlDoc</szQualifyPath>
+            </row>
+            <row>
+              <szRecName>RECORD</szRecName>
+              <szFieldName>PTPPB_PGLT_HTML</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>FIELD</szRecName>
+              <szFieldName>HTMLAREA</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>HTML</szRecName>
+              <szFieldName>PTPPB_XHTML_SPECIAL_CHARACTERS</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>PSRECORDDATASOURCE</szFieldName>
+              <szPackageRoot>CIBER_UI_FORMS</szPackageRoot>
+              <szQualifyPath>DataSource</szQualifyPath>
+            </row>
+          </rowset>
+        </lpPnt>
+        <lpProgCode>custom field</lpProgCode>
+        <nProgCode>0</nProgCode>
+        <eRunLocation>0</eRunLocation>
+        <szLicenseCode></szLicenseCode>
+        <lpHashTable>POINTER</lpHashTable>
+        <eProgFlag>0</eProgFlag>
+        <szExtendsClass>PTPPB_PAGELET:DataSource:DataSource</szExtendsClass>
+        <szCompiledRelease></szCompiledRelease>
+      </row>
+    </rowset>
+    <peoplecode_text>import PTPPB_PAGELET:UTILITY:*;
+import PTPPB_PAGELET:DataSource:*;
+import PTPPB_PAGELET:EXCEPTION:*;
+
+
+/** 
+  *  The HTML DataSource allows for the storage and retrieval of text or HTML
+  *    for a pagelet.
+  */
+/*class HTMLDataSource extends PTPPB_PAGELET:DataSource:DataSource*/
+class PSRecordDataSource extends PTPPB_PAGELET:DataSource:DataSource
+   property PTPPB_PAGELET:UTILITY:Setting HTML readonly;
+   
+   method PSRecordDataSource(&amp;id_param As string);
+   method execute() Returns string;
+   method Clone() Returns object;
+   method initializeSettings(&amp;NewSettings As PTPPB_PAGELET:UTILITY:Collection);
+   method processSettingsChange();
+   
+end-class;
+
+
+rem  --- for RTE HTML Process;
+Declare Function WrapRTEHTML PeopleCode WEBLIB_PTRTE.ISCRIPT1 FieldFormula;
+
+
+/**
+  * Constructor
+  */
+method PSRecordDataSource
+   /+ &amp;id_param as String +/
+   %Super = create PTPPB_PAGELET:DataSource:DataSource(&amp;id_param);
+   %This.setObjectSubType(&quot;PSRecord&quot;);
+   %This.setCanHaveParameters( True);
+   %This.initializeSettings(%This.Settings);
+   %This.allowGrouplet = True;
+end-method;
+
+/**
+  * Returns the text or HTML for the pagelet
+  *
+  * @return string text or HTML
+  */
+method execute
+   /+ Returns String +/
+   /+ Extends/implements PTPPB_PAGELET:DataSource:DataSource.execute +/
+   
+   Local string &amp;strHTML, &amp;temp;
+   Local string &amp;strPageletID;
+   Local Rowset &amp;rsPageletHTML;
+   Local XmlDoc &amp;xmlDoc;
+   
+   &amp;strPageletID = %This.PageletID;
+   
+   If %This.Settings &lt;&gt; Null Then
+      &amp;strHTML = %This.Settings.getItemByID(&quot;PSRecord&quot;).Value;
+   End-If;
+   
+   If &amp;strHTML = &quot;&quot; Then
+      &amp;rsPageletHTML = CreateRowset(Record.PTPPB_PGLT_HTML);
+      &amp;rsPageletHTML.Fill(&quot;WHERE PTPPB_PAGELET_ID =:1&quot;, &amp;strPageletID);
+      &amp;strHTML = &amp;rsPageletHTML(1).PTPPB_PGLT_HTML.HTMLAREA.Value;
+   End-If;
+   
+   If All(&amp;strHTML) Then
+      try
+         &amp;xmlDoc = CreateXmlDoc(&amp;strHTML);
+      catch Exception &amp;ex
+         /*
+         &amp;strHTML = &quot;&lt;?xml version='1.0' encoding='UTF-8'?&gt;&lt;!DOCTYPE xsl:stylesheet [&lt;!ENTITY nbsp '&amp;#160;'&gt;]&gt;&quot; | WrapRTEHTML(&amp;strHTML);
+         */
+         &amp;temp = &quot;&lt;?xml version='1.0' encoding='UTF-8'?&gt;&quot; | GetHTMLText(HTML.PTPPB_XHTML_SPECIAL_CHARACTERS) | WrapRTEHTML(&amp;strHTML);
+         try
+            &amp;xmlDoc = CreateXmlDoc(&amp;temp);
+            &amp;strHTML = &amp;temp;
+         catch Exception &amp;ex1
+            &amp;strHTML = WrapRTEHTML(&amp;strHTML);
+         end-try;
+      end-try;
+   End-If;
+   
+   Return &amp;strHTML;
+   
+end-method;
+
+/**
+  * Initialize the HTML Setting and retrieve from the DataBase if appropriate for the pagelet.
+  *
+  * @param NewSettings if null, a new collection of settings is created.
+  */
+method initializeSettings
+   /+ &amp;NewSettings as PTPPB_PAGELET:UTILITY:Collection +/
+   /+ Extends/implements PTPPB_PAGELET:DataSource:DataSource.initializeSettings +/
+   Local PTPPB_PAGELET:UTILITY:Setting &amp;thisSetting;
+   Local string &amp;strPageletID;
+   Local Rowset &amp;rsPageletHTML;
+   
+   If &amp;NewSettings = Null Then
+      &amp;NewSettings = create PTPPB_PAGELET:UTILITY:Collection(&quot;PSRecordDataSourceSettings&quot;);
+   End-If;
+   
+   %This.setSettings(&amp;NewSettings);
+   &amp;thisSetting = %This.Settings.getItemByID(&quot;PSRecord&quot;);
+   
+   If &amp;thisSetting = Null Then
+      &amp;HTML = %This.createSettingProperty(&quot;PSRecord&quot;, &quot;&quot;);
+   Else
+      &amp;HTML = &amp;thisSetting;
+   End-If;
+   
+   If &amp;HTML.Value = &quot;&quot; Then
+      &amp;strPageletID = %This.PageletID;
+      &amp;rsPageletHTML = CreateRowset(Record.PTPPB_PGLT_HTML);
+      &amp;rsPageletHTML.Fill(&quot;WHERE PTPPB_PAGELET_ID =:1&quot;, &amp;strPageletID);
+      &amp;HTML.Value = &amp;rsPageletHTML(1).PTPPB_PGLT_HTML.HTMLAREA.Value;
+   End-If;
+   
+   If &amp;HTML.Value &lt;&gt; &quot;&quot; Then
+      %This.setSettingsComplete( True);
+   End-If;
+   
+   
+   &amp;HTML.FieldType = &amp;HTML.FIELDTYPE_LONGCHARACTER;
+   &amp;HTML.EditType = &amp;HTML.EDITTYPE_NOTABLEEDIT;
+   &amp;HTML.Enabled = True;
+   &amp;HTML.Visible = True;
+   &amp;HTML.Required = True;
+   &amp;HTML.LongName = MsgGetText(219, 602, &quot;Message Not Found&quot;);
+   
+   &amp;HTML.setObjectToRefreshOnValueChange(%This);
+end-method;
+
+/**
+  * Determines if any text/HTML has been set.  If so, the settins are marked complete.
+  */
+method processSettingsChange
+   /+ Extends/implements PTPPB_PAGELET:DataSource:DataSource.processSettingsChange +/;
+   
+   Local string &amp;strHTMLText;
+   Local PTPPB_PAGELET:UTILITY:Setting &amp;HTMLSetting;
+   
+   /* do nothing if no settings */
+   If %This.Settings = Null Then
+      /* Mark the settings as incomplete */
+      %This.setSettingsComplete( False);
+      Return;
+   End-If;
+   
+   &amp;HTMLSetting = %This.Settings.getItemByID(&quot;PSRecord&quot;);
+   /* do nothing if no queryname setting */
+   If &amp;HTMLSetting = Null Then
+      /* Mark the settings as incomplete */
+      %This.setSettingsComplete( False);
+      Return
+   End-If;
+   
+   &amp;strHTMLText = &amp;HTMLSetting.Value;
+   /* do nothing if the HTML is blank */
+   If &amp;strHTMLText = &quot;&quot; Then
+      /* Mark the settings as incomplete */
+      %This.setSettingsComplete( False);
+      Return;
+   End-If;
+   
+   /* Mark the settings as complete */
+   %This.setSettingsComplete( True);
+   
+end-method;
+
+/**
+  * Clones this datasource
+  *
+  * @return Object exact duplicate of this HTMLDataSource
+  */
+method Clone
+   /+ Returns Object +/
+   /+ Extends/implements PTPPB_PAGELET:DataSource:DataSource.Clone +/
+   Local CIBER_UI_FORMS:DataSource:PSRecordDataSource &amp;NewDS = create CIBER_UI_FORMS:DataSource:PSRecordDataSource(%This.ID);
+   &amp;NewDS.PageletID = %This.PageletID;
+   &amp;NewDS.initializeSettings(%This.Settings.Clone());
+   Return &amp;NewDS;
+end-method;
+
+</peoplecode_text>
+    <peoplecode_blob>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</peoplecode_blob>
+  </instance>
+  <instance class="PCM">
+    <rowset name="PcmProg" size="2240" count="1">
+      <row>
+        <szLastUpdDttm>2016-04-06-05.40.57.301317</szLastUpdDttm>
+        <szLastUpdOprId>VP1</szLastUpdOprId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>2339</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <eObjectID_0>104</eObjectID_0>
+        <szObjectValue_0>CIBER_UI_FORMS</szObjectValue_0>
+        <eObjectID_1>107</eObjectID_1>
+        <szObjectValue_1>JSONForm</szObjectValue_1>
+        <eObjectID_2>12</eObjectID_2>
+        <szObjectValue_2>OnExecute</szObjectValue_2>
+        <eObjectID_3>0</eObjectID_3>
+        <szObjectValue_3></szObjectValue_3>
+        <eObjectID_4>0</eObjectID_4>
+        <szObjectValue_4></szObjectValue_4>
+        <eObjectID_5>0</eObjectID_5>
+        <szObjectValue_5></szObjectValue_5>
+        <eObjectID_6>0</eObjectID_6>
+        <szObjectValue_6></szObjectValue_6>
+        <nNameCount>1</nNameCount>
+        <lpProgSource> POINTER
+          <rowset name="PcmProgSource" size="64" count="1">
+            <row>
+              <lSourceLen>1118</lSourceLen>
+              <lpSource>custom field</lpSource>
+              <lEntryNamesLen>166</lEntryNamesLen>
+              <nEntry>6</nEntry>
+              <lpEntryTab>custom field</lpEntryTab>
+              <nParams>8</nParams>
+              <lpParams>custom field</lpParams>
+              <nPCVersion>133</nPCVersion>
+            </row>
+          </rowset>
+        </lpProgSource>
+        <nProgSource>1</nProgSource>
+        <lpPnt> POINTER
+          <rowset name="PcmPnt" size="412" count="1">
+            <row>
+              <szRecName></szRecName>
+              <szFieldName></szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+          </rowset>
+        </lpPnt>
+        <lpProgCode>custom field</lpProgCode>
+        <nProgCode>0</nProgCode>
+        <eRunLocation>0</eRunLocation>
+        <szLicenseCode></szLicenseCode>
+        <lpHashTable>POINTER</lpHashTable>
+        <eProgFlag>0</eProgFlag>
+        <szExtendsClass></szExtendsClass>
+        <szCompiledRelease></szCompiledRelease>
+      </row>
+    </rowset>
+    <peoplecode_text>class JSONForm
+   method JSONForm(&amp;recName As string);
+   method ApplyJsonToRecord(&amp;JSONStr As string);
+   
+private
+   instance string &amp;RecordName;
+   
+   method verifyREC(&amp;recName As string) Returns boolean;
+   method verifyJSON(&amp;JSONStr As string);
+end-class;
+
+method JSONForm
+   /+ &amp;recName as String +/
+   If %This.verifyREC(&amp;recName) Then
+      &amp;RecordName = &amp;recName;
+   Else
+      throw CreateException(0, 0, &quot;Record is not found&quot;);
+   End-If;
+end-method;
+
+method ApplyJsonToRecord
+   /+ &amp;JSONStr as String +/
+   
+end-method;
+
+method verifyREC
+   /+ &amp;recName as String +/
+   /+ Returns Boolean +/
+   Local number &amp;ret = 0;
+   
+   SQLExec(&quot;SELECT 1 FROM PSRECDEFN WHERE RECNAME = :1&quot;, &amp;recName, &amp;ret);
+   
+   If &amp;ret = 1 Then
+      Return True;
+   Else
+      Return False;
+   End-If;
+end-method;
+
+method verifyJSON
+   /+ &amp;JSONStr as String +/
+   
+end-method;
+
+</peoplecode_text>
+    <peoplecode_blob>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</peoplecode_blob>
   </instance>
   <instance class="PCM">
     <rowset name="PcmProg" size="2240" count="1">
