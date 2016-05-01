@@ -3,12 +3,12 @@
   <instance class="PJM">
     <rowset name="PjmDefn" size="2808" count="1">
       <row>
-        <szLastUpdDttm>2016-04-26-09.02.37.924491</szLastUpdDttm>
+        <szLastUpdDttm>2016-05-01-10.43.13.808015</szLastUpdDttm>
         <szLastUpdOprId>VP1</szLastUpdOprId>
         <szObjectOwnerID></szObjectOwnerID>
         <nUseCount>1</nUseCount>
         <bUseUpdate>1</bUseUpdate>
-        <lVersion>8</lVersion>
+        <lVersion>36</lVersion>
         <lSwapVersion>0</lSwapVersion>
         <nSwapNum>0</nSwapNum>
         <szProjectName>IG_FILEATTACH</szProjectName>
@@ -16,8 +16,8 @@
         <szProjectDescr></szProjectDescr>
         <szSrcDBName>PSPADMO</szSrcDBName>
         <szSrcOprId>VP1</szSrcOprId>
-        <szSessionId>555e957e-0bb0-11e6-bd7e-b935ec619ab9</szSessionId>
-        <szRunDtTm>2016-04-26-09.11.05.924761</szRunDtTm>
+        <szSessionId>0bd1ebfe-0fab-11e6-9556-ee9e6eccb67a</szSessionId>
+        <szRunDtTm>2016-05-01-10.43.19.807612</szRunDtTm>
         <szTgtServerName></szTgtServerName>
         <szTgtDBName></szTgtDBName>
         <szTgtOprId></szTgtOprId>
@@ -646,343 +646,19 @@
   <instance class="RDM">
     <rowset name="RecDefn" size="920" count="1">
       <row>
-        <szLastUpdDttm>2015-06-02-16.11.46.094853</szLastUpdDttm>
-        <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
-        <szObjectOwnerID>PPT</szObjectOwnerID>
-        <nUseCount>1</nUseCount>
-        <bUseUpdate>0</bUseUpdate>
-        <lVersion>1</lVersion>
-        <lSwapVersion>1</lSwapVersion>
-        <nSwapNum>0</nSwapNum>
-        <szRecName>FILE_ATTACH_SBR</szRecName>
-        <szLanguageCd>ENG</szLanguageCd>
-        <fFlags>0</fFlags>
-        <fAuxFlagMask>65536</fAuxFlagMask>
-        <nFieldCount>2</nFieldCount>
-        <eRecType>3</eRecType>
-        <fRecUse>0</fRecUse>
-        <cOptTrigFlag>N</cOptTrigFlag>
-        <szAuditRecName></szAuditRecName>
-        <szSetCntrlFld></szSetCntrlFld>
-        <szRelLangRecName></szRelLangRecName>
-        <szOptDelRecName></szOptDelRecName>
-        <szParentRecName></szParentRecName>
-        <szQrySecRecName></szQrySecRecName>
-        <szSqlTableName></szSqlTableName>
-        <nBuildSeqNo>1</nBuildSeqNo>
-        <szRecDescr>File Attachment fields</szRecDescr>
-        <hAltDefn>HANDLE</hAltDefn>
-        <nDescrLongLen>0</nDescrLongLen>
-        <hDescrLong>HANDLE</hDescrLong>
-        <hRft> HANDLE
-          <rowset name="RecField" size="832" count="2">
-            <row>
-              <fStatus>0</fStatus>
-              <atmFieldName>ATTACHSYSFILENAME</atmFieldName>
-              <eFieldType>0</eFieldType>
-              <nLength>128</nLength>
-              <nDecimalPos>0</nDecimalPos>
-              <eFormat>6</eFormat>
-              <nFormatLength>0</nFormatLength>
-              <eImgFmt>0</eImgFmt>
-              <atmFormatFamily></atmFormatFamily>
-              <atmDispFmtName></atmDispFmtName>
-              <nDefCntryYr>50</nDefCntryYr>
-              <nIMEMode>0</nIMEMode>
-              <nKeyboardLayout>0</nKeyboardLayout>
-              <szObjectOwnerID></szObjectOwnerID>
-              <szLastUpdDttm>2000-05-22-10.57.31.000000</szLastUpdDttm>
-              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
-              <nDescrLongLen>0</nDescrLongLen>
-              <hDescrLong>HANDLE</hDescrLong>
-              <nLabelCount>2</nLabelCount>
-              <hDBFldLabel> HANDLE
-                <rowset name="DBFldLabel" size="64" count="2">
-                  <row>
-                    <atmLabelID>ATTACHSYSFILENAME</atmLabelID>
-                    <atmLongName>Unique Sys Filename</atmLongName>
-                    <atmShortName>Sys File</atmShortName>
-                    <bIsDefault>1</bIsDefault>
-                  </row>
-                  <row>
-                    <atmLabelID>FILEREFPATH</atmLabelID>
-                    <atmLongName>File Reference Path</atmLongName>
-                    <atmShortName>FILEREFPATH</atmShortName>
-                    <bIsDefault>0</bIsDefault>
-                  </row>
-                </rowset>
-              </hDBFldLabel>
-              <nOrgLabelCount>0</nOrgLabelCount>
-              <hOrgDBFldLabel>HANDLE</hOrgDBFldLabel>
-              <nNotUsed>0</nNotUsed>
-              <fAuxFlagMask>0</fAuxFlagMask>
-              <atmDefRecName></atmDefRecName>
-              <atmDefFieldName></atmDefFieldName>
-              <atmCurCtlFieldName></atmCurCtlFieldName>
-              <fUseEdit>0</fUseEdit>
-              <fUseEdit2>0</fUseEdit2>
-              <atmEditTable></atmEditTable>
-              <nDefGUICtl>99</nDefGUICtl>
-              <atmSetCntrlFld></atmSetCntrlFld>
-              <atmLabelID>ATTACHSYSFILENAME</atmLabelID>
-              <nTimeZoneUse>0</nTimeZoneUse>
-              <atmTimeZoneFieldName></atmTimeZoneFieldName>
-              <nCurrencyCtlUse>0</nCurrencyCtlUse>
-              <atmRelTmDtFieldName></atmRelTmDtFieldName>
-              <atmLongName>Unique Sys Filename</atmLongName>
-              <atmShortName>Sys File</atmShortName>
-              <atmPhysicalRecNameList>FILE_ATTACH_SBR     </atmPhysicalRecNameList>
-              <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
-              <nContextLabelCount>0</nContextLabelCount>
-            </row>
-            <row>
-              <fStatus>0</fStatus>
-              <atmFieldName>ATTACHUSERFILE</atmFieldName>
-              <eFieldType>0</eFieldType>
-              <nLength>64</nLength>
-              <nDecimalPos>0</nDecimalPos>
-              <eFormat>6</eFormat>
-              <nFormatLength>0</nFormatLength>
-              <eImgFmt>0</eImgFmt>
-              <atmFormatFamily></atmFormatFamily>
-              <atmDispFmtName></atmDispFmtName>
-              <nDefCntryYr>50</nDefCntryYr>
-              <nIMEMode>0</nIMEMode>
-              <nKeyboardLayout>0</nKeyboardLayout>
-              <szObjectOwnerID></szObjectOwnerID>
-              <szLastUpdDttm>2000-05-22-10.57.31.000000</szLastUpdDttm>
-              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
-              <nDescrLongLen>0</nDescrLongLen>
-              <hDescrLong>HANDLE</hDescrLong>
-              <nLabelCount>2</nLabelCount>
-              <hDBFldLabel> HANDLE
-                <rowset name="DBFldLabel" size="64" count="2">
-                  <row>
-                    <atmLabelID>ATTACHUSERFILE</atmLabelID>
-                    <atmLongName>Attached File</atmLongName>
-                    <atmShortName>Attachment</atmShortName>
-                    <bIsDefault>1</bIsDefault>
-                  </row>
-                  <row>
-                    <atmLabelID>FILE_NAME</atmLabelID>
-                    <atmLongName>File Name</atmLongName>
-                    <atmShortName>Name</atmShortName>
-                    <bIsDefault>0</bIsDefault>
-                  </row>
-                </rowset>
-              </hDBFldLabel>
-              <nOrgLabelCount>0</nOrgLabelCount>
-              <hOrgDBFldLabel>HANDLE</hOrgDBFldLabel>
-              <nNotUsed>0</nNotUsed>
-              <fAuxFlagMask>0</fAuxFlagMask>
-              <atmDefRecName></atmDefRecName>
-              <atmDefFieldName></atmDefFieldName>
-              <atmCurCtlFieldName></atmCurCtlFieldName>
-              <fUseEdit>0</fUseEdit>
-              <fUseEdit2>0</fUseEdit2>
-              <atmEditTable></atmEditTable>
-              <nDefGUICtl>99</nDefGUICtl>
-              <atmSetCntrlFld></atmSetCntrlFld>
-              <atmLabelID>ATTACHUSERFILE</atmLabelID>
-              <nTimeZoneUse>0</nTimeZoneUse>
-              <atmTimeZoneFieldName></atmTimeZoneFieldName>
-              <nCurrencyCtlUse>0</nCurrencyCtlUse>
-              <atmRelTmDtFieldName></atmRelTmDtFieldName>
-              <atmLongName>Attached File</atmLongName>
-              <atmShortName>Attachment</atmShortName>
-              <atmPhysicalRecNameList>FILE_ATTACH_SBR     </atmPhysicalRecNameList>
-              <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
-              <nContextLabelCount>0</nContextLabelCount>
-            </row>
-          </rowset>
-        </hRft>
-        <nIndexCount>0</nIndexCount>
-        <lpIdt>POINTER</lpIdt>
-        <nDDLCount>0</nDDLCount>
-        <lpRpt>POINTER</lpRpt>
-        <nDelFieldCount>0</nDelFieldCount>
-        <hDelRft>HANDLE</hDelRft>
-        <hOrgDefn>HANDLE</hOrgDefn>
-        <hExpDefn>HANDLE</hExpDefn>
-        <nLangCount>0</nLangCount>
-        <hLang>HANDLE</hLang>
-        <szSystemIDFieldName></szSystemIDFieldName>
-        <szRowLevelTimeStampFieldName></szRowLevelTimeStampFieldName>
-        <nTblSpcCount>0</nTblSpcCount>
-        <lpSpct>POINTER</lpSpct>
-        <nSecRecCount>0</nSecRecCount>
-        <hSecRec>HANDLE</hSecRec>
-        <nMatVwDefnCount>0</nMatVwDefnCount>
-        <hMatVwDefn>HANDLE</hMatVwDefn>
-      </row>
-    </rowset>
-  </instance>
-  <instance class="FIELD">
-    <rowset name="Field" size="936" count="1">
-      <row>
-        <szLastUpdDttm>2015-06-02-16.13.54.094761</szLastUpdDttm>
-        <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
-        <szObjectOwnerID>PPT</szObjectOwnerID>
-        <nUseCount>1</nUseCount>
-        <bUseUpdate>1</bUseUpdate>
-        <lVersion>1</lVersion>
-        <lSwapVersion>0</lSwapVersion>
-        <nSwapNum>0</nSwapNum>
-        <szFieldName>ATTACHSYSFILENAME</szFieldName>
-        <szLanguageCd>ENG</szLanguageCd>
-        <eFieldType>0</eFieldType>
-        <nLength>128</nLength>
-        <nDecimalPos>0</nDecimalPos>
-        <eFormat>6</eFormat>
-        <nFormatLength>0</nFormatLength>
-        <eImgFmt>0</eImgFmt>
-        <szFormatFamily></szFormatFamily>
-        <szDispFmtName></szDispFmtName>
-        <nDefCntryYr>50</nDefCntryYr>
-        <nIMEMode>0</nIMEMode>
-        <nKeyboardLayout>0</nKeyboardLayout>
-        <nNotUsed>0</nNotUsed>
-        <fAuxFlagMask>0</fAuxFlagMask>
-        <nDescrLongLen>0</nDescrLongLen>
-        <hDescrLong>HANDLE</hDescrLong>
-        <nLabelCount>2</nLabelCount>
-        <hDBFldLabel> HANDLE
-          <rowset name="DBFldLabel" size="528" count="2">
-            <row>
-              <szLabelID>ATTACHSYSFILENAME</szLabelID>
-              <szLongName>Unique Sys Filename</szLongName>
-              <szShortName>Sys File</szShortName>
-              <bIsDefault>1</bIsDefault>
-              <szLastUpdDttm>2015-06-02-16.13.54.094761</szLastUpdDttm>
-              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
-              <nLangCount>0</nLangCount>
-              <hLang>HANDLE</hLang>
-            </row>
-            <row>
-              <szLabelID>FILEREFPATH</szLabelID>
-              <szLongName>File Reference Path</szLongName>
-              <szShortName>FILEREFPATH</szShortName>
-              <bIsDefault>0</bIsDefault>
-              <szLastUpdDttm>2015-06-02-16.13.54.094761</szLastUpdDttm>
-              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
-              <nLangCount>0</nLangCount>
-              <hLang>HANDLE</hLang>
-            </row>
-          </rowset>
-        </hDBFldLabel>
-        <szDefRecName></szDefRecName>
-        <szDefFieldName></szDefFieldName>
-        <szCurCtlFieldName></szCurCtlFieldName>
-        <fUseEdit>0</fUseEdit>
-        <fUseEdit2>0</fUseEdit2>
-        <szEditTable></szEditTable>
-        <nDefGUICtl>0</nDefGUICtl>
-        <szSetCntrlFld></szSetCntrlFld>
-        <szLabelID>ATTACHSYSFILENAME</szLabelID>
-        <nTimeZoneUse>0</nTimeZoneUse>
-        <szTimeZoneFieldName></szTimeZoneFieldName>
-        <nCurrencyCtlUse>0</nCurrencyCtlUse>
-        <szLongName>Unique Sys Filename</szLongName>
-        <szShortName>Sys File</szShortName>
-        <fStatus>0</fStatus>
-        <nLangCount>0</nLangCount>
-        <hLang>HANDLE</hLang>
-        <nContextLabelCount>0</nContextLabelCount>
-        <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
-      </row>
-    </rowset>
-  </instance>
-  <instance class="FIELD">
-    <rowset name="Field" size="936" count="1">
-      <row>
-        <szLastUpdDttm>2000-05-30-13.11.18.000000</szLastUpdDttm>
-        <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
-        <szObjectOwnerID>PPT</szObjectOwnerID>
-        <nUseCount>1</nUseCount>
-        <bUseUpdate>1</bUseUpdate>
-        <lVersion>1</lVersion>
-        <lSwapVersion>0</lSwapVersion>
-        <nSwapNum>0</nSwapNum>
-        <szFieldName>ATTACHUSERFILE</szFieldName>
-        <szLanguageCd>ENG</szLanguageCd>
-        <eFieldType>0</eFieldType>
-        <nLength>64</nLength>
-        <nDecimalPos>0</nDecimalPos>
-        <eFormat>6</eFormat>
-        <nFormatLength>0</nFormatLength>
-        <eImgFmt>0</eImgFmt>
-        <szFormatFamily></szFormatFamily>
-        <szDispFmtName></szDispFmtName>
-        <nDefCntryYr>50</nDefCntryYr>
-        <nIMEMode>0</nIMEMode>
-        <nKeyboardLayout>0</nKeyboardLayout>
-        <nNotUsed>0</nNotUsed>
-        <fAuxFlagMask>0</fAuxFlagMask>
-        <nDescrLongLen>0</nDescrLongLen>
-        <hDescrLong>HANDLE</hDescrLong>
-        <nLabelCount>2</nLabelCount>
-        <hDBFldLabel> HANDLE
-          <rowset name="DBFldLabel" size="528" count="2">
-            <row>
-              <szLabelID>ATTACHUSERFILE</szLabelID>
-              <szLongName>Attached File</szLongName>
-              <szShortName>Attachment</szShortName>
-              <bIsDefault>1</bIsDefault>
-              <szLastUpdDttm>2000-05-30-13.11.18.000000</szLastUpdDttm>
-              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
-              <nLangCount>0</nLangCount>
-              <hLang>HANDLE</hLang>
-            </row>
-            <row>
-              <szLabelID>FILE_NAME</szLabelID>
-              <szLongName>File Name</szLongName>
-              <szShortName>Name</szShortName>
-              <bIsDefault>0</bIsDefault>
-              <szLastUpdDttm>2000-05-30-13.11.18.000000</szLastUpdDttm>
-              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
-              <nLangCount>0</nLangCount>
-              <hLang>HANDLE</hLang>
-            </row>
-          </rowset>
-        </hDBFldLabel>
-        <szDefRecName></szDefRecName>
-        <szDefFieldName></szDefFieldName>
-        <szCurCtlFieldName></szCurCtlFieldName>
-        <fUseEdit>0</fUseEdit>
-        <fUseEdit2>0</fUseEdit2>
-        <szEditTable></szEditTable>
-        <nDefGUICtl>0</nDefGUICtl>
-        <szSetCntrlFld></szSetCntrlFld>
-        <szLabelID>ATTACHUSERFILE</szLabelID>
-        <nTimeZoneUse>0</nTimeZoneUse>
-        <szTimeZoneFieldName></szTimeZoneFieldName>
-        <nCurrencyCtlUse>0</nCurrencyCtlUse>
-        <szLongName>Attached File</szLongName>
-        <szShortName>Attachment</szShortName>
-        <fStatus>0</fStatus>
-        <nLangCount>0</nLangCount>
-        <hLang>HANDLE</hLang>
-        <nContextLabelCount>0</nContextLabelCount>
-        <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
-      </row>
-    </rowset>
-  </instance>
-  <instance class="RDM">
-    <rowset name="RecDefn" size="920" count="1">
-      <row>
-        <szLastUpdDttm>2016-04-25-15.57.58.111000</szLastUpdDttm>
+        <szLastUpdDttm>2016-04-26-15.08.41.502000</szLastUpdDttm>
         <szLastUpdOprId>VP1</szLastUpdOprId>
         <szObjectOwnerID></szObjectOwnerID>
         <nUseCount>1</nUseCount>
         <bUseUpdate>1</bUseUpdate>
-        <lVersion>8</lVersion>
-        <lSwapVersion>8</lSwapVersion>
+        <lVersion>9</lVersion>
+        <lSwapVersion>9</lSwapVersion>
         <nSwapNum>0</nSwapNum>
         <szRecName>IG_FILE_ATTACH</szRecName>
         <szLanguageCd>ENG</szLanguageCd>
         <fFlags>0</fFlags>
         <fAuxFlagMask>0</fAuxFlagMask>
-        <nFieldCount>3</nFieldCount>
+        <nFieldCount>4</nFieldCount>
         <eRecType>0</eRecType>
         <fRecUse>0</fRecUse>
         <cOptTrigFlag>N</cOptTrigFlag>
@@ -999,7 +675,7 @@
         <nDescrLongLen>0</nDescrLongLen>
         <hDescrLong>HANDLE</hDescrLong>
         <hRft> HANDLE
-          <rowset name="RecField" size="1248" count="3">
+          <rowset name="RecField" size="1664" count="4">
             <row>
               <fStatus>0</fStatus>
               <atmFieldName>OPRID</atmFieldName>
@@ -1015,7 +691,7 @@
               <nIMEMode>0</nIMEMode>
               <nKeyboardLayout>0</nKeyboardLayout>
               <szObjectOwnerID></szObjectOwnerID>
-              <szLastUpdDttm>2016-04-25-15.57.58.111006</szLastUpdDttm>
+              <szLastUpdDttm>2016-04-26-15.08.41.502042</szLastUpdDttm>
               <szLastUpdOprId>VP1</szLastUpdOprId>
               <nDescrLongLen>0</nDescrLongLen>
               <hDescrLong>HANDLE</hDescrLong>
@@ -1139,7 +815,7 @@
               <atmDefRecName></atmDefRecName>
               <atmDefFieldName></atmDefFieldName>
               <atmCurCtlFieldName></atmCurCtlFieldName>
-              <fUseEdit>8388608</fUseEdit>
+              <fUseEdit>8388609</fUseEdit>
               <fUseEdit2>0</fUseEdit2>
               <atmEditTable></atmEditTable>
               <nDefGUICtl>99</nDefGUICtl>
@@ -1170,7 +846,7 @@
               <nIMEMode>0</nIMEMode>
               <nKeyboardLayout>0</nKeyboardLayout>
               <szObjectOwnerID></szObjectOwnerID>
-              <szLastUpdDttm>2016-04-25-15.57.58.111006</szLastUpdDttm>
+              <szLastUpdDttm>2016-04-26-15.08.41.502042</szLastUpdDttm>
               <szLastUpdOprId>VP1</szLastUpdOprId>
               <nDescrLongLen>0</nDescrLongLen>
               <hDescrLong>HANDLE</hDescrLong>
@@ -1192,7 +868,7 @@
               <atmDefRecName></atmDefRecName>
               <atmDefFieldName></atmDefFieldName>
               <atmCurCtlFieldName></atmCurCtlFieldName>
-              <fUseEdit>8388608</fUseEdit>
+              <fUseEdit>8388609</fUseEdit>
               <fUseEdit2>0</fUseEdit2>
               <atmEditTable></atmEditTable>
               <nDefGUICtl>99</nDefGUICtl>
@@ -1210,25 +886,40 @@
             </row>
             <row>
               <fStatus>0</fStatus>
-              <atmFieldName>FILE_ATTACH_SBR</atmFieldName>
-              <eFieldType>7</eFieldType>
-              <nLength>0</nLength>
+              <atmFieldName>ATTACHSYSFILENAME</atmFieldName>
+              <eFieldType>0</eFieldType>
+              <nLength>128</nLength>
               <nDecimalPos>0</nDecimalPos>
-              <eFormat>0</eFormat>
+              <eFormat>6</eFormat>
               <nFormatLength>0</nFormatLength>
               <eImgFmt>0</eImgFmt>
               <atmFormatFamily></atmFormatFamily>
               <atmDispFmtName></atmDispFmtName>
-              <nDefCntryYr>0</nDefCntryYr>
+              <nDefCntryYr>50</nDefCntryYr>
               <nIMEMode>0</nIMEMode>
               <nKeyboardLayout>0</nKeyboardLayout>
               <szObjectOwnerID></szObjectOwnerID>
-              <szLastUpdDttm>2016-04-20-11.50.20.178314</szLastUpdDttm>
+              <szLastUpdDttm>2016-04-26-15.08.41.502042</szLastUpdDttm>
               <szLastUpdOprId>VP1</szLastUpdOprId>
               <nDescrLongLen>0</nDescrLongLen>
               <hDescrLong>HANDLE</hDescrLong>
-              <nLabelCount>0</nLabelCount>
-              <hDBFldLabel>HANDLE</hDBFldLabel>
+              <nLabelCount>2</nLabelCount>
+              <hDBFldLabel> HANDLE
+                <rowset name="DBFldLabel" size="64" count="2">
+                  <row>
+                    <atmLabelID>ATTACHSYSFILENAME</atmLabelID>
+                    <atmLongName>Unique Sys Filename</atmLongName>
+                    <atmShortName>Sys File</atmShortName>
+                    <bIsDefault>1</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>FILEREFPATH</atmLabelID>
+                    <atmLongName>File Reference Path</atmLongName>
+                    <atmShortName>FILEREFPATH</atmShortName>
+                    <bIsDefault>0</bIsDefault>
+                  </row>
+                </rowset>
+              </hDBFldLabel>
               <nOrgLabelCount>0</nOrgLabelCount>
               <hOrgDBFldLabel>HANDLE</hOrgDBFldLabel>
               <nNotUsed>0</nNotUsed>
@@ -1236,26 +927,122 @@
               <atmDefRecName></atmDefRecName>
               <atmDefFieldName></atmDefFieldName>
               <atmCurCtlFieldName></atmCurCtlFieldName>
-              <fUseEdit>0</fUseEdit>
+              <fUseEdit>8388609</fUseEdit>
               <fUseEdit2>0</fUseEdit2>
               <atmEditTable></atmEditTable>
-              <nDefGUICtl>0</nDefGUICtl>
+              <nDefGUICtl>99</nDefGUICtl>
               <atmSetCntrlFld></atmSetCntrlFld>
               <atmLabelID></atmLabelID>
               <nTimeZoneUse>0</nTimeZoneUse>
               <atmTimeZoneFieldName></atmTimeZoneFieldName>
               <nCurrencyCtlUse>0</nCurrencyCtlUse>
               <atmRelTmDtFieldName></atmRelTmDtFieldName>
-              <atmLongName></atmLongName>
-              <atmShortName></atmShortName>
+              <atmLongName>Unique Sys Filename</atmLongName>
+              <atmShortName>Sys File</atmShortName>
+              <atmPhysicalRecNameList>IG_FILE_ATTACH     </atmPhysicalRecNameList>
+              <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
+              <nContextLabelCount>0</nContextLabelCount>
+            </row>
+            <row>
+              <fStatus>0</fStatus>
+              <atmFieldName>ATTACHUSERFILE</atmFieldName>
+              <eFieldType>0</eFieldType>
+              <nLength>64</nLength>
+              <nDecimalPos>0</nDecimalPos>
+              <eFormat>6</eFormat>
+              <nFormatLength>0</nFormatLength>
+              <eImgFmt>0</eImgFmt>
+              <atmFormatFamily></atmFormatFamily>
+              <atmDispFmtName></atmDispFmtName>
+              <nDefCntryYr>50</nDefCntryYr>
+              <nIMEMode>0</nIMEMode>
+              <nKeyboardLayout>0</nKeyboardLayout>
+              <szObjectOwnerID></szObjectOwnerID>
+              <szLastUpdDttm>2016-04-26-15.08.41.502042</szLastUpdDttm>
+              <szLastUpdOprId>VP1</szLastUpdOprId>
+              <nDescrLongLen>0</nDescrLongLen>
+              <hDescrLong>HANDLE</hDescrLong>
+              <nLabelCount>2</nLabelCount>
+              <hDBFldLabel> HANDLE
+                <rowset name="DBFldLabel" size="64" count="2">
+                  <row>
+                    <atmLabelID>ATTACHUSERFILE</atmLabelID>
+                    <atmLongName>Attached File</atmLongName>
+                    <atmShortName>Attachment</atmShortName>
+                    <bIsDefault>1</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>FILE_NAME</atmLabelID>
+                    <atmLongName>File Name</atmLongName>
+                    <atmShortName>Name</atmShortName>
+                    <bIsDefault>0</bIsDefault>
+                  </row>
+                </rowset>
+              </hDBFldLabel>
+              <nOrgLabelCount>0</nOrgLabelCount>
+              <hOrgDBFldLabel>HANDLE</hOrgDBFldLabel>
+              <nNotUsed>0</nNotUsed>
+              <fAuxFlagMask>0</fAuxFlagMask>
+              <atmDefRecName></atmDefRecName>
+              <atmDefFieldName></atmDefFieldName>
+              <atmCurCtlFieldName></atmCurCtlFieldName>
+              <fUseEdit>8388608</fUseEdit>
+              <fUseEdit2>0</fUseEdit2>
+              <atmEditTable></atmEditTable>
+              <nDefGUICtl>99</nDefGUICtl>
+              <atmSetCntrlFld></atmSetCntrlFld>
+              <atmLabelID></atmLabelID>
+              <nTimeZoneUse>0</nTimeZoneUse>
+              <atmTimeZoneFieldName></atmTimeZoneFieldName>
+              <nCurrencyCtlUse>0</nCurrencyCtlUse>
+              <atmRelTmDtFieldName></atmRelTmDtFieldName>
+              <atmLongName>Attached File</atmLongName>
+              <atmShortName>Attachment</atmShortName>
               <atmPhysicalRecNameList>IG_FILE_ATTACH     </atmPhysicalRecNameList>
               <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
               <nContextLabelCount>0</nContextLabelCount>
             </row>
           </rowset>
         </hRft>
-        <nIndexCount>0</nIndexCount>
-        <lpIdt>POINTER</lpIdt>
+        <nIndexCount>1</nIndexCount>
+        <lpIdt> POINTER
+          <rowset name="IndexDefn" size="720" count="1">
+            <row>
+              <cIndexId>_</cIndexId>
+              <eIndexType>1</eIndexType>
+              <eUniqueFlag>1</eUniqueFlag>
+              <eClusterFlag>1</eClusterFlag>
+              <eActiveFlag>1</eActiveFlag>
+              <nCustKeyOrder>0</nCustKeyOrder>
+              <szComments></szComments>
+              <ePlatformList>1 1 1 1 1 1 1 1    </ePlatformList>
+              <nKeyCount>3</nKeyCount>
+              <lpKdt> POINTER
+                <rowset name="KeyDefn" size="144" count="3">
+                  <row>
+                    <nKeyPosn>1</nKeyPosn>
+                    <szFieldName>OPRID</szFieldName>
+                    <eAscDesc>1</eAscDesc>
+                  </row>
+                  <row>
+                    <nKeyPosn>2</nKeyPosn>
+                    <szFieldName>CATEGORYID</szFieldName>
+                    <eAscDesc>1</eAscDesc>
+                  </row>
+                  <row>
+                    <nKeyPosn>3</nKeyPosn>
+                    <szFieldName>ATTACHSYSFILENAME</szFieldName>
+                    <eAscDesc>1</eAscDesc>
+                  </row>
+                </rowset>
+              </lpKdt>
+              <nDDLCount>0</nDDLCount>
+              <lpIpt>POINTER</lpIpt>
+              <szLastUpdDttm>2016-04-26-15.08.41.502000</szLastUpdDttm>
+              <szLastUpdOprId>VP1</szLastUpdOprId>
+            </row>
+          </rowset>
+        </lpIdt>
         <nDDLCount>0</nDDLCount>
         <lpRpt>POINTER</lpRpt>
         <nDelFieldCount>0</nDelFieldCount>
@@ -1581,6 +1368,156 @@
         <nCurrencyCtlUse>0</nCurrencyCtlUse>
         <szLongName>Category ID</szLongName>
         <szShortName>ID</szShortName>
+        <fStatus>0</fStatus>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+        <nContextLabelCount>0</nContextLabelCount>
+        <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="FIELD">
+    <rowset name="Field" size="936" count="1">
+      <row>
+        <szLastUpdDttm>2015-06-02-16.13.54.094761</szLastUpdDttm>
+        <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+        <szObjectOwnerID>PPT</szObjectOwnerID>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>1</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szFieldName>ATTACHSYSFILENAME</szFieldName>
+        <szLanguageCd>ENG</szLanguageCd>
+        <eFieldType>0</eFieldType>
+        <nLength>128</nLength>
+        <nDecimalPos>0</nDecimalPos>
+        <eFormat>6</eFormat>
+        <nFormatLength>0</nFormatLength>
+        <eImgFmt>0</eImgFmt>
+        <szFormatFamily></szFormatFamily>
+        <szDispFmtName></szDispFmtName>
+        <nDefCntryYr>50</nDefCntryYr>
+        <nIMEMode>0</nIMEMode>
+        <nKeyboardLayout>0</nKeyboardLayout>
+        <nNotUsed>0</nNotUsed>
+        <fAuxFlagMask>0</fAuxFlagMask>
+        <nDescrLongLen>0</nDescrLongLen>
+        <hDescrLong>HANDLE</hDescrLong>
+        <nLabelCount>2</nLabelCount>
+        <hDBFldLabel> HANDLE
+          <rowset name="DBFldLabel" size="528" count="2">
+            <row>
+              <szLabelID>ATTACHSYSFILENAME</szLabelID>
+              <szLongName>Unique Sys Filename</szLongName>
+              <szShortName>Sys File</szShortName>
+              <bIsDefault>1</bIsDefault>
+              <szLastUpdDttm>2015-06-02-16.13.54.094761</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>FILEREFPATH</szLabelID>
+              <szLongName>File Reference Path</szLongName>
+              <szShortName>FILEREFPATH</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2015-06-02-16.13.54.094761</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+          </rowset>
+        </hDBFldLabel>
+        <szDefRecName></szDefRecName>
+        <szDefFieldName></szDefFieldName>
+        <szCurCtlFieldName></szCurCtlFieldName>
+        <fUseEdit>0</fUseEdit>
+        <fUseEdit2>0</fUseEdit2>
+        <szEditTable></szEditTable>
+        <nDefGUICtl>0</nDefGUICtl>
+        <szSetCntrlFld></szSetCntrlFld>
+        <szLabelID>ATTACHSYSFILENAME</szLabelID>
+        <nTimeZoneUse>0</nTimeZoneUse>
+        <szTimeZoneFieldName></szTimeZoneFieldName>
+        <nCurrencyCtlUse>0</nCurrencyCtlUse>
+        <szLongName>Unique Sys Filename</szLongName>
+        <szShortName>Sys File</szShortName>
+        <fStatus>0</fStatus>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+        <nContextLabelCount>0</nContextLabelCount>
+        <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="FIELD">
+    <rowset name="Field" size="936" count="1">
+      <row>
+        <szLastUpdDttm>2000-05-30-13.11.18.000000</szLastUpdDttm>
+        <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+        <szObjectOwnerID>PPT</szObjectOwnerID>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>1</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szFieldName>ATTACHUSERFILE</szFieldName>
+        <szLanguageCd>ENG</szLanguageCd>
+        <eFieldType>0</eFieldType>
+        <nLength>64</nLength>
+        <nDecimalPos>0</nDecimalPos>
+        <eFormat>6</eFormat>
+        <nFormatLength>0</nFormatLength>
+        <eImgFmt>0</eImgFmt>
+        <szFormatFamily></szFormatFamily>
+        <szDispFmtName></szDispFmtName>
+        <nDefCntryYr>50</nDefCntryYr>
+        <nIMEMode>0</nIMEMode>
+        <nKeyboardLayout>0</nKeyboardLayout>
+        <nNotUsed>0</nNotUsed>
+        <fAuxFlagMask>0</fAuxFlagMask>
+        <nDescrLongLen>0</nDescrLongLen>
+        <hDescrLong>HANDLE</hDescrLong>
+        <nLabelCount>2</nLabelCount>
+        <hDBFldLabel> HANDLE
+          <rowset name="DBFldLabel" size="528" count="2">
+            <row>
+              <szLabelID>ATTACHUSERFILE</szLabelID>
+              <szLongName>Attached File</szLongName>
+              <szShortName>Attachment</szShortName>
+              <bIsDefault>1</bIsDefault>
+              <szLastUpdDttm>2000-05-30-13.11.18.000000</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>FILE_NAME</szLabelID>
+              <szLongName>File Name</szLongName>
+              <szShortName>Name</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2000-05-30-13.11.18.000000</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+          </rowset>
+        </hDBFldLabel>
+        <szDefRecName></szDefRecName>
+        <szDefFieldName></szDefFieldName>
+        <szCurCtlFieldName></szCurCtlFieldName>
+        <fUseEdit>0</fUseEdit>
+        <fUseEdit2>0</fUseEdit2>
+        <szEditTable></szEditTable>
+        <nDefGUICtl>0</nDefGUICtl>
+        <szSetCntrlFld></szSetCntrlFld>
+        <szLabelID>ATTACHUSERFILE</szLabelID>
+        <nTimeZoneUse>0</nTimeZoneUse>
+        <szTimeZoneFieldName></szTimeZoneFieldName>
+        <nCurrencyCtlUse>0</nCurrencyCtlUse>
+        <szLongName>Attached File</szLongName>
+        <szShortName>Attachment</szShortName>
         <fStatus>0</fStatus>
         <nLangCount>0</nLangCount>
         <hLang>HANDLE</hLang>
@@ -3979,12 +3916,12 @@
   <instance class="PDM">
     <rowset name="PdmDefn" size="936" count="1">
       <row>
-        <szLastUpdDttm>2016-04-25-19.47.37.594000</szLastUpdDttm>
+        <szLastUpdDttm>2016-04-26-15.09.06.501796</szLastUpdDttm>
         <szLastUpdOprId>VP1</szLastUpdOprId>
         <szObjectOwnerId></szObjectOwnerId>
         <nUseCount>1</nUseCount>
         <bUseUpdate>1</bUseUpdate>
-        <lVersion>13</lVersion>
+        <lVersion>14</lVersion>
         <lSwapVersion>0</lSwapVersion>
         <nSwapNum>0</nSwapNum>
         <szPnlName>IG_FILEATTACH</szPnlName>
@@ -5110,11 +5047,11 @@ End-Function;
   <instance class="PCM">
     <rowset name="PcmProg" size="2240" count="1">
       <row>
-        <szLastUpdDttm>2016-04-26-09.09.41.925008</szLastUpdDttm>
+        <szLastUpdDttm>2016-04-26-16.54.06.476000</szLastUpdDttm>
         <szLastUpdOprId>VP1</szLastUpdOprId>
         <nUseCount>1</nUseCount>
         <bUseUpdate>1</bUseUpdate>
-        <lVersion>89</lVersion>
+        <lVersion>128</lVersion>
         <lSwapVersion>0</lSwapVersion>
         <nSwapNum>0</nSwapNum>
         <eObjectID_0>1</eObjectID_0>
@@ -5131,11 +5068,11 @@ End-Function;
         <szObjectValue_5></szObjectValue_5>
         <eObjectID_6>0</eObjectID_6>
         <szObjectValue_6></szObjectValue_6>
-        <nNameCount>6</nNameCount>
+        <nNameCount>8</nNameCount>
         <lpProgSource> POINTER
           <rowset name="PcmProgSource" size="64" count="1">
             <row>
-              <lSourceLen>1499</lSourceLen>
+              <lSourceLen>3138</lSourceLen>
               <lpSource>custom field</lpSource>
               <lEntryNamesLen>138</lEntryNamesLen>
               <nEntry>4</nEntry>
@@ -5148,7 +5085,7 @@ End-Function;
         </lpProgSource>
         <nProgSource>1</nProgSource>
         <lpPnt> POINTER
-          <rowset name="PcmPnt" size="2472" count="6">
+          <rowset name="PcmPnt" size="3296" count="8">
             <row>
               <szRecName>WEBLIB_IG</szRecName>
               <szFieldName>ISCRIPT1</szFieldName>
@@ -5182,6 +5119,18 @@ End-Function;
             <row>
               <szRecName>FILE_ATTACH_WRK</szRecName>
               <szFieldName>ATTACHDELETE</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>ROWSET</szFieldName>
+              <szPackageRoot>Rowset</szPackageRoot>
+              <szQualifyPath>Rowset</szQualifyPath>
+            </row>
+            <row>
+              <szRecName>RECORD</szRecName>
+              <szFieldName>IG_FILE_ATTACH</szFieldName>
               <szPackageRoot></szPackageRoot>
               <szQualifyPath></szQualifyPath>
             </row>
@@ -5220,7 +5169,15 @@ Function IScript_refresh
       For &amp;x = 1 To &amp;RS.ActiveRowCount
          &amp;retStr = &amp;retStr | &quot;&lt;tr&gt;&lt;th scope='row'&gt;&lt;/th&gt;&lt;td&gt;&quot; | &amp;RS(&amp;x).GetRecord(1).GetField(Field.ATTACHUSERFILE).Value | &quot;&lt;/td&gt;&quot;;
          &amp;retStr = &amp;retStr | &quot;&lt;td&gt;&lt;input type='button' value='View' onclick=''&gt;&lt;/td&gt;&quot;;
-         &amp;retStr = &amp;retStr | &quot;&lt;td&gt;&lt;input type='button' value='Delete' onclick='deleteAttachment();'&gt;&lt;/td&gt;&lt;/tr&gt;&quot;;
+         &amp;retStr = &amp;retStr | &quot;&lt;td&gt;&lt;button class='btn btn-default' data-id='&quot; | &amp;RS(&amp;x).GetRecord(1).GetField(Field.ATTACHUSERFILE).Value;
+         &amp;retStr = &amp;retStr | &quot;' data-toggle='modal' data-target='#confirm-delete'&gt;Delete&lt;/button&gt;&lt;/td&gt;&lt;/tr&gt;&quot;;
+         
+         /*
+         &amp;retStr = &amp;retStr | &quot;&lt;td&gt;&lt;input filename='&quot; | &amp;RS(&amp;x).GetRecord(1).GetField(Field.ATTACHUSERFILE).Value | &quot;'&quot;;
+         &amp;retStr = &amp;retStr | &quot; type='button' value='Delete' onclick='deleteAttachment($(this));'&gt;&lt;/td&gt;&lt;/tr&gt;&quot;;
+*/
+         
+         
          
       End-For;
    End-If;
@@ -5231,20 +5188,33 @@ End-Function;
 Declare Function delete_attachment PeopleCode FILE_ATTACH_WRK.ATTACHDELETE FieldChange;
 
 Function IScript_deleteattach
+   Local string &amp;strParm = %Request.GetParameter(&quot;fname&quot;);
+   
+   Local string &amp;retStr;
+   Local number &amp;x;
+   Local Rowset &amp;RS = CreateRowset(Record.IG_FILE_ATTACH);
+   &amp;RS.Fill(&quot;WHERE OPRID = :1 AND ATTACHSYSFILENAME = :2&quot;, %OperatorId, &quot;IG_&quot; | &amp;strParm);
+   
+   If &amp;RS(1).GetRecord(1).Delete() Then
+      %Response.WriteLine(&quot;delete success!&quot;);
+      delete_attachment(&quot;RECORD://IG_FILE_ATTDET/&quot;, &quot;IG_&quot; | &amp;strParm, &amp;ATTACHUSERFILE, &amp;MESSAGE_LVL, &amp;RETCODE);
+   End-If;
+   
+   rem   %Response.WriteLine(&amp;ATTACHUSERFILE | &quot; | &quot; | &amp;MESSAGE_LVL | &quot; | &quot; | &amp;RETCODE);
    
 End-Function;
 
 </peoplecode_text>
-    <peoplecode_blob>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</peoplecode_blob>
+    <peoplecode_blob>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IAAgACYAcgBlAHQAUwB0AHIAIAA9ACAAJgByAGUAdABTAHQAcgAgAHwAIAAiADwAdABkAD4APABpAG4AcAB1AHQAIABmAGkAbABlAG4AYQBtAGUAPQAnACIAIAB8ACAAJgBSAFMAKAAmAHgAKQAuAEcAZQB0AFIAZQBjAG8AcgBkACgAMQApAC4ARwBlAHQARgBpAGUAbABkACgARgBpAGUAbABkAC4AQQBUAFQAQQBDAEgAVQBTAEUAUgBGAEkATABFACkALgBWAGEAbAB1AGUAIAB8ACAAIgAnACIAOwAKACAAIAAgACAAIAAgACAAIAAgACYAcgBlAHQAUwB0AHIAIAA9ACAAJgByAGUAdABTAHQAcgAgAHwAIAAiACAAdAB5AHAAZQA9ACcAYgB1AHQAdABvAG4AJwAgAHYAYQBsAHUAZQA9ACcARABlAGwAZQB0AGUAJwAgAG8AbgBjAGwAaQBjAGsAPQAnAGQAZQBsAGUAdABlAEEAdAB0AGEAYwBoAG0AZQBuAHQAKAAkACgAdABoAGkAcwApACkAOwAnAD4APAAvAHQAZAA+ADwALwB0AHIAPgAiADsACgAqAC8AT09PLBUaFRISJQBSAGUAcwBwAG8AbgBzAGUABQoSVwByAGkAdABlAEwAaQBuAGUACwEOJgByAGUAdABTAHQAcgAUFU83FS1PMTIKImQAZQBsAGUAdABlAF8AYQB0AHQAYQBjAGgAbQBlAG4AdAA6IQUAQBZGAGkAZQBsAGQAQwBoAGEAbgBnAGUAQhUtTzIKKEkAUwBjAHIAaQBwAHQAXwBkAGUAbABlAHQAZQBhAHQAdABhAGMAaAAtREAMcwB0AHIAaQBuAGcAARAmAHMAdAByAFAAYQByAG0ABhIQJQBSAGUAcQB1AGUAcwB0AAUKGEcAZQB0AFAAYQByAGEAbQBlAHQAZQByAAsWCmYAbgBhAG0AZQAUFU9EQAxzAHQAcgBpAG4AZwABDiYAcgBlAHQAUwB0AHIAFURADG4AdQBtAGIAZQByAAEEJgB4ABVECgxSAG8AdwBzAGUAdAABBiYAUgBTAAYKGEMAcgBlAGEAdABlAFIAbwB3AHMAZQB0AAshBwAUFQEGJgBSAFMABQoIRgBpAGwAbAALFlZXAEgARQBSAEUAIABPAFAAUgBJAEQAIAA9ACAAOgAxACAAQQBOAEQAIABBAFQAVABBAEMASABTAFkAUwBGAEkATABFAE4AQQBNAEUAIAA9ACAAOgAyAAMSFiUATwBwAGUAcgBhAHQAbwByAEkAZAADFgZJAEcAXwAjARAmAHMAdAByAFAAYQByAG0AFBVPHAEGJgBSAFMAC1ASAAAAAQAAAAAAAAAAAAAAAAAAFAUKEkcAZQB0AFIAZQBjAG8AcgBkAAtQEgAAAAEAAAAAAAAAAAAAAAAAABQFCgxEAGUAbABlAHQAZQALFB8SEiUAUgBlAHMAcABvAG4AcwBlAAUKElcAcgBpAHQAZQBMAGkAbgBlAAsWHmQAZQBsAGUAdABlACAAcwB1AGMAYwBlAHMAcwAhABQVCiJkAGUAbABlAHQAZQBfAGEAdAB0AGEAYwBoAG0AZQBuAHQACxYwUgBFAEMATwBSAEQAOgAvAC8ASQBHAF8ARgBJAEwARQBfAEEAVABUAEQARQBUAC8AAxYGSQBHAF8AIwEQJgBzAHQAcgBQAGEAcgBtAAMBHiYAQQBUAFQAQQBDAEgAVQBTAEUAUgBGAEkATABFAAMBGCYATQBFAFMAUwBBAEcARQBfAEwAVgBMAAMBECYAUgBFAFQAQwBPAEQARQAUFRoVTySqAKpyAGUAbQAgACAAIAAlAFIAZQBzAHAAbwBuAHMAZQAuAFcAcgBpAHQAZQBMAGkAbgBlACgAJgBBAFQAVABBAEMASABVAFMARQBSAEYASQBMAEUAIAB8ACAAIgAgAHwAIAAiACAAfAAgACYATQBFAFMAUwBBAEcARQBfAEwAVgBMACAAfAAgACIAIAB8ACAAIgAgAHwAIAAmAFIARQBUAEMATwBEAEUAKQA7AE83FS0HigT/AQAAAAAAByRJAFMAYwByAGkAcAB0AF8AZgBpAGwAZQB1AHAAbABvAGEAZAAAAAcYSQBTAGMAcgBpAHAAdABfAHAAbwBzAHQAAAAHHkkAUwBjAHIAaQBwAHQAXwByAGUAZgByAGUAcwBoAAAAByhJAFMAYwByAGkAcAB0AF8AZABlAGwAZQB0AGUAYQB0AHQAYQBjAGgAAP8BAAAAhRJXAEUAQgBMAEkAQgBfAEkARwAQSQBTAEMAUgBJAFAAVAAxAAhIAFQATQBMABpJAEcAXwBGAE8AUgBNAF8AUABPAFMAVAAzAA5QAEEAQwBLAEEARwBFAAxSAE8AVwBTAEUAVAAMUgBFAEMATwBSAEQAHEkARwBfAEYASQBMAEUAXwBBAFQAVABBAEMASAAKRgBJAEUATABEABxBAFQAVABBAEMASABVAFMARQBSAEYASQBMAEUAHkYASQBMAEUAXwBBAFQAVABBAEMASABfAFcAUgBLABhBAFQAVABBAEMASABEAEUATABFAFQARQAOUABBAEMASwBBAEcARQAMUgBPAFcAUwBFAFQADFIARQBDAE8AUgBEABxJAEcAXwBGAEkATABFAF8AQQBUAFQAQQBDAEgA</peoplecode_blob>
   </instance>
   <instance class="PCM">
     <rowset name="PcmProg" size="2240" count="1">
       <row>
-        <szLastUpdDttm>2016-04-25-22.28.58.024775</szLastUpdDttm>
+        <szLastUpdDttm>2016-04-28-00.07.45.144586</szLastUpdDttm>
         <szLastUpdOprId>VP1</szLastUpdOprId>
         <nUseCount>1</nUseCount>
         <bUseUpdate>1</bUseUpdate>
-        <lVersion>88</lVersion>
+        <lVersion>137</lVersion>
         <lSwapVersion>0</lSwapVersion>
         <nSwapNum>0</nSwapNum>
         <eObjectID_0>10</eObjectID_0>
@@ -5261,11 +5231,11 @@ End-Function;
         <szObjectValue_5></szObjectValue_5>
         <eObjectID_6>0</eObjectID_6>
         <szObjectValue_6></szObjectValue_6>
-        <nNameCount>13</nNameCount>
+        <nNameCount>14</nNameCount>
         <lpProgSource> POINTER
           <rowset name="PcmProgSource" size="64" count="1">
             <row>
-              <lSourceLen>804</lSourceLen>
+              <lSourceLen>1147</lSourceLen>
               <lpSource>custom field</lpSource>
               <lEntryNamesLen>0</lEntryNamesLen>
               <nEntry>0</nEntry>
@@ -5278,7 +5248,7 @@ End-Function;
         </lpProgSource>
         <nProgSource>1</nProgSource>
         <lpPnt> POINTER
-          <rowset name="PcmPnt" size="5356" count="13">
+          <rowset name="PcmPnt" size="5768" count="14">
             <row>
               <szRecName>IG_FLE_ATCH_WRK</szRecName>
               <szFieldName>ATTACHADD</szFieldName>
@@ -5294,6 +5264,12 @@ End-Function;
             <row>
               <szRecName>IG_FILE_ATTACH</szRecName>
               <szFieldName>ATTACHSYSFILENAME</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>URL</szRecName>
+              <szFieldName>IG_FILEATTACH</szFieldName>
               <szPackageRoot></szPackageRoot>
               <szQualifyPath></szQualifyPath>
             </row>
@@ -5375,7 +5351,8 @@ End-Function;
 
 IG_FILE_ATTACH.ATTACHSYSFILENAME = &quot;IG_&quot;;
 
-add_attachment(&quot;RECORD://IG_FILE_ATTDET/&quot;, &amp;FILEEXTENSION, &amp;SUBDIRECTORY, &amp;FILESIZE, False, &amp;recname, IG_FILE_ATTACH.ATTACHSYSFILENAME, IG_FILE_ATTACH.ATTACHUSERFILE, &amp;MESSAGE_LVL, &amp;RETCODE);
+rem add_attachment(&quot;RECORD://IG_FILE_ATTDET/&quot;, &amp;FILEEXTENSION, &amp;SUBDIRECTORY, &amp;FILESIZE, False, &amp;recname, IG_FILE_ATTACH.ATTACHSYSFILENAME, IG_FILE_ATTACH.ATTACHUSERFILE, &amp;MESSAGE_LVL, &amp;RETCODE);
+add_attachment(URL.IG_FILEATTACH, &amp;FILEEXTENSION, &amp;SUBDIRECTORY, 2000, False, &amp;recname, IG_FILE_ATTACH.ATTACHSYSFILENAME, IG_FILE_ATTACH.ATTACHUSERFILE, &amp;MESSAGE_LVL, &amp;RETCODE);
 
 If IG_FILE_ATTACH.ATTACHUSERFILE &lt;&gt; &quot;&quot; Then
    Local Record &amp;rec = CreateRecord(Record.IG_FILE_ATTACH);
@@ -5390,7 +5367,7 @@ If IG_FILE_ATTACH.ATTACHUSERFILE &lt;&gt; &quot;&quot; Then
    End-If;
 End-If;
 </peoplecode_text>
-    <peoplecode_blob>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</peoplecode_blob>
+    <peoplecode_blob>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</peoplecode_blob>
   </instance>
   <instance class="CRM">
     <rowset name="CrmDefn" size="1208" count="1">
@@ -5701,12 +5678,12 @@ $.validate({modules:&quot;location, date, security, file&quot;,onModulesLoaded:f
   <instance class="CRM">
     <rowset name="CrmDefn" size="1208" count="1">
       <row>
-        <szLastUpdDttm>2016-04-26-09.10.04.924190</szLastUpdDttm>
+        <szLastUpdDttm>2016-04-26-17.18.15.313496</szLastUpdDttm>
         <szLastUpdOprId>VP1</szLastUpdOprId>
         <szObjectOwnerId></szObjectOwnerId>
         <nUseCount>1</nUseCount>
         <bUseUpdate>1</bUseUpdate>
-        <lVersion>216</lVersion>
+        <lVersion>247</lVersion>
         <lSwapVersion>0</lSwapVersion>
         <nSwapNum>0</nSwapNum>
         <szContName>IG_FORM_POST3</szContName>
@@ -5724,9 +5701,9 @@ $.validate({modules:&quot;location, date, security, file&quot;,onModulesLoaded:f
         <hLang>HANDLE</hLang>
         <lContLen>0</lContLen>
         <hContData>HANDLE</hContData>
-        <lContStrLen>5158</lContStrLen>
+        <lContStrLen>8536</lContStrLen>
         <hContStrData> HANDLE
-          <rowset name="char" size="5158" count="1">
+          <rowset name="char" size="8536" count="1">
             <row>
               <hContStrData>&lt;!-- Bootstrap --&gt;
 	&lt;link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css&quot; integrity=&quot;sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7&quot; crossorigin=&quot;anonymous&quot;&gt;
@@ -5765,6 +5742,30 @@ $.validate({modules:&quot;location, date, security, file&quot;,onModulesLoaded:f
 &lt;/div&gt;
 
 &lt;div id='mytestdiv'&gt;&lt;!--comment--&gt;&lt;/div&gt;
+
+    &lt;div class=&quot;modal fade&quot; id=&quot;confirm-delete&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;myModalLabel&quot; aria-hidden=&quot;true&quot;&gt;
+        &lt;div class=&quot;modal-dialog&quot;&gt;
+            &lt;div class=&quot;modal-content&quot;&gt;
+            
+                &lt;div class=&quot;modal-header&quot;&gt;
+                    &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/button&gt;
+                    &lt;h4 class=&quot;modal-title&quot; id=&quot;myModalLabel&quot;&gt;Confirm Delete&lt;/h4&gt;
+                &lt;/div&gt;
+            
+                &lt;div class=&quot;modal-body&quot;&gt;
+                    &lt;p&gt;You are about to delete an attachment.&lt;/p&gt;
+                    &lt;p&gt;Do you want to proceed?&lt;/p&gt;
+                    &lt;p class=&quot;debug-url&quot;&gt;&lt;/p&gt;
+                &lt;/div&gt;
+                
+                &lt;div class=&quot;modal-footer&quot;&gt;
+                    &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot; data-dismiss=&quot;modal&quot;&gt;Cancel&lt;/button&gt;
+                    &lt;button type=&quot;button&quot; class=&quot;btn btn-danger btn-ok&quot; data-dismiss=&quot;modal&quot; id=&quot;confirm&quot;&gt;Delete&lt;/button&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
 &lt;script&gt;
 $(document).ready(function(){
 		$.ajax({
@@ -5775,7 +5776,7 @@ $(document).ready(function(){
 				$('#win0divIG_FILE_ATTACH_ATTACHUSERFILE').bind(&quot;DOMSubtreeModified&quot;,function(){ refreshAttachList(); });
 			}});
 
-refreshAttachList();
+		refreshAttachList();
 
 });
 
@@ -5787,9 +5788,24 @@ function refreshAttachList() {
 			}});
 }
 
-function deleteAttachment() {
-	alert('delete!');
+function deleteAttachment(f_element) {
+		$.ajax({
+			url: 'http://192.168.5.144/psc/ps/EMPLOYEE/EMPL/s/WEBLIB_IG.ISCRIPT1.FieldFormula.IScript_deleteattach?fname='+$(f_element).attr('filename'), 
+			success: function(result){
+				refreshAttachList();
+			}});
 }
+
+$('#confirm-delete').on('show.bs.modal', function(e) {
+	$('.debug-url').html('Delete file: &lt;strong&gt;' + $(e.relatedTarget).data('id') + '&lt;/strong&gt;');
+	$('#confirm-delete').find('.modal-footer #confirm').attr('filename', $(e.relatedTarget).data('id'));
+
+});
+
+$('#confirm-delete').find('.modal-footer #confirm').on('click', function(){
+	deleteAttachment($(this));
+});
+
 &lt;/script&gt;</hContStrData>
             </row>
           </rowset>
