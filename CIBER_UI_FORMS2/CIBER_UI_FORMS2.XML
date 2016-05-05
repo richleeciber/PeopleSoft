@@ -3,12 +3,12 @@
   <instance class="PJM">
     <rowset name="PjmDefn" size="2808" count="1">
       <row>
-        <szLastUpdDttm>2016-05-03-14.04.30.404328</szLastUpdDttm>
+        <szLastUpdDttm>2016-05-05-08.06.15.527606</szLastUpdDttm>
         <szLastUpdOprId>VP1</szLastUpdOprId>
         <szObjectOwnerID></szObjectOwnerID>
         <nUseCount>1</nUseCount>
         <bUseUpdate>1</bUseUpdate>
-        <lVersion>120</lVersion>
+        <lVersion>124</lVersion>
         <lSwapVersion>0</lSwapVersion>
         <nSwapNum>0</nSwapNum>
         <szProjectName>CIBER_UI_FORMS2</szProjectName>
@@ -16,8 +16,8 @@
         <szProjectDescr></szProjectDescr>
         <szSrcDBName>PSPADMO</szSrcDBName>
         <szSrcOprId>VP1</szSrcOprId>
-        <szSessionId>7f8411d4-1159-11e6-adc1-b58fff48cd85</szSessionId>
-        <szRunDtTm>2016-05-03-14.04.37.403647</szRunDtTm>
+        <szSessionId>e138485e-12b9-11e6-9ddf-d6a383eee59a</szSessionId>
+        <szRunDtTm>2016-05-05-08.07.03.707125</szRunDtTm>
         <szTgtServerName></szTgtServerName>
         <szTgtDBName></szTgtDBName>
         <szTgtOprId></szTgtOprId>
@@ -52,7 +52,7 @@
               <eTargetStatus>0</eTargetStatus>
               <eUpgradeAction>0</eUpgradeAction>
               <bTakeAction>1</bTakeAction>
-              <bCopyDone>1</bCopyDone>
+              <bCopyDone>0</bCopyDone>
               <eRowStatus>3</eRowStatus>
             </row>
             <row>
@@ -70,7 +70,7 @@
               <eTargetStatus>0</eTargetStatus>
               <eUpgradeAction>0</eUpgradeAction>
               <bTakeAction>1</bTakeAction>
-              <bCopyDone>1</bCopyDone>
+              <bCopyDone>0</bCopyDone>
               <eRowStatus>3</eRowStatus>
             </row>
             <row>
@@ -88,7 +88,7 @@
               <eTargetStatus>0</eTargetStatus>
               <eUpgradeAction>0</eUpgradeAction>
               <bTakeAction>1</bTakeAction>
-              <bCopyDone>1</bCopyDone>
+              <bCopyDone>0</bCopyDone>
               <eRowStatus>3</eRowStatus>
             </row>
             <row>
@@ -106,7 +106,7 @@
               <eTargetStatus>0</eTargetStatus>
               <eUpgradeAction>0</eUpgradeAction>
               <bTakeAction>1</bTakeAction>
-              <bCopyDone>1</bCopyDone>
+              <bCopyDone>0</bCopyDone>
               <eRowStatus>3</eRowStatus>
             </row>
             <row>
@@ -122,7 +122,7 @@
               <bExecute>0</bExecute>
               <eSourceStatus>0</eSourceStatus>
               <eTargetStatus>0</eTargetStatus>
-              <eUpgradeAction>1</eUpgradeAction>
+              <eUpgradeAction>0</eUpgradeAction>
               <bTakeAction>1</bTakeAction>
               <bCopyDone>0</bCopyDone>
               <eRowStatus>3</eRowStatus>
@@ -140,7 +140,7 @@
               <bExecute>0</bExecute>
               <eSourceStatus>0</eSourceStatus>
               <eTargetStatus>0</eTargetStatus>
-              <eUpgradeAction>1</eUpgradeAction>
+              <eUpgradeAction>0</eUpgradeAction>
               <bTakeAction>1</bTakeAction>
               <bCopyDone>0</bCopyDone>
               <eRowStatus>3</eRowStatus>
@@ -602,11 +602,11 @@
   <instance class="PCM">
     <rowset name="PcmProg" size="2240" count="1">
       <row>
-        <szLastUpdDttm>2016-05-03-14.02.50.404531</szLastUpdDttm>
+        <szLastUpdDttm>2016-05-05-08.05.35.527542</szLastUpdDttm>
         <szLastUpdOprId>VP1</szLastUpdOprId>
         <nUseCount>1</nUseCount>
         <bUseUpdate>1</bUseUpdate>
-        <lVersion>2522</lVersion>
+        <lVersion>2805</lVersion>
         <lSwapVersion>0</lSwapVersion>
         <nSwapNum>0</nSwapNum>
         <eObjectID_0>104</eObjectID_0>
@@ -623,16 +623,16 @@
         <szObjectValue_5></szObjectValue_5>
         <eObjectID_6>0</eObjectID_6>
         <szObjectValue_6></szObjectValue_6>
-        <nNameCount>5</nNameCount>
+        <nNameCount>7</nNameCount>
         <lpProgSource> POINTER
           <rowset name="PcmProgSource" size="64" count="1">
             <row>
-              <lSourceLen>7514</lSourceLen>
+              <lSourceLen>17586</lSourceLen>
               <lpSource>custom field</lpSource>
-              <lEntryNamesLen>406</lEntryNamesLen>
-              <nEntry>13</nEntry>
+              <lEntryNamesLen>604</lEntryNamesLen>
+              <nEntry>18</nEntry>
               <lpEntryTab>custom field</lpEntryTab>
-              <nParams>9</nParams>
+              <nParams>18</nParams>
               <lpParams>custom field</lpParams>
               <nPCVersion>133</nPCVersion>
             </row>
@@ -640,7 +640,7 @@
         </lpProgSource>
         <nProgSource>1</nProgSource>
         <lpPnt> POINTER
-          <rowset name="PcmPnt" size="2060" count="5">
+          <rowset name="PcmPnt" size="2884" count="7">
             <row>
               <szRecName></szRecName>
               <szFieldName></szFieldName>
@@ -671,6 +671,18 @@
               <szPackageRoot>Row</szPackageRoot>
               <szQualifyPath>Row</szQualifyPath>
             </row>
+            <row>
+              <szRecName>RECORD</szRecName>
+              <szFieldName>PSRECFIELD</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>FIELD</szRecName>
+              <szFieldName>FIELDNAME</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
           </rowset>
         </lpPnt>
         <lpProgCode>custom field</lpProgCode>
@@ -685,32 +697,40 @@
     </rowset>
     <peoplecode_text>class ConfigRecordXML
    method ConfigRecordXML(&amp;ObjParm As string);
-   method addFieldAttributeToNode(&amp;parmNode As XmlNode);
+   method addFieldAttributesToNode(&amp;parmNode As XmlNode);
+   
    
 private
-   instance string &amp;ConfigKeyName;
+   instance string &amp;ConfigRecKeyValue; /* Config Rec Key Field Value */
+   
    instance array of array of string &amp;qStrParmPairs;
    instance array of string &amp;qStrPair;
-   
    instance array of array of string &amp;keyValuePairs;
    instance array of string &amp;keyValue;
    
-   instance boolean &amp;QStrParmExists;
-   instance Rowset &amp;ConfigRowSet;
+   instance boolean &amp;KVPairsExists;
+   instance boolean &amp;ConfigRowSetIsEmpty;
+   
+   instance Rowset &amp;ConfigRowSet; /* rowset to be loaded with row(s) from config record */
    
    method initialize();
-   method compareQStrKeys(&amp;qstrparms As string) Returns boolean;
-   method getNameValuePair(&amp;queryString As string);
+   method parseNameValuePair(&amp;queryString As string);
+   method comparePairs(&amp;kvalpairStr As string) Returns boolean;
+   method compPToolsQStrVals(&amp;strParm As string) Returns boolean;
+   method translateUseEditPairs(&amp;num As number) Returns array of array of string;
+   method calcUseEdit(&amp;num As number) Returns array of number;
+   method addNameValuePairToNode(&amp;parmNode As XmlNode, &amp;parmAry2 As array of array of string);
    
-   Constant &amp;CONFIGRECORDNAME = &quot;UD_CONFIG_TBL&quot;;
+   Constant &amp;CONFIGRECORDNAME = &quot;PSRECFIELD&quot;; /* Config Record Name */
+   Constant &amp;CONFIGKEY1 = &quot;LABEL_ID&quot;; /* Config Record 2nd Key Field Name where QStrParms are stored */
    Constant &amp;FIELDNAME = &quot;FIELDNAME&quot;;
-   Constant &amp;CONFIGKEY1 = &quot;CATEGORYID&quot;;
+   Constant &amp;USEEDIT = &quot;USEEDIT&quot;;
    
 end-class;
 
 method ConfigRecordXML
    /+ &amp;ObjParm as String +/
-   %This.ConfigKeyName = &amp;ObjParm;
+   %This.ConfigRecKeyValue = &amp;ObjParm;
    %This.initialize();
    
 end-method;
@@ -721,16 +741,18 @@ method initialize
    Local number &amp;x;
    Local array of string &amp;tmpAryStr;
    
-   &amp;QStrParmExists = False;
+   &amp;KVPairsExists = False;
    &amp;tmpAryStr = %Request.GetParameterNames();
    If &amp;tmpAryStr.Len &gt; 0 Then
-      &amp;QStrParmExists = True;
       &amp;qStrPair = CreateArrayRept(&quot;&quot;, 2);
       &amp;qStrParmPairs = CreateArrayRept(&amp;qStrPair, 0);
       For &amp;x = 1 To &amp;tmpAryStr.Len
-         &amp;qStrPair [1] = &amp;tmpAryStr [&amp;x];
-         &amp;qStrPair [2] = %Request.GetParameter(&amp;tmpAryStr [&amp;x]);
-         &amp;qStrParmPairs.Push(&amp;qStrPair);
+         If Not %This.compPToolsQStrVals(&amp;tmpAryStr [&amp;x]) Then
+            &amp;qStrPair [1] = &amp;tmpAryStr [&amp;x];
+            &amp;qStrPair [2] = %Request.GetParameter(&amp;tmpAryStr [&amp;x]);
+            &amp;qStrParmPairs.Push(&amp;qStrPair);
+            rem %Response.WriteLine(&quot;qstr: &quot; | &amp;qStrParmPairs [&amp;x][1] | &quot; = &quot; | &amp;qStrParmPairs [&amp;x][2] | &quot;&lt;br&gt;&quot;);
+         End-If;
       End-For;
    End-If;
    
@@ -747,96 +769,248 @@ method initialize
       &amp;x = &amp;x + 1;
    End-While;
    
-   &amp;ConfigRowSet = CreateRowset(&amp;tmpRec);
-   &amp;ConfigRowSet.Fill(&quot;WHERE &quot; | &amp;ConfigKeyFieldName | &quot;=:1&quot;, %This.ConfigKeyName);
+   &amp;ConfigRowSet = CreateRowset(@(&quot;Record.&quot; | &amp;CONFIGRECORDNAME));
+   &amp;ConfigRowSet.Fill(&quot;WHERE &quot; | &amp;ConfigKeyFieldName | &quot;=:1&quot;, %This.ConfigRecKeyValue);
+   If All(&amp;ConfigRowSet(1).GetRecord(1).GetField(1).Value) Then
+      &amp;ConfigRowSetIsEmpty = False;
+   Else
+      &amp;ConfigRowSetIsEmpty = True;
+   End-If;
+   /* debug */
+   
+   For &amp;x = 1 To &amp;ConfigRowSet(1).GetRecord(1).FieldCount
+      %Response.Write(&quot;&lt;br&gt;&quot; | &amp;ConfigRowSet(1).GetRecord(1).GetField(&amp;x).Name | &quot; = &quot; | &amp;ConfigRowSet(1).GetRecord(1).GetField(&amp;x).Value);
+   End-For;
    
 end-method;
 
-method addFieldAttributeToNode
+method addFieldAttributesToNode
    /+ &amp;parmNode as XmlNode +/
    
    Local array of Row &amp;ConfigRow = CreateArrayRept(%This.ConfigRowSet.GetRow(1), 0);
-   Local string &amp;strFieldName = &amp;parmNode.GetAttributeValue(&quot;name&quot;);
+   Local string &amp;strFieldName;
    Local number &amp;x;
    
-   If All(%This.ConfigRowSet.GetRow(1).GetRecord(1).GetField(1).Value) Then
+   &amp;strFieldName = &amp;parmNode.GetAttributeValue(&quot;name&quot;);
+   If None(&amp;strFieldName) Then
+      Return;
+   End-If;
+   
+   /* check if strFieldName is an actual field on configrow record */
+   Local Rowset &amp;tmpRS = CreateRowset(Record.PSRECFIELD);
+   &amp;tmpRS.Fill(&quot;WHERE RECNAME = :1&quot;, &amp;ConfigRecKeyValue);
+   &amp;x = 1;
+   While &amp;x &lt; &amp;tmpRS.ActiveRowCount + 1
+      If &amp;tmpRS(&amp;x).GetRecord(1).GetField(Field.FIELDNAME).Value = &amp;strFieldName Then
+         rem %Response.WriteLine(&quot;&lt;BR&gt;&lt;BR&gt;PASSED!&quot; | &quot; &quot; | &amp;x);
+         Break;
+      Else
+         If &amp;x = &amp;tmpRS.ActiveRowCount Then
+            Return;
+         End-If;
+      End-If;
+      &amp;x = &amp;x + 1;
+   End-While;
+   
+   If Not %This.ConfigRowSetIsEmpty Then
+      
+      /* collect all rows that have this fieldname */
       For &amp;x = 1 To %This.ConfigRowSet.ActiveRowCount
-         If %This.ConfigRowSet.GetRow(&amp;x).GetRecord(1).GetField(&amp;FIELDNAME).Value = &amp;strFieldName Then
-            &amp;ConfigRow.Push(&amp;ConfigRowSet(&amp;x));
+         If %This.ConfigRowSet.GetRow(&amp;x).GetRecord(1).GetField(@(&quot;Field.&quot; | &amp;FIELDNAME)).Value = &amp;strFieldName Then
+            &amp;ConfigRow.Push(&amp;ConfigRowSet(&amp;x)); /* gather all rows into array, assumes first row will be blank key/qstrparm value */
          End-If;
       End-For;
+      rem %Response.Write(&quot;&lt;br&gt; config row count = &quot; | &amp;ConfigRow.Len); /* debug */
       
-      /* compare selected config rows to blank/query string keys */
-      Evaluate &amp;ConfigRow.Len
-      When 0
-         /* do nothing to xmlnode */
-      When 1
-         If None(&amp;ConfigRow [1].GetRecord(1).GetField(&amp;CONFIGKEY1).Value) Then
-            /* apply attr to node */
-         Else
-            /* match qstrparms to keys of config record */
-         End-If;
-      When-Other
-         If None(&amp;ConfigRow [1].GetRecord(1).GetField(&amp;CONFIGKEY1).Value) Then
-            /* apply attr to node */
-         Else
-            For &amp;x = 1 To &amp;ConfigRow.Len
-               /* match qstrparms to keys of config record */
-               If %This.compareQStrKeys(&amp;ConfigRow [&amp;x].GetRecord(1).GetField(&amp;CONFIGKEY1).Value) Then
-                  
-               End-If;
-            End-For;
-         End-If;
-      End-Evaluate;
+      For &amp;x = 1 To &amp;ConfigRow.Len
+         If None(&amp;ConfigRow [1].GetRecord(1).GetField(@(&quot;Field.&quot; | &amp;CONFIGKEY1)).Value) Or /* key is empty */
+               %This.comparePairs(&amp;ConfigRow [1].GetRecord(1).GetField(@(&quot;Field.&quot; | &amp;CONFIGKEY1)).Value) Then /* key(s) matches query string parameters */
+            %This.addNameValuePairToNode(&amp;parmNode, %This.translateUseEditPairs(&amp;ConfigRow [1].GetRecord(1).GetField(@(&quot;Field.&quot; | &amp;USEEDIT)).Value));
+         End-If
+      End-For;
       
    End-If;
-   /* finally add attr to node xml */
-   rem   &amp;parmNode.AddAttribute(&quot;config-required&quot;, &quot; &quot;);
+   
 end-method;
 
-method compareQStrKeys
-   /+ &amp;qstrparms as String +/
+/* string parmeter is broken down to name value pair(s) and then compared
+ to query string parameter pair(s) (collected earlier) and check if matches */
+method comparePairs
+   /+ &amp;kvalpairStr as String +/
    /+ Returns Boolean +/
-   
-   &amp;keyValue = CreateArrayRept(&quot;&quot;, 2);
-   &amp;keyValuePairs = CreateArrayRept(&amp;keyValue, 0);
-   
-   /* break string into key value pairs */
-   %This.getNameValuePair(&amp;qstrparms);
-   
-   Local number &amp;x, &amp;y, &amp;match;
-   &amp;match = 0;
-   For &amp;x = 1 To &amp;keyValuePairs.Len
-      For &amp;y = 1 To &amp;qStrParmPairs.Len
-         If &amp;qStrParmPairs [&amp;y][1] = &amp;keyValuePairs [&amp;x][1] And
-               &amp;qStrParmPairs [&amp;y][2] = &amp;keyValuePairs [&amp;x][2] Then
-            &amp;match = 1 + &amp;match;
-         End-If;
+   If None(&amp;kvalpairStr) Then
+      Return False;
+   Else
+      /* parse string into key value pairs */
+      &amp;keyValue = CreateArrayRept(&quot;&quot;, 2);
+      &amp;keyValuePairs = CreateArrayRept(&amp;keyValue, 0);
+      %This.parseNameValuePair(&amp;kvalpairStr);
+      
+      Local number &amp;x, &amp;y, &amp;match;
+      
+      &amp;match = 0;
+      rem   %Response.WriteLine(&quot;&lt;br&gt; &quot; | &amp;keyValuePairs.Len | &quot; &quot; | &amp;qStrParmPairs.Len);
+      For &amp;x = 1 To &amp;keyValuePairs.Len
+         For &amp;y = 1 To &amp;qStrParmPairs.Len
+            rem %Response.WriteLine(&quot;&lt;br&gt;KV: &quot; | &amp;x | &quot; &quot; | &amp;keyValuePairs [&amp;x][1] | &quot; = &quot; | &amp;keyValuePairs [&amp;x][2] | &quot; ############ &quot; | &quot; QStr: &quot; | &amp;y | &quot; &quot; | &amp;qStrParmPairs [&amp;y][1] | &quot; = &quot; | &amp;qStrParmPairs [&amp;y][2] | &quot;&lt;br&gt;&quot;);
+            If &amp;qStrParmPairs [&amp;y][1] = &amp;keyValuePairs [&amp;x][1] And
+                  &amp;qStrParmPairs [&amp;y][2] = &amp;keyValuePairs [&amp;x][2] Then
+               &amp;match = 1 + &amp;match;
+            End-If;
+         End-For;
       End-For;
-   End-For;
-   
-   Return (&amp;qStrParmPairs.Len = &amp;match);
+      rem   %Response.WriteLine(&quot;&lt;br&gt;&quot; | &quot; &quot; | &amp;keyValuePairs.Len | &quot; &quot; | &amp;match | &quot;&lt;br&gt;&quot;);
+      Return (&amp;qStrParmPairs.Len = &amp;match);
+   End-If;
 end-method;
 
-method getNameValuePair
+/* takes string and parses &quot;x=y&quot; value into class array structure */
+method parseNameValuePair
    /+ &amp;queryString as String +/
    
+   /* note that this function assumes that the name/value string format will NOT have duplicate names */
+   
    If Find(&quot;&amp;&quot;, &amp;queryString) &gt; 0 Then
-      %This.getNameValuePair(Substring(&amp;queryString, 1, Find(&quot;&amp;&quot;, &amp;queryString) - 1));
-      
+      If Len(Substring(&amp;queryString, 1, Find(&quot;&amp;&quot;, &amp;queryString) - 1)) &gt; 0 Then
+         %This.parseNameValuePair(Substring(&amp;queryString, 1, Find(&quot;&amp;&quot;, &amp;queryString) - 1));
+      End-If;
       If Len(Substring(&amp;queryString, Find(&quot;&amp;&quot;, &amp;queryString) + 1, Len(&amp;queryString))) &gt; 0 Then
-         %This.getNameValuePair(Substring(&amp;queryString, Find(&quot;&amp;&quot;, &amp;queryString) + 1, Len(&amp;queryString)));
+         %This.parseNameValuePair(Substring(&amp;queryString, Find(&quot;&amp;&quot;, &amp;queryString) + 1, Len(&amp;queryString)));
       End-If;
    Else
-      &amp;keyValue [1] = Substring(&amp;queryString, 1, Find(&quot;=&quot;, &amp;queryString) - 1);
-      &amp;keyValue [2] = Substring(&amp;queryString, Find(&quot;=&quot;, &amp;queryString) + 1, Len(&amp;queryString));
-      &amp;keyValuePairs.Push(&amp;keyValue);
+      If Len(Substring(&amp;queryString, 1, Find(&quot;=&quot;, &amp;queryString) - 1)) &gt; 0 And
+            Len(Substring(&amp;queryString, Find(&quot;=&quot;, &amp;queryString) + 1, Len(&amp;queryString))) &gt; 0 Then
+         
+         Local array of string &amp;kVary = CreateArrayRept(&quot;&quot;, 2);
+         
+         &amp;kVary [1] = Substring(&amp;queryString, 1, Find(&quot;=&quot;, &amp;queryString) - 1);
+         &amp;kVary [2] = Substring(&amp;queryString, Find(&quot;=&quot;, &amp;queryString) + 1, Len(&amp;queryString));
+         rem %Response.WriteLine(&quot; kv1 = &quot; | &amp;kVary [1] | &quot; ################## kv2 = &quot; | &amp;kVary [2] | &quot;&lt;br&gt;&quot;);
+         &amp;keyValuePairs.Push(&amp;kVary);
+         &amp;KVPairsExists = True;
+      End-If;
    End-If;
+   
+end-method;
+
+/* takes in number parm and breaks down bit values
+and translates them to name/value pair (xml attribute=value).
+-stores pair as a 2 item str array
+-then stores (2 item str array) as array item inside container array (array of array)
+*/
+method translateUseEditPairs
+   /+ &amp;num as Number +/
+   /+ Returns Array2 of String +/
+   
+   Local array of string &amp;strAry = CreateArrayRept(&quot;&quot;, 2);
+   Local array of array of string &amp;retAry = CreateArrayRept(&amp;strAry, 0);
+   Local array of number &amp;UseEditAryNums;
+   Local number &amp;x;
+   
+   &amp;UseEditAryNums = %This.calcUseEdit(&amp;num);
+   For &amp;x = 1 To &amp;UseEditAryNums.Len
+      Evaluate &amp;UseEditAryNums [&amp;x]
+      When 1 /* required */
+         &amp;strAry [1] = &quot;required&quot;;
+         &amp;strAry [2] = &quot;&quot;;
+      When 2 /* fill in */
+         &amp;strAry [1] = &quot;&quot;;
+         &amp;strAry [2] = &quot;&quot;;
+      When 4 /* fill in */
+         &amp;strAry [1] = &quot;&quot;;
+         &amp;strAry [2] = &quot;&quot;;
+      When-Other /* fill in */
+         &amp;strAry [1] = &quot;&quot;;
+         &amp;strAry [2] = &quot;&quot;;
+      End-Evaluate;
+      
+      If &amp;strAry [1] &lt;&gt; &quot;&quot; Then
+         &amp;retAry.Push(&amp;strAry);
+      End-If;
+      &amp;strAry [1] = &quot;&quot;;
+      &amp;strAry [2] = &quot;&quot;;
+   End-For;
+   
+   Return &amp;retAry;
+   
+end-method;
+
+/* actual math calculation to break down bit numbers
+stores them into array */
+method calcUseEdit
+   /+ &amp;num as Number +/
+   /+ Returns Array of Number +/
+   Local array of number &amp;retAry = CreateArrayRept(0, 1);
+   Local number &amp;bitValue, &amp;tmpValue;
+   
+   &amp;bitValue = &amp;num;
+   
+   While &amp;bitValue &gt; 0
+      /* get largest base2 number from input */
+      /* set it tmp */
+      &amp;tmpValue = Int(Log10(&amp;bitValue) / Log10(2));
+      
+      /* get remainder from largest base2 number */
+      /* set it bitVal */
+      &amp;bitValue = Int(&amp;bitValue - Exp(&amp;tmpValue * Log10(2) * Ln(10)));
+      
+      If &amp;retAry [1] = 0 Then
+         &amp;retAry [1] = &amp;tmpValue;
+      Else
+         &amp;retAry.Push(&amp;tmpValue);
+      End-If;
+   End-While;
+   
+   
+   Return &amp;retAry;
+   
+end-method;
+
+/* compares string to delivered query string parameters that tools uses */
+method compPToolsQStrVals
+   /+ &amp;strParm as String +/
+   /+ Returns Boolean +/
+   
+   Local array of string &amp;toolsQStr = CreateArrayRept(&quot;&quot;, 0);
+   Local number &amp;x;
+   
+   &amp;toolsQStr.Push(&quot;PortalHostNode&quot;);
+   &amp;toolsQStr.Push(&quot;PortalActualURL&quot;);
+   &amp;toolsQStr.Push(&quot;PortalRegistryName&quot;);
+   &amp;toolsQStr.Push(&quot;PortalKeyStruct&quot;);
+   &amp;toolsQStr.Push(&quot;PortalServletURI&quot;);
+   &amp;toolsQStr.Push(&quot;NoCrumbs&quot;);
+   &amp;toolsQStr.Push(&quot;PortalURI&quot;);
+   &amp;toolsQStr.Push(&quot;PSHome&quot;);
+   &amp;toolsQStr.Push(&quot;Portal&quot;);
+   &amp;toolsQStr.Push(&quot;Node&quot;);
+   &amp;toolsQStr.Push(&quot;ContentType&quot;);
+   &amp;toolsQStr.Push(&quot;ContentID&quot;);
+   &amp;toolsQStr.Push(&quot;ICScriptName&quot;);
+   
+   For &amp;x = 1 To &amp;toolsQStr.Len
+      If &amp;toolsQStr [&amp;x] = &amp;strParm Then
+         Return True;
+      End-If;
+   End-For;
+   
+   Return False;
+end-method;
+
+method addNameValuePairToNode
+   /+ &amp;parmNode as XmlNode, +/
+   /+ &amp;parmAry2 as Array2 of String +/
+   
+   Local number &amp;x;
+   
+   For &amp;x = 1 To &amp;parmAry2.Len
+      &amp;parmNode.AddAttribute(&amp;parmAry2 [&amp;x][1], &amp;parmAry2 [&amp;x][2]);
+   End-For;
    
 end-method;
 
 </peoplecode_text>
-    <peoplecode_blob>/h8AAAQDAgEBAAAAvAIAAAAAAABoHEMASQBCAEUAUgBfAFUASQBfAEYATwBSAE0AUwBrHkMAbwBuAGYAaQBnAFIAZQBjAG8AcgBkAFgATQBMAAwSTwBuAEUAeABlAGMAdQB0AGUAAAAAAAAAAAD/2gkAAAUAAQD/AAAAAAAAAAA0MgAwADEANgAtADAANQAtADAAMwAtADEANAAuADAAMgAuADUAMAAuADQAMAA0ADUAMwAxADQyADAAMQA2AC0AMAA1AC0AMAAzAC0AMQA0AC4AMAAyAC4ANQAwAC4ANAAwADQANQAzADEABlYAUAAxAAAA/1odAAD/AQAAAFoKHkMAbwBuAGYAaQBnAFIAZQBjAG8AcgBkAFgATQBMAGMKHkMAbwBuAGYAaQBnAFIAZQBjAG8AcgBkAFgATQBMAAsBECYATwBiAGoAUABhAHIAbQA1QAxzAHQAcgBpAG4AZwAUFWMKLmEAZABkAEYAaQBlAGwAZABBAHQAdAByAGkAYgB1AHQAZQBUAG8ATgBvAGQAZQALARImAHAAYQByAG0ATgBvAGQAZQA1Cg5YAG0AbABOAG8AZABlABQVT2FiQAxzAHQAcgBpAG4AZwABHCYAQwBvAG4AZgBpAGcASwBlAHkATgBhAG0AZQAVYkAKYQByAHIAYQB5AEAEbwBmAEAKYQByAHIAYQB5AEAEbwBmAEAMcwB0AHIAaQBuAGcAARwmAHEAUwB0AHIAUABhAHIAbQBQAGEAaQByAHMAFWJACmEAcgByAGEAeQBABG8AZgBADHMAdAByAGkAbgBnAAESJgBxAFMAdAByAFAAYQBpAHIAFU9iQAphAHIAcgBhAHkAQARvAGYAQAphAHIAcgBhAHkAQARvAGYAQAxzAHQAcgBpAG4AZwABHCYAawBlAHkAVgBhAGwAdQBlAFAAYQBpAHIAcwAVYkAKYQByAHIAYQB5AEAEbwBmAEAMcwB0AHIAaQBuAGcAARImAGsAZQB5AFYAYQBsAHUAZQAVT2JADmIAbwBvAGwAZQBhAG4AAR4mAFEAUwB0AHIAUABhAHIAbQBFAHgAaQBzAHQAcwAVYgoMUgBvAHcAcwBlAHQAARomAEMAbwBuAGYAaQBnAFIAbwB3AFMAZQB0ABVPYwoUaQBuAGkAdABpAGEAbABpAHoAZQALFBVjCh5jAG8AbQBwAGEAcgBlAFEAUwB0AHIASwBlAHkAcwALARQmAHEAcwB0AHIAcABhAHIAbQBzADVADHMAdAByAGkAbgBnABQ5QA5iAG8AbwBsAGUAYQBuABVjCiBnAGUAdABOAGEAbQBlAFYAYQBsAHUAZQBQAGEAaQByAAsBGCYAcQB1AGUAcgB5AFMAdAByAGkAbgBnADVADHMAdAByAGkAbgBnABQVT1YBIiYAQwBPAE4ARgBJAEcAUgBFAEMATwBSAEQATgBBAE0ARQAGFhpVAEQAXwBDAE8ATgBGAEkARwBfAFQAQgBMABVWARQmAEYASQBFAEwARABOAEEATQBFAAYWEkYASQBFAEwARABOAEEATQBFABVWARYmAEMATwBOAEYASQBHAEsARQBZADEABhYUQwBBAFQARQBHAE8AUgBZAEkARAAVT1sVLU9jQQoeQwBvAG4AZgBpAGcAUgBlAGMAbwByAGQAWABNAEwALW0kJgBPAGIAagBQAGEAcgBtACAAYQBzACAAUwB0AHIAaQBuAGcAEgolAFQAaABpAHMABQoaQwBvAG4AZgBpAGcASwBlAHkATgBhAG0AZQAGARAmAE8AYgBqAFAAYQByAG0AFRIKJQBUAGgAaQBzAAUKFGkAbgBpAHQAaQBhAGwAaQB6AGUACxQVT2QVLU9jQQoUaQBuAGkAdABpAGEAbABpAHoAZQAtTyRCAEIvACoAIABnAGUAdAAgAHEAdQBlAHIAeQAgAHMAdAByAGkAbgBnACAAcABhAHIAYQBtAGUAdABlAHIAcwAgACoALwBEQAxuAHUAbQBiAGUAcgABBCYAeAAVREAKYQByAHIAYQB5AEAEbwBmAEAMcwB0AHIAaQBuAGcAARQmAHQAbQBwAEEAcgB5AFMAdAByABVPAR4mAFEAUwB0AHIAUABhAHIAbQBFAHgAaQBzAHQAcwAGMBUBFCYAdABtAHAAQQByAHkAUwB0AHIABhIQJQBSAGUAcQB1AGUAcwB0AAUKIkcAZQB0AFAAYQByAGEAbQBlAHQAZQByAE4AYQBtAGUAcwALFBUcARQmAHQAbQBwAEEAcgB5AFMAdAByAAUKBkwAZQBuAAlQEgAAAAAAAAAAAAAAAAAAAAAAAB8BHiYAUQBTAHQAcgBQAGEAcgBtAEUAeABpAHMAdABzAAYvFQESJgBxAFMAdAByAFAAYQBpAHIABgoeQwByAGUAYQB0AGUAQQByAHIAYQB5AFIAZQBwAHQACxYAA1ASAAAAAgAAAAAAAAAAAAAAAAAAFBUBHCYAcQBTAHQAcgBQAGEAcgBtAFAAYQBpAHIAcwAGCh5DAHIAZQBhAHQAZQBBAHIAcgBhAHkAUgBlAHAAdAALARImAHEAUwB0AHIAUABhAGkAcgADUBIAAAAAAAAAAAAAAAAAAAAAAAAUFSkBBCYAeAAGUBIAAAABAAAAAAAAAAAAAAAAAAAqARQmAHQAbQBwAEEAcgB5AFMAdAByAAUKBkwAZQBuAC0BEiYAcQBTAHQAcgBQAGEAaQByAExQEgAAAAEAAAAAAAAAAAAAAAAAAE0GARQmAHQAbQBwAEEAcgB5AFMAdAByAEwBBCYAeABNFQESJgBxAFMAdAByAFAAYQBpAHIATFASAAAAAgAAAAAAAAAAAAAAAAAATQYSECUAUgBlAHEAdQBlAHMAdAAFChhHAGUAdABQAGEAcgBhAG0AZQB0AGUAcgALARQmAHQAbQBwAEEAcgB5AFMAdAByAEwBBCYAeABNFBUBHCYAcQBTAHQAcgBQAGEAcgBtAFAAYQBpAHIAcwAFCghQAHUAcwBoAAsBEiYAcQBTAHQAcgBQAGEAaQByABQVLBUaFU8kVABULwAqACAAZwBlAHQAIABmAGkAcgBzAHQAIAByAGUAYwBvAHIAZAAgAGYAaQBlAGwAZAAgAHQAaABhAHQAIABpAHMAIABhACAAawBlAHkAIAAqAC8AREAMcwB0AHIAaQBuAGcAASYmAEMAbwBuAGYAaQBnAEsAZQB5AEYAaQBlAGwAZABOAGEAbQBlAAYWABVECgxSAGUAYwBvAHIAZAABDiYAdABtAHAAUgBlAGMAFU8BBCYAeAAGUBIAAAABAAAAAAAAAAAAAAAAAAAVJQEmJgBDAG8AbgBmAGkAZwBLAGUAeQBGAGkAZQBsAGQATgBhAG0AZQAGFgAtAQ4mAHQAbQBwAFIAZQBjAAYKGEMAcgBlAGEAdABlAFIAZQBjAG8AcgBkAAtHCxYOUgBlAGMAbwByAGQALgAjASImAEMATwBOAEYASQBHAFIARQBDAE8AUgBEAE4AQQBNAEUAFBQVHAEOJgB0AG0AcABSAGUAYwAFChBHAGUAdABGAGkAZQBsAGQACwEEJgB4ABQFCgpJAHMASwBlAHkAHwEmJgBDAG8AbgBmAGkAZwBLAGUAeQBGAGkAZQBsAGQATgBhAG0AZQAGAQ4mAHQAbQBwAFIAZQBjAAUKEEcAZQB0AEYAaQBlAGwAZAALAQQmAHgAFAUKCE4AYQBtAGUAFRoVAQQmAHgABgEEJgB4ABNQEgAAAAEAAAAAAAAAAAAAAAAAABUmFU8BGiYAQwBvAG4AZgBpAGcAUgBvAHcAUwBlAHQABgoYQwByAGUAYQB0AGUAUgBvAHcAcwBlAHQACwEOJgB0AG0AcABSAGUAYwAUFQEaJgBDAG8AbgBmAGkAZwBSAG8AdwBTAGUAdAAFCghGAGkAbABsAAsWDFcASABFAFIARQAgACMBJiYAQwBvAG4AZgBpAGcASwBlAHkARgBpAGUAbABkAE4AYQBtAGUAIxYGPQA6ADEAAxIKJQBUAGgAaQBzAAUKGkMAbwBuAGYAaQBnAEsAZQB5AE4AYQBtAGUAFBVPZBUtT2NBCi5hAGQAZABGAGkAZQBsAGQAQQB0AHQAcgBpAGIAdQB0AGUAVABvAE4AbwBkAGUALW0oJgBwAGEAcgBtAE4AbwBkAGUAIABhAHMAIABYAG0AbABOAG8AZABlAE9EQAphAHIAcgBhAHkAQARvAGYACgZSAG8AdwABFCYAQwBvAG4AZgBpAGcAUgBvAHcABgoeQwByAGUAYQB0AGUAQQByAHIAYQB5AFIAZQBwAHQACxIKJQBUAGgAaQBzAAUKGEMAbwBuAGYAaQBnAFIAbwB3AFMAZQB0AAUKDEcAZQB0AFIAbwB3AAtQEgAAAAEAAAAAAAAAAAAAAAAAABQDUBIAAAAAAAAAAAAAAAAAAAAAAAAUFURADHMAdAByAGkAbgBnAAEaJgBzAHQAcgBGAGkAZQBsAGQATgBhAG0AZQAGARImAHAAYQByAG0ATgBvAGQAZQAFCiJHAGUAdABBAHQAdAByAGkAYgB1AHQAZQBWAGEAbAB1AGUACxYIbgBhAG0AZQAUFURADG4AdQBtAGIAZQByAAEEJgB4ABVPHAoGQQBsAGwACxIKJQBUAGgAaQBzAAUKGEMAbwBuAGYAaQBnAFIAbwB3AFMAZQB0AAUKDEcAZQB0AFIAbwB3AAtQEgAAAAEAAAAAAAAAAAAAAAAAABQFChJHAGUAdABSAGUAYwBvAHIAZAALUBIAAAABAAAAAAAAAAAAAAAAAAAUBQoQRwBlAHQARgBpAGUAbABkAAtQEgAAAAEAAAAAAAAAAAAAAAAAABQFCgpWAGEAbAB1AGUAFB8pAQQmAHgABlASAAAAAQAAAAAAAAAAAAAAAAAAKhIKJQBUAGgAaQBzAAUKGEMAbwBuAGYAaQBnAFIAbwB3AFMAZQB0AAUKHEEAYwB0AGkAdgBlAFIAbwB3AEMAbwB1AG4AdAAtHBIKJQBUAGgAaQBzAAUKGEMAbwBuAGYAaQBnAFIAbwB3AFMAZQB0AAUKDEcAZQB0AFIAbwB3AAsBBCYAeAAUBQoSRwBlAHQAUgBlAGMAbwByAGQAC1ASAAAAAQAAAAAAAAAAAAAAAAAAFAUKEEcAZQB0AEYAaQBlAGwAZAALARQmAEYASQBFAEwARABOAEEATQBFABQFCgpWAGEAbAB1AGUABgEaJgBzAHQAcgBGAGkAZQBsAGQATgBhAG0AZQAfARQmAEMAbwBuAGYAaQBnAFIAbwB3AAUKCFAAdQBzAGgACwEaJgBDAG8AbgBmAGkAZwBSAG8AdwBTAGUAdAALAQQmAHgAFBQVGhUsFU8kegB6LwAqACAAYwBvAG0AcABhAHIAZQAgAHMAZQBsAGUAYwB0AGUAZAAgAGMAbwBuAGYAaQBnACAAcgBvAHcAcwAgAHQAbwAgAGIAbABhAG4AawAvAHEAdQBlAHIAeQAgAHMAdAByAGkAbgBnACAAawBlAHkAcwAgACoALwA8ARQmAEMAbwBuAGYAaQBnAFIAbwB3AAUKBkwAZQBuAD1QEgAAAAAAAAAAAAAAAAAAAAAAAC0kNgA2LwAqACAAZABvACAAbgBvAHQAaABpAG4AZwAgAHQAbwAgAHgAbQBsAG4AbwBkAGUAIAAqAC8APVASAAAAAQAAAAAAAAAAAAAAAAAALRwKCE4AbwBuAGUACwEUJgBDAG8AbgBmAGkAZwBSAG8AdwBMUBIAAAABAAAAAAAAAAAAAAAAAABNBQoSRwBlAHQAUgBlAGMAbwByAGQAC1ASAAAAAQAAAAAAAAAAAAAAAAAAFAUKEEcAZQB0AEYAaQBlAGwAZAALARYmAEMATwBOAEYASQBHAEsARQBZADEAFAUKClYAYQBsAHUAZQAUHyQwADAvACoAIABhAHAAcABsAHkAIABhAHQAdAByACAAdABvACAAbgBvAGQAZQAgACoALwAZJFwAXC8AKgAgAG0AYQB0AGMAaAAgAHEAcwB0AHIAcABhAHIAbQBzACAAdABvACAAawBlAHkAcwAgAG8AZgAgAGMAbwBuAGYAaQBnACAAcgBlAGMAbwByAGQAIAAqAC8AGhU+HAoITgBvAG4AZQALARQmAEMAbwBuAGYAaQBnAFIAbwB3AExQEgAAAAEAAAAAAAAAAAAAAAAAAE0FChJHAGUAdABSAGUAYwBvAHIAZAALUBIAAAABAAAAAAAAAAAAAAAAAAAUBQoQRwBlAHQARgBpAGUAbABkAAsBFiYAQwBPAE4ARgBJAEcASwBFAFkAMQAUBQoKVgBhAGwAdQBlABQfJDAAMC8AKgAgAGEAcABwAGwAeQAgAGEAdAB0AHIAIAB0AG8AIABuAG8AZABlACAAKgAvABkpAQQmAHgABlASAAAAAQAAAAAAAAAAAAAAAAAAKgEUJgBDAG8AbgBmAGkAZwBSAG8AdwAFCgZMAGUAbgAtJFwAXC8AKgAgAG0AYQB0AGMAaAAgAHEAcwB0AHIAcABhAHIAbQBzACAAdABvACAAawBlAHkAcwAgAG8AZgAgAGMAbwBuAGYAaQBnACAAcgBlAGMAbwByAGQAIAAqAC8AHBIKJQBUAGgAaQBzAAUKHmMAbwBtAHAAYQByAGUAUQBTAHQAcgBLAGUAeQBzAAsBFCYAQwBvAG4AZgBpAGcAUgBvAHcATAEEJgB4AE0FChJHAGUAdABSAGUAYwBvAHIAZAALUBIAAAABAAAAAAAAAAAAAAAAAAAUBQoQRwBlAHQARgBpAGUAbABkAAsBFiYAQwBPAE4ARgBJAEcASwBFAFkAMQAUBQoKVgBhAGwAdQBlABQfTxoVLBUaFT8VTxoVJEQARC8AKgAgAGYAaQBuAGEAbABsAHkAIABhAGQAZAAgAGEAdAB0AHIAIAB0AG8AIABuAG8AZABlACAAeABtAGwAIAAqAC8AJGoAanIAZQBtACAAIAAgACYAcABhAHIAbQBOAG8AZABlAC4AQQBkAGQAQQB0AHQAcgBpAGIAdQB0AGUAKAAiAGMAbwBuAGYAaQBnAC0AcgBlAHEAdQBpAHIAZQBkACIALAAgACIAIAAiACkAOwBkFS1PY0EKHmMAbwBtAHAAYQByAGUAUQBTAHQAcgBLAGUAeQBzAC1tKCYAcQBzAHQAcgBwAGEAcgBtAHMAIABhAHMAIABTAHQAcgBpAG4AZwBtHlIAZQB0AHUAcgBuAHMAIABCAG8AbwBsAGUAYQBuAE8BEiYAawBlAHkAVgBhAGwAdQBlAAYKHkMAcgBlAGEAdABlAEEAcgByAGEAeQBSAGUAcAB0AAsWAANQEgAAAAIAAAAAAAAAAAAAAAAAABQVARwmAGsAZQB5AFYAYQBsAHUAZQBQAGEAaQByAHMABgoeQwByAGUAYQB0AGUAQQByAHIAYQB5AFIAZQBwAHQACwESJgBrAGUAeQBWAGEAbAB1AGUAA1ASAAAAAAAAAAAAAAAAAAAAAAAAFBVPJE4ATi8AKgAgAGIAcgBlAGEAawAgAHMAdAByAGkAbgBnACAAaQBuAHQAbwAgAGsAZQB5ACAAdgBhAGwAdQBlACAAcABhAGkAcgBzACAAKgAvABIKJQBUAGgAaQBzAAUKIGcAZQB0AE4AYQBtAGUAVgBhAGwAdQBlAFAAYQBpAHIACwEUJgBxAHMAdAByAHAAYQByAG0AcwAUFU9EQAxuAHUAbQBiAGUAcgABBCYAeAADAQQmAHkAAwEMJgBtAGEAdABjAGgAFQEMJgBtAGEAdABjAGgABlASAAAAAAAAAAAAAAAAAAAAAAAAFSkBBCYAeAAGUBIAAAABAAAAAAAAAAAAAAAAAAAqARwmAGsAZQB5AFYAYQBsAHUAZQBQAGEAaQByAHMABQoGTABlAG4ALSkBBCYAeQAGUBIAAAABAAAAAAAAAAAAAAAAAAAqARwmAHEAUwB0AHIAUABhAHIAbQBQAGEAaQByAHMABQoGTABlAG4ALRwBHCYAcQBTAHQAcgBQAGEAcgBtAFAAYQBpAHIAcwBMAQQmAHkATUxQEgAAAAEAAAAAAAAAAAAAAAAAAE0GARwmAGsAZQB5AFYAYQBsAHUAZQBQAGEAaQByAHMATAEEJgB4AE1MUBIAAAABAAAAAAAAAAAAAAAAAABNQRgBHCYAcQBTAHQAcgBQAGEAcgBtAFAAYQBpAHIAcwBMAQQmAHkATUxQEgAAAAIAAAAAAAAAAAAAAAAAAE0GARwmAGsAZQB5AFYAYQBsAHUAZQBQAGEAaQByAHMATAEEJgB4AE1MUBIAAAACAAAAAAAAAAAAAAAAAABNQh8BDCYAbQBhAHQAYwBoAAZQEgAAAAEAAAAAAAAAAAAAAAAAABMBDCYAbQBhAHQAYwBoABUaFSwVLBVPOAsBHCYAcQBTAHQAcgBQAGEAcgBtAFAAYQBpAHIAcwAFCgZMAGUAbgAGAQwmAG0AYQB0AGMAaAAUFWQVLU9jQQogZwBlAHQATgBhAG0AZQBWAGEAbAB1AGUAUABhAGkAcgAtbSwmAHEAdQBlAHIAeQBTAHQAcgBpAG4AZwAgAGEAcwAgAFMAdAByAGkAbgBnAE8cCghGAGkAbgBkAAsWAiYAAwEYJgBxAHUAZQByAHkAUwB0AHIAaQBuAGcAFAlQEgAAAAAAAAAAAAAAAAAAAAAAAB8SCiUAVABoAGkAcwAFCiBnAGUAdABOAGEAbQBlAFYAYQBsAHUAZQBQAGEAaQByAAsKElMAdQBiAHMAdAByAGkAbgBnAAsBGCYAcQB1AGUAcgB5AFMAdAByAGkAbgBnAANQEgAAAAEAAAAAAAAAAAAAAAAAAAMKCEYAaQBuAGQACxYCJgADARgmAHEAdQBlAHIAeQBTAHQAcgBpAG4AZwAUDlASAAAAAQAAAAAAAAAAAAAAAAAAFBQVTxwKBkwAZQBuAAsKElMAdQBiAHMAdAByAGkAbgBnAAsBGCYAcQB1AGUAcgB5AFMAdAByAGkAbgBnAAMKCEYAaQBuAGQACxYCJgADARgmAHEAdQBlAHIAeQBTAHQAcgBpAG4AZwAUE1ASAAAAAQAAAAAAAAAAAAAAAAAAAwoGTABlAG4ACwEYJgBxAHUAZQByAHkAUwB0AHIAaQBuAGcAFBQUCVASAAAAAAAAAAAAAAAAAAAAAAAAHxIKJQBUAGgAaQBzAAUKIGcAZQB0AE4AYQBtAGUAVgBhAGwAdQBlAFAAYQBpAHIACwoSUwB1AGIAcwB0AHIAaQBuAGcACwEYJgBxAHUAZQByAHkAUwB0AHIAaQBuAGcAAwoIRgBpAG4AZAALFgImAAMBGCYAcQB1AGUAcgB5AFMAdAByAGkAbgBnABQTUBIAAAABAAAAAAAAAAAAAAAAAAADCgZMAGUAbgALARgmAHEAdQBlAHIAeQBTAHQAcgBpAG4AZwAUFBQVGhUZARImAGsAZQB5AFYAYQBsAHUAZQBMUBIAAAABAAAAAAAAAAAAAAAAAABNBgoSUwB1AGIAcwB0AHIAaQBuAGcACwEYJgBxAHUAZQByAHkAUwB0AHIAaQBuAGcAA1ASAAAAAQAAAAAAAAAAAAAAAAAAAwoIRgBpAG4AZAALFgI9AAMBGCYAcQB1AGUAcgB5AFMAdAByAGkAbgBnABQOUBIAAAABAAAAAAAAAAAAAAAAAAAUFQESJgBrAGUAeQBWAGEAbAB1AGUATFASAAAAAgAAAAAAAAAAAAAAAAAATQYKElMAdQBiAHMAdAByAGkAbgBnAAsBGCYAcQB1AGUAcgB5AFMAdAByAGkAbgBnAAMKCEYAaQBuAGQACxYCPQADARgmAHEAdQBlAHIAeQBTAHQAcgBpAG4AZwAUE1ASAAAAAQAAAAAAAAAAAAAAAAAAAwoGTABlAG4ACwEYJgBxAHUAZQByAHkAUwB0AHIAaQBuAGcAFBQVARwmAGsAZQB5AFYAYQBsAHUAZQBQAGEAaQByAHMABQoIUAB1AHMAaAALARImAGsAZQB5AFYAYQBsAHUAZQAUFRoVT2QVLQf/lgEAAA3/AQAAAAD/AABAAAc8QwBJAEIARQBSAF8AVQBJAF8ARgBPAFIATQBTADoAQwBvAG4AZgBpAGcAUgBlAGMAbwByAGQAWABNAEwAAP8EAAsA/wEAEAAQawBlAHkAVgBhAGwAdQBlAAD/BQALAAUcUQBTAHQAcgBQAGEAcgBtAEUAeABpAHMAdABzAAD/AgALAP8BABAAEHEAUwB0AHIAUABhAGkAcgAA/wEACwD/AQAgABpxAFMAdAByAFAAYQByAG0AUABhAGkAcgBzAAD/AAALAAEaQwBvAG4AZgBpAGcASwBlAHkATgBhAG0AZQAA/wYACwD/BwAIABhDAG8AbgBmAGkAZwBSAG8AdwBTAGUAdAAA/wMACwD/AQAgABprAGUAeQBWAGEAbAB1AGUAUABhAGkAcgBzAAABBx5DAG8AbgBmAGkAZwBSAGUAYwBvAHIAZABYAE0ATAAE/wAAAQAHFGkAbgBpAHQAaQBhAGwAaQB6AGUAAgEHLmEAZABkAEYAaQBlAGwAZABBAHQAdAByAGkAYgB1AHQAZQBUAG8ATgBvAGQAZQAF/wEAAQAFHmMAbwBtAHAAYQByAGUAUQBTAHQAcgBLAGUAeQBzAAf/AQABAAcgZwBlAHQATgBhAG0AZQBWAGEAbAB1AGUAUABhAGkAcgAJ/wEAAAABB/8iAAgABwcBBwEHhQAADlAAQQBDAEsAQQBHAEUADlgATQBMAE4ATwBEAEUADlAAQQBDAEsAQQBHAEUADFIATwBXAFMARQBUAA5QAEEAQwBLAEEARwBFAAxSAEUAQwBPAFIARAAOUABBAEMASwBBAEcARQAGUgBPAFcA</peoplecode_blob>
+    <peoplecode_blob>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</peoplecode_blob>
   </instance>
   <instance class="PCM">
     <rowset name="PcmProg" size="2240" count="1">
@@ -1149,4 +1323,543 @@ end-method;
 
 </peoplecode_text>
     <peoplecode_blob>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</peoplecode_blob>
+  </instance>
+  <instance class="PCM">
+    <rowset name="PcmProg" size="2240" count="1">
+      <row>
+        <szLastUpdDttm>2016-04-06-05.40.57.301317</szLastUpdDttm>
+        <szLastUpdOprId>VP1</szLastUpdOprId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>2339</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <eObjectID_0>104</eObjectID_0>
+        <szObjectValue_0>CIBER_UI_FORMS</szObjectValue_0>
+        <eObjectID_1>107</eObjectID_1>
+        <szObjectValue_1>JSONForm</szObjectValue_1>
+        <eObjectID_2>12</eObjectID_2>
+        <szObjectValue_2>OnExecute</szObjectValue_2>
+        <eObjectID_3>0</eObjectID_3>
+        <szObjectValue_3></szObjectValue_3>
+        <eObjectID_4>0</eObjectID_4>
+        <szObjectValue_4></szObjectValue_4>
+        <eObjectID_5>0</eObjectID_5>
+        <szObjectValue_5></szObjectValue_5>
+        <eObjectID_6>0</eObjectID_6>
+        <szObjectValue_6></szObjectValue_6>
+        <nNameCount>1</nNameCount>
+        <lpProgSource> POINTER
+          <rowset name="PcmProgSource" size="64" count="1">
+            <row>
+              <lSourceLen>1118</lSourceLen>
+              <lpSource>custom field</lpSource>
+              <lEntryNamesLen>166</lEntryNamesLen>
+              <nEntry>6</nEntry>
+              <lpEntryTab>custom field</lpEntryTab>
+              <nParams>8</nParams>
+              <lpParams>custom field</lpParams>
+              <nPCVersion>133</nPCVersion>
+            </row>
+          </rowset>
+        </lpProgSource>
+        <nProgSource>1</nProgSource>
+        <lpPnt> POINTER
+          <rowset name="PcmPnt" size="412" count="1">
+            <row>
+              <szRecName></szRecName>
+              <szFieldName></szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+          </rowset>
+        </lpPnt>
+        <lpProgCode>custom field</lpProgCode>
+        <nProgCode>0</nProgCode>
+        <eRunLocation>0</eRunLocation>
+        <szLicenseCode></szLicenseCode>
+        <lpHashTable>POINTER</lpHashTable>
+        <eProgFlag>0</eProgFlag>
+        <szExtendsClass></szExtendsClass>
+        <szCompiledRelease></szCompiledRelease>
+      </row>
+    </rowset>
+    <peoplecode_text>class JSONForm
+   method JSONForm(&amp;recName As string);
+   method ApplyJsonToRecord(&amp;JSONStr As string);
+   
+private
+   instance string &amp;RecordName;
+   
+   method verifyREC(&amp;recName As string) Returns boolean;
+   method verifyJSON(&amp;JSONStr As string);
+end-class;
+
+method JSONForm
+   /+ &amp;recName as String +/
+   If %This.verifyREC(&amp;recName) Then
+      &amp;RecordName = &amp;recName;
+   Else
+      throw CreateException(0, 0, &quot;Record is not found&quot;);
+   End-If;
+end-method;
+
+method ApplyJsonToRecord
+   /+ &amp;JSONStr as String +/
+   
+end-method;
+
+method verifyREC
+   /+ &amp;recName as String +/
+   /+ Returns Boolean +/
+   Local number &amp;ret = 0;
+   
+   SQLExec(&quot;SELECT 1 FROM PSRECDEFN WHERE RECNAME = :1&quot;, &amp;recName, &amp;ret);
+   
+   If &amp;ret = 1 Then
+      Return True;
+   Else
+      Return False;
+   End-If;
+end-method;
+
+method verifyJSON
+   /+ &amp;JSONStr as String +/
+   
+end-method;
+
+</peoplecode_text>
+    <peoplecode_blob>BAYAAAQDAgEBAAAAvAIAAAAAAABoHEMASQBCAEUAUgBfAFUASQBfAEYATwBSAE0AUwBrEEoAUwBPAE4ARgBvAHIAbQAMEk8AbgBFAHgAZQBjAHUAdABlAAAAAAAAAAAA/yMJAAABAAEA/wAAAAAAAAAANDIAMAAxADYALQAwADQALQAwADYALQAwADUALgA0ADAALgA1ADcALgAzADAAMQAzADEANwA0MgAwADEANgAtADAANAAtADAANgAtADAANQAuADQAMAAuADUANwAuADMAMAAxADMAMQA3AAZWAFAAMQAAAP9eBAAA/wEAAABaChBKAFMATwBOAEYAbwByAG0AYwoQSgBTAE8ATgBGAG8AcgBtAAsBECYAcgBlAGMATgBhAG0AZQA1QAxzAHQAcgBpAG4AZwAUFWMKIkEAcABwAGwAeQBKAHMAbwBuAFQAbwBSAGUAYwBvAHIAZAALARAmAEoAUwBPAE4AUwB0AHIANUAMcwB0AHIAaQBuAGcAFBVPYWJADHMAdAByAGkAbgBnAAEWJgBSAGUAYwBvAHIAZABOAGEAbQBlABVPYwoSdgBlAHIAaQBmAHkAUgBFAEMACwEQJgByAGUAYwBOAGEAbQBlADVADHMAdAByAGkAbgBnABQ5QA5iAG8AbwBsAGUAYQBuABVjChR2AGUAcgBpAGYAeQBKAFMATwBOAAsBECYASgBTAE8ATgBTAHQAcgA1QAxzAHQAcgBpAG4AZwAUFVsVLU9jQQoQSgBTAE8ATgBGAG8AcgBtAC1tJCYAcgBlAGMATgBhAG0AZQAgAGEAcwAgAFMAdAByAGkAbgBnABwSCiUAVABoAGkAcwAFChJ2AGUAcgBpAGYAeQBSAEUAQwALARAmAHIAZQBjAE4AYQBtAGUAFB8BFiYAUgBlAGMAbwByAGQATgBhAG0AZQAGARAmAHIAZQBjAE4AYQBtAGUAFRloCh5DAHIAZQBhAHQAZQBFAHgAYwBlAHAAdABpAG8AbgALUBIAAAAAAAAAAAAAAAAAAAAAAAADUBIAAAAAAAAAAAAAAAAAAAAAAAADFiZSAGUAYwBvAHIAZAAgAGkAcwAgAG4AbwB0ACAAZgBvAHUAbgBkABQVGhVkFS1PY0EKIkEAcABwAGwAeQBKAHMAbwBuAFQAbwBSAGUAYwBvAHIAZAAtbSQmAEoAUwBPAE4AUwB0AHIAIABhAHMAIABTAHQAcgBpAG4AZwBPZBUtT2NBChJ2AGUAcgBpAGYAeQBSAEUAQwAtbSQmAHIAZQBjAE4AYQBtAGUAIABhAHMAIABTAHQAcgBpAG4AZwBtHlIAZQB0AHUAcgBuAHMAIABCAG8AbwBsAGUAYQBuAERADG4AdQBtAGIAZQByAAEIJgByAGUAdAAGUBIAAAAAAAAAAAAAAAAAAAAAAAAVTwoOUwBRAEwARQB4AGUAYwALFlRTAEUATABFAEMAVAAgADEAIABGAFIATwBNACAAUABTAFIARQBDAEQARQBGAE4AIABXAEgARQBSAEUAIABSAEUAQwBOAEEATQBFACAAPQAgADoAMQADARAmAHIAZQBjAE4AYQBtAGUAAwEIJgByAGUAdAAUFU8cAQgmAHIAZQB0AAZQEgAAAAEAAAAAAAAAAAAAAAAAAB84LxUZODAVGhVkFS1PY0EKFHYAZQByAGkAZgB5AEoAUwBPAE4ALW0kJgBKAFMATwBOAFMAdAByACAAYQBzACAAUwB0AHIAaQBuAGcAT2QVLQemBv8BAAAAAP8AAEAABy5DAEkAQgBFAFIAXwBVAEkAXwBGAE8AUgBNAFMAOgBKAFMATwBOAEYAbwByAG0AAP8AAAsAARRSAGUAYwBvAHIAZABOAGEAbQBlAAABBxBKAFMATwBOAEYAbwByAG0AAgEHIkEAcABwAGwAeQBKAHMAbwBuAFQAbwBSAGUAYwBvAHIAZAAE/wEAAQAFEnYAZQByAGkAZgB5AFIARQBDAAb/AQABAAcUdgBlAHIAaQBmAHkASgBTAE8ATgAI/wEAAAABBwEHAQcBB4UAAA==</peoplecode_blob>
+  </instance>
+  <instance class="PCM">
+    <rowset name="PcmProg" size="2240" count="1">
+      <row>
+        <szLastUpdDttm>2016-03-24-11.20.08.212992</szLastUpdDttm>
+        <szLastUpdOprId>VP1</szLastUpdOprId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>2301</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <eObjectID_0>104</eObjectID_0>
+        <szObjectValue_0>CIBER_UI_FORMS</szObjectValue_0>
+        <eObjectID_1>107</eObjectID_1>
+        <szObjectValue_1>RecordXML</szObjectValue_1>
+        <eObjectID_2>12</eObjectID_2>
+        <szObjectValue_2>OnExecute</szObjectValue_2>
+        <eObjectID_3>0</eObjectID_3>
+        <szObjectValue_3></szObjectValue_3>
+        <eObjectID_4>0</eObjectID_4>
+        <szObjectValue_4></szObjectValue_4>
+        <eObjectID_5>0</eObjectID_5>
+        <szObjectValue_5></szObjectValue_5>
+        <eObjectID_6>0</eObjectID_6>
+        <szObjectValue_6></szObjectValue_6>
+        <nNameCount>19</nNameCount>
+        <lpProgSource> POINTER
+          <rowset name="PcmProgSource" size="64" count="1">
+            <row>
+              <lSourceLen>15192</lSourceLen>
+              <lpSource>custom field</lpSource>
+              <lEntryNamesLen>460</lEntryNamesLen>
+              <nEntry>13</nEntry>
+              <lpEntryTab>custom field</lpEntryTab>
+              <nParams>16</nParams>
+              <lpParams>custom field</lpParams>
+              <nPCVersion>133</nPCVersion>
+            </row>
+          </rowset>
+        </lpProgSource>
+        <nProgSource>1</nProgSource>
+        <lpPnt> POINTER
+          <rowset name="PcmPnt" size="7828" count="19">
+            <row>
+              <szRecName></szRecName>
+              <szFieldName></szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>XMLDOC</szFieldName>
+              <szPackageRoot>XmlDoc</szPackageRoot>
+              <szQualifyPath>XmlDoc</szQualifyPath>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>XMLNODE</szFieldName>
+              <szPackageRoot>XmlNode</szPackageRoot>
+              <szQualifyPath>XmlNode</szQualifyPath>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>RECORD</szFieldName>
+              <szPackageRoot>Record</szPackageRoot>
+              <szQualifyPath>Record</szQualifyPath>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>FIELD</szFieldName>
+              <szPackageRoot>Field</szPackageRoot>
+              <szQualifyPath>Field</szQualifyPath>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>ROWSET</szFieldName>
+              <szPackageRoot>Rowset</szPackageRoot>
+              <szQualifyPath>Rowset</szQualifyPath>
+            </row>
+            <row>
+              <szRecName>RECORD</szRecName>
+              <szFieldName>PSKEYDEFN</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>PSKEYDEFN</szRecName>
+              <szFieldName>KEYPOSN</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>FIELD</szRecName>
+              <szFieldName>FIELDNAME</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>RECORD</szRecName>
+              <szFieldName>PSRECFIELD</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>FIELD</szRecName>
+              <szFieldName>USEEDIT</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>FIELD</szRecName>
+              <szFieldName>DEFFIELDNAME</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>RECORD</szRecName>
+              <szFieldName>PSDBFIELD</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>FIELD</szRecName>
+              <szFieldName>FIELDTYPE</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>FIELD</szRecName>
+              <szFieldName>LENGTH</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>RECORD</szRecName>
+              <szFieldName>PSXLATITEM</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>FIELD</szRecName>
+              <szFieldName>XLATLONGNAME</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>FIELD</szRecName>
+              <szFieldName>XLATSHORTNAME</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>FIELD</szRecName>
+              <szFieldName>FIELDVALUE</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+          </rowset>
+        </lpPnt>
+        <lpProgCode>custom field</lpProgCode>
+        <nProgCode>0</nProgCode>
+        <eRunLocation>0</eRunLocation>
+        <szLicenseCode></szLicenseCode>
+        <lpHashTable>POINTER</lpHashTable>
+        <eProgFlag>0</eProgFlag>
+        <szExtendsClass></szExtendsClass>
+        <szCompiledRelease></szCompiledRelease>
+      </row>
+    </rowset>
+    <peoplecode_text>class RecordXML
+   method RecordXML(&amp;recName As string);
+   method GetXMLDoc() Returns XmlDoc;
+   method setRecordKeyValues(&amp;values As array of string);
+   
+   
+private
+   instance string &amp;RecordName;
+   instance array of string &amp;KeyFieldNames, &amp;KeyFieldValues;
+   
+   method initRecordKeyFields();
+   method getWhereClause() Returns string;
+   method calcUSEEDIT(&amp;parmFieldName As string) Returns array of number;
+   method addDefaultValueAsAttribute(&amp;parmNode As XmlNode);
+   method addFieldAttributeToNode(&amp;parmNode As XmlNode, &amp;parmBitArry As array of number);
+   method addFieldTypeAndLengthToNode(&amp;parmNode As XmlNode);
+   
+end-class;
+
+method RecordXML
+   /+ &amp;recName as String +/
+   &amp;RecordName = &amp;recName;
+   
+   /* need to make sure record name is verified, then call next method */
+   %This.initRecordKeyFields();
+   
+end-method;
+
+method setRecordKeyValues
+   /+ &amp;values as Array of String +/
+   Local number &amp;x;
+   If &amp;values.Len &lt;= &amp;KeyFieldValues.Len Then
+      For &amp;x = 1 To &amp;values.Len
+         &amp;KeyFieldValues [&amp;x] = &amp;values [&amp;x];
+      End-For;
+   Else
+      /* throw exception about too many values for keys */
+   End-If;
+   
+end-method;
+
+method GetXMLDoc
+   /+ Returns XmlDoc +/
+   Local number &amp;x, &amp;y;
+   Local XmlDoc &amp;retXMLDoc = CreateXmlDoc(&quot;&lt;?xml version='1.0' encoding='UTF-8' standalone='yes'?&gt;&lt;psrecordxml/&gt;&quot;);
+   Local XmlNode &amp;baseNode, &amp;thatNode, &amp;thisNode, &amp;recNode, &amp;fieldsNode, &amp;fieldNode;
+   Local Record &amp;thisRecord = CreateRecord(@(&quot;RECORD.&quot; | &amp;RecordName));
+   Local Field &amp;thisField;
+   Local Rowset &amp;thisRowSet;
+   
+   &amp;thisRowSet = CreateRowset(@(&quot;RECORD.&quot; | &amp;RecordName));
+   &amp;thisRowSet.Fill(%This.getWhereClause());
+   
+   &amp;baseNode = &amp;retXMLDoc.DocumentElement;
+   &amp;thatNode = &amp;baseNode.AddElement(&quot;psrecordxmlproperties&quot;);
+   &amp;thisNode = &amp;thatNode.AddElement(&quot;recordname&quot;);
+   &amp;thisNode.NodeValue = &amp;RecordName;
+   &amp;thisNode = &amp;thatNode.AddElement(&quot;fieldcount&quot;);
+   &amp;thisNode.NodeValue = String(&amp;thisRecord.FieldCount);
+   
+   &amp;thatNode = &amp;baseNode.AddElement(&quot;psrecordrows&quot;);
+   &amp;thatNode.AddAttribute(&quot;count&quot;, String(&amp;thisRowSet.ActiveRowCount));
+   
+   For &amp;x = 1 To &amp;thisRowSet.ActiveRowCount
+      &amp;recNode = &amp;thatNode.AddElement(&quot;psrecord&quot;);
+      &amp;recNode.AddAttribute(&quot;rownumber&quot;, String(&amp;x));
+      &amp;fieldsNode = &amp;recNode.AddElement(&quot;psrecordfields&quot;);
+      For &amp;y = 1 To &amp;thisRecord.FieldCount
+         &amp;fieldNode = &amp;fieldsNode.AddElement(&quot;field&quot;);
+         &amp;fieldNode.AddAttribute(&quot;name&quot;, &amp;thisRecord.GetField(&amp;y).Name);
+         &amp;fieldNode.AddAttribute(&quot;field_number&quot;, String(&amp;y));
+         &amp;fieldNode.AddAttribute(&quot;long_label&quot;, &amp;thisRecord.GetField(&amp;y).GetLongLabel(&amp;thisRecord.GetField(&amp;y).Name));
+         &amp;fieldNode.AddAttribute(&quot;short_label&quot;, &amp;thisRecord.GetField(&amp;y).GetShortLabel(&amp;thisRecord.GetField(&amp;y).Name));
+         %This.addFieldTypeAndLengthToNode(&amp;fieldNode);
+         %This.addDefaultValueAsAttribute(&amp;fieldNode);
+         %This.addFieldAttributeToNode(&amp;fieldNode, %This.calcUSEEDIT(&amp;thisRecord.GetField(&amp;y).Name));
+         
+         If &amp;x = 1 Then
+            If &amp;thisRowSet.GetRow(&amp;x).GetRecord(1).GetField(1).Value &lt;&gt; &quot;&quot; Then
+               &amp;fieldNode.AddAttribute(&quot;value&quot;, &amp;thisRowSet.GetRow(&amp;x).GetRecord(1).GetField(&amp;y).Value);
+            End-If;
+         Else
+            &amp;fieldNode.AddAttribute(&quot;value&quot;, &amp;thisRowSet.GetRow(&amp;x).GetRecord(1).GetField(&amp;y).Value);
+         End-If;
+         
+      End-For
+   End-For;
+   
+   Return &amp;retXMLDoc;
+end-method;
+
+method initRecordKeyFields
+   
+   Local Rowset &amp;pskeydefnRS = CreateRowset(Record.PSKEYDEFN);
+   Local number &amp;x;
+   
+   &amp;pskeydefnRS.Fill(&quot;WHERE RECNAME=:1 AND INDEXID=:2&quot;, &amp;RecordName, &quot;_&quot;);
+   
+   &amp;pskeydefnRS.Sort(PSKEYDEFN.KEYPOSN, &quot;A&quot;);
+   &amp;KeyFieldNames = CreateArrayRept(&quot;&quot;, &amp;pskeydefnRS.ActiveRowCount);
+   &amp;KeyFieldValues = CreateArrayRept(&quot;&quot;, &amp;pskeydefnRS.ActiveRowCount);
+   
+   For &amp;x = 1 To &amp;pskeydefnRS.ActiveRowCount
+      &amp;KeyFieldNames [&amp;x] = &amp;pskeydefnRS.GetRow(&amp;x).GetRecord(1).GetField(Field.FIELDNAME).Value;
+   End-For;
+   
+end-method;
+
+method getWhereClause
+   /+ Returns String +/
+   Local string &amp;retStr = &quot;WHERE &quot;;
+   Local number &amp;x;
+   
+   For &amp;x = 1 To &amp;KeyFieldValues.Len
+      If Not None(&amp;KeyFieldValues [&amp;x]) Then
+         If &amp;retStr = &quot;WHERE &quot; Then
+            &amp;retStr = &amp;retStr | &amp;KeyFieldNames [&amp;x] | &quot;='&quot; | &amp;KeyFieldValues [&amp;x] | &quot;' &quot;;
+         Else
+            &amp;retStr = &amp;retStr | &quot;AND &quot; | &amp;KeyFieldNames [&amp;x] | &quot;='&quot; | &amp;KeyFieldValues [&amp;x] | &quot;' &quot;;
+         End-If;
+      End-If;
+   End-For;
+   
+   Return &amp;retStr;
+end-method;
+
+method calcUSEEDIT
+   /+ &amp;parmFieldName as String +/
+   /+ Returns Array of Number +/
+   Local number &amp;bitValue, &amp;tmpValue, &amp;x, &amp;y;
+   Local array of number &amp;bitNumbers = CreateArrayRept(0, 1);
+   Local Rowset &amp;tmpRS = CreateRowset(Record.PSRECFIELD);
+   &amp;tmpRS.Fill(&quot;WHERE RECNAME = :1 AND FIELDNAME = :2&quot;, &amp;RecordName, &amp;parmFieldName);
+   &amp;bitValue = &amp;tmpRS.GetRow(1).GetRecord(1).GetField(Field.USEEDIT).Value;
+   
+   While &amp;bitValue &gt; 0
+      /* get largest base2 number from input */
+      /* set it tmp */
+      &amp;tmpValue = Int(Log10(&amp;bitValue) / Log10(2));
+      
+      /* get remainder from largest base2 number */
+      /* set it bitVal */
+      &amp;bitValue = Int(&amp;bitValue - Exp(&amp;tmpValue * Log10(2) * Ln(10)));
+      
+      
+      If &amp;bitNumbers [1] = 0 Then
+         &amp;bitNumbers [1] = &amp;tmpValue;
+      Else
+         &amp;bitNumbers.Push(&amp;tmpValue);
+      End-If;
+   End-While;
+   
+   Return &amp;bitNumbers;
+end-method;
+
+method addDefaultValueAsAttribute
+   /+ &amp;parmNode as XmlNode +/
+   Local string &amp;tmpStr;
+   Local Rowset &amp;tmpRS, &amp;MainRS;
+   
+   &amp;MainRS = CreateRowset(@(&quot;RECORD.&quot; | &amp;RecordName));
+   &amp;MainRS.GetRow(1).GetRecord(1).SetDefault();
+   
+   &amp;tmpRS = CreateRowset(Record.PSRECFIELD);
+   &amp;tmpRS.Fill(&quot;WHERE RECNAME = :1 AND FIELDNAME = :2&quot;, &amp;RecordName, &amp;parmNode.GetAttributeValue(&quot;name&quot;));
+   
+   &amp;tmpStr = &amp;tmpRS.GetRow(1).GetRecord(1).GetField(Field.DEFFIELDNAME).Value;
+   If All(&amp;tmpStr) Then
+      &amp;parmNode.AddAttribute(&quot;default_value&quot;, &amp;MainRS.GetRow(1).GetRecord(1).GetField(@(&quot;FIELD.&quot; | &amp;parmNode.GetAttributeValue(&quot;name&quot;))).Value);
+   End-If;
+   
+end-method;
+
+method addFieldTypeAndLengthToNode
+   /+ &amp;parmNode as XmlNode +/
+   Local Rowset &amp;tmpRS;
+   Local string &amp;tmpStr;
+   
+   &amp;tmpRS = CreateRowset(Record.PSDBFIELD);
+   &amp;tmpRS.Fill(&quot;WHERE FIELDNAME = :1&quot;, &amp;parmNode.GetAttributeValue(&quot;name&quot;));
+   Evaluate &amp;tmpRS.GetRow(1).GetRecord(1).GetField(Field.FIELDTYPE).Value
+   When 0
+      &amp;tmpStr = &quot;Character&quot;;
+   When 1
+      &amp;tmpStr = &quot;LongCharacter&quot;;
+   When 2
+      &amp;tmpStr = &quot;Number&quot;;
+   When 3
+      &amp;tmpStr = &quot;SignedNumber&quot;;
+   When 4
+      &amp;tmpStr = &quot;Date&quot;;
+   When 5
+      &amp;tmpStr = &quot;Time&quot;;
+   When 6
+      &amp;tmpStr = &quot;DateTime&quot;;
+   When 7
+      &amp;tmpStr = &quot;NA&quot;;
+   When 8
+      &amp;tmpStr = &quot;ImageORAttachment&quot;;
+   When 9
+      &amp;tmpStr = &quot;ImageReference&quot;;
+   When-Other;
+      &amp;tmpStr = &quot;NA&quot;;
+   End-Evaluate;
+   &amp;parmNode.AddAttribute(&quot;field_type&quot;, &amp;tmpStr);
+   &amp;parmNode.AddAttribute(&quot;field_length&quot;, &amp;tmpRS.GetRow(1).GetRecord(1).GetField(Field.LENGTH).Value);
+   
+end-method;
+
+method addFieldAttributeToNode
+   /+ &amp;parmNode as XmlNode, +/
+   /+ &amp;parmBitArry as Array of Number +/
+   
+   Local number &amp;x, &amp;y;
+   Local Rowset &amp;rs;
+   Local XmlNode &amp;tmpNode;
+   Local string &amp;tmpStr;
+   
+   For &amp;x = 1 To &amp;parmBitArry.Len
+      Evaluate &amp;parmBitArry [&amp;x]
+      When 8 /* required */
+         &amp;parmNode.AddAttribute(&quot;required&quot;, &quot;true&quot;);
+      When 9 /* xlat */
+         &amp;rs = CreateRowset(Record.PSXLATITEM);
+         &amp;rs.Fill(&quot;WHERE FIELDNAME = :1 AND %EffDtCheck(PSXLATITEM B,FILL,%CurrentDateIn) AND EFF_STATUS = 'A'&quot;, &amp;parmNode.GetAttributeValue(&quot;name&quot;));
+         For &amp;y = 1 To &amp;rs.ActiveRowCount
+            &amp;tmpNode = &amp;parmNode.AddElement(&quot;xlatitem&quot;);
+            &amp;tmpNode.AddAttribute(&quot;long_description&quot;, &amp;rs.GetRow(&amp;y).GetRecord(1).GetField(Field.XLATLONGNAME).Value);
+            &amp;tmpNode.AddAttribute(&quot;short_description&quot;, &amp;rs.GetRow(&amp;y).GetRecord(1).GetField(Field.XLATSHORTNAME).Value);
+            &amp;tmpNode.AddAttribute(&quot;field_value&quot;, &amp;rs.GetRow(&amp;y).GetRecord(1).GetField(Field.FIELDVALUE).Value);
+         End-For;
+      When 13 /* Y/N edit */
+         &amp;tmpNode = &amp;parmNode.AddElement(&quot;edititem&quot;);
+         &amp;tmpNode.AddAttribute(&quot;description&quot;, &quot;Yes&quot;);
+         &amp;tmpNode.AddAttribute(&quot;field_value&quot;, &quot;Y&quot;);
+         &amp;tmpNode = &amp;parmNode.AddElement(&quot;edititem&quot;);
+         &amp;tmpNode.AddAttribute(&quot;description&quot;, &quot;No&quot;);
+         &amp;tmpNode.AddAttribute(&quot;field_value&quot;, &quot;N&quot;);
+         
+      When 14 /* prompt table edit */
+         SQLExec(&quot;SELECT EDITTABLE FROM PSRECFIELD WHERE RECNAME = :1 AND FIELDNAME = :2&quot;, &amp;RecordName, &amp;parmNode.GetAttributeValue(&quot;name&quot;), &amp;tmpStr);
+         &amp;rs = CreateRowset(@(&quot;RECORD.&quot; | &amp;tmpStr));
+         /* check for effective date and effective status !!!!! */
+         &amp;rs.Fill();
+         For &amp;y = 1 To &amp;rs.ActiveRowCount
+            &amp;tmpNode = &amp;parmNode.AddElement(&quot;promptitem&quot;);
+            &amp;tmpNode.AddAttribute(&quot;first_field&quot;, &amp;rs.GetRow(&amp;y).GetRecord(1).GetField(1).Value);
+            &amp;tmpNode.AddAttribute(&quot;second_field&quot;, &amp;rs.GetRow(&amp;y).GetRecord(1).GetField(2).Value);
+            &amp;tmpNode.AddAttribute(&quot;third_field&quot;, &amp;rs.GetRow(&amp;y).GetRecord(1).GetField(3).Value);
+            &amp;tmpNode.AddAttribute(&quot;fourth_field&quot;, &amp;rs.GetRow(&amp;y).GetRecord(1).GetField(4).Value);
+            rem &amp;tmpNode.AddAttribute(&quot;fifth_field&quot;, &amp;rs.GetRow(&amp;y).GetRecord(1).GetField(5).Value);
+         End-For;
+         
+      When-Other;
+         
+      End-Evaluate;
+      
+   End-For;
+   
+end-method;
+
+</peoplecode_text>
+    <peoplecode_blob>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/wEAAQAHNGEAZABkAEQAZQBmAGEAdQBsAHQAVgBhAGwAdQBlAEEAcwBBAHQAdAByAGkAYgB1AHQAZQAO/wEAAQAHNmEAZABkAEYAaQBlAGwAZABUAHkAcABlAEEAbgBkAEwAZQBuAGcAdABoAFQAbwBOAG8AZABlAAv/AgABAAcuYQBkAGQARgBpAGUAbABkAEEAdAB0AHIAaQBiAHUAdABlAFQAbwBOAG8AZABlABD/AQAAAAEHB/8BABAABwcHAQf/IgAIAAf/IgAIAP8TABAAB/8iAAgAB4UAAA5QAEEAQwBLAEEARwBFAAxYAE0ATABEAE8AQwAOUABBAEMASwBBAEcARQAOWABNAEwATgBPAEQARQAOUABBAEMASwBBAEcARQAMUgBFAEMATwBSAEQADlAAQQBDAEsAQQBHAEUACkYASQBFAEwARAAOUABBAEMASwBBAEcARQAMUgBPAFcAUwBFAFQADFIARQBDAE8AUgBEABJQAFMASwBFAFkARABFAEYATgASUABTAEsARQBZAEQARQBGAE4ADksARQBZAFAATwBTAE4ACkYASQBFAEwARAASRgBJAEUATABEAE4AQQBNAEUADFIARQBDAE8AUgBEABRQAFMAUgBFAEMARgBJAEUATABEAApGAEkARQBMAEQADlUAUwBFAEUARABJAFQACkYASQBFAEwARAAYRABFAEYARgBJAEUATABEAE4AQQBNAEUADFIARQBDAE8AUgBEABJQAFMARABCAEYASQBFAEwARAAKRgBJAEUATABEABJGAEkARQBMAEQAVABZAFAARQAKRgBJAEUATABEAAxMAEUATgBHAFQASAAMUgBFAEMATwBSAEQAFFAAUwBYAEwAQQBUAEkAVABFAE0ACkYASQBFAEwARAAYWABMAEEAVABMAE8ATgBHAE4AQQBNAEUACkYASQBFAEwARAAaWABMAEEAVABTAEgATwBSAFQATgBBAE0ARQAKRgBJAEUATABEABRGAEkARQBMAEQAVgBBAEwAVQBFAA==</peoplecode_blob>
   </instance>
